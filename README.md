@@ -49,7 +49,13 @@ The basic stats from each jurisdiction have minor variations.
 Each jurisdiction publishes its own data set, as they see fit.
 The exact meaning of things sometimes has subtle differences between jurisdictions.
 
-It's important to note that the basic stats provided by jurisdictions *can change its schema at any time.*
+The desired core stats (as of a given date-time) are:
+
+* cumulative number of tests performed (regardless of outcome, or whether they've been completed)
+* cumulative number of *known cases*, interpreting that to mean *confirmed* AND *probable/presumptive* cases
+* cumulative number of deaths
+
+It's important to note that the basic stats provided by jurisdictions *can change schema at any time.*
 For example, a jurisdiction can stop reporting *presumptive* cases, because, for technical reasons, it no 
 longer makes sense to keep that category. 
 This can have ripple effects into the provided data files, which can break code that parses them.
