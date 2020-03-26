@@ -24,13 +24,16 @@ Initial setup
 
   # push local commits to the remote, and you're now done!
   git push -f origin master
+  
+  # will clone, create a directory named covid-19-canada, and checkout branch named master
+  git clone https://github.com/johanley/covid-19-canada.git
 
 
-Day-to-day, after initial setup:
+Day-to-day, after initial setup (on the default branch):
 
    git status
-   git commit -a -m "blah blah"
-   git pull origin master
-   git push origin master
+   git commit -a -m "blah blah" -- add to staging and commit
+   git push origin master       -- push back to the remote repo
+   git pull origin master       -- pull changes from the remote repo
    git add -- adds to staging
    git checkout blah.txt -- revert  
