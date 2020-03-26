@@ -1,0 +1,36 @@
+
+Git reminders
+-------------
+
+Initial setup
+
+  # go to your github.com account, and create an empty repo
+   
+  # init a local repo (empty)
+  git init
+
+  # put your local files into the local repo (recursive, the whole tree)
+  # the directory name must match the repo name on github!
+  git add .
+
+  # commit to the local repo
+  git commit -m "initial commit"
+
+  # now link with the remote repo
+  git remote add origin https://github.com/johanley/covid-19-canada.git
+
+  # fetch and push
+  git remote -v
+
+  # push local commits to the remote, and you're now done!
+  git push -f origin master
+
+
+Day-to-day, after initial setup:
+
+   git status
+   git commit -a -m "blah blah"
+   git pull origin master
+   git push origin master
+   git add -- adds to staging
+   git checkout blah.txt -- revert  

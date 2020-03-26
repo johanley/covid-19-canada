@@ -1,0 +1,11 @@
+# Prince Edward Island
+# Fields:
+#   Civil timestamp of update, total deaths (cumulative), total cases (cumulative), total tests performed: pos, neg, pending, URL
+2020-03-24T14:00, 0, 3, 231, 182, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-23T14:00, 0, 3, 231, 166, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-22T17:30, 0, 3, 231, 159, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-21, 0, 2, 167, 156, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-20, 0, 2, 167, 71, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-19, 0, 2, 122, 89, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-18, 0, 1, 40, 142, https://www.princeedwardisland.ca/en/topic/covid-19
+2020-03-15, 0, 1, , , https://www.princeedwardisland.ca/en/topic/covid-19
