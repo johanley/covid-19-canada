@@ -13,19 +13,20 @@ Core values of the project, to act as guidelines:
 
 * existing solely for the public good
 * high data quality
-* and authoritative sources 
+* authoritative sources 
 * no advertisements or monetary aspect
 
 The data is provided *free and open source*.
 There's absolutely no guarantee of its accuracy. 
 It's not appropriate to use this data for other than information purposes.
+This web site is not run by the Government of Canada.
 
 It's hoped that this project (or at least parts of it) might be a useful template for those in other countries wanting to create something similar. 
 (In particular, its simple database schema is fairly generic, and not specific to Canada.)
 
 # Project status
 
-2020-03-26: Day one. Looking for help!
+2020-03-26: Day one. Looking for help! Nothing deployed yet.
 
 # Data 
 
