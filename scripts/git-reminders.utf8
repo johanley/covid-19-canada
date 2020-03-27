@@ -35,5 +35,5 @@ Day-to-day, after initial setup (on the default branch):
    git commit -a -m "blah blah" -- add to staging and commit
    git push origin master       -- push back to the remote repo
    git pull origin master       -- pull changes from the remote repo
-   git add -- adds to staging
+   git add blah.txt -- adds to staging
    git checkout blah.txt -- revert  
