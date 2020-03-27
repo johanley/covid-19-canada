@@ -24,7 +24,7 @@ They should be applauded for doing so, but they are forced into doing this by th
 
 The goal of this project is to *record the basic history of the covid-19 outbreak in Canada*.
 
-This project is a web site for the collection and open dissemination of that data, by motivated citizens.
+This project will be a web site for the collection and open dissemination of that data, by motivated citizens.
 
 Main aspects:
 
@@ -34,7 +34,7 @@ Main aspects:
 * provide access to the data via a web API of some kind (likely implemented with JSON)
 * we let other projects focus on building nice looking charts, based on the data provided here
 * all this is done for the public good by motivated volunteers, not for monetary gain
- 
+
 The data is provided free and open source.
 There's absolutely no guarantee of its accuracy. 
 It's not appropriate to use this data for other than information purposes.
@@ -49,27 +49,23 @@ It's hoped that this project (or at least parts of it) might be a useful templat
 
 # Data 
 
-The data is provided as *.csv files*.
-Such files can be loaded into spreadsheet tools, and into relational databases.
-The files are also provided as *SQL scripts*, that create a schema and load the data.
-
-There are 14 jurisdictions in all: 10 provinces, 3 territories, and the federal government.
-
-The main data has 3 parts:
+The data will likely have 3 parts:
 
 * *basic stats*: time-series of basic stats for each jurisdiction. 
   This data is taken (daily) from official government web sites.
-* *timeline*: time-series of news events for each jurisdiction. 
-  Expected to be updated daily by site admins (or even more frequently).
+* *time-line*: time-series of news events for each jurisdiction. 
+  Expected to be updated daily by site admins (or even more frequently). 
+  Currently, I don't know of any project that is gathering this data in an open manner, so this is likely new.
 * (possibly) *explainer pages*: general background information. 
   Usually not tied to a specific jurisdiction, and updated only occasionally.
+  (This would not be part of any web API.)
 
 The basic stats from each jurisdiction have minor variations. 
 Each jurisdiction publishes its own data set, as they see fit.
 The exact meaning of things sometimes has subtle differences between jurisdictions.
 In addition, sometimes there are abrupt changes in the data, because of changes to definitions and procedures by a given jurisdiction.
 
-The desired core stats (as of a given date-time) are:
+The basic stats (as of a given date-time) are here simplified into:
 
 * cumulative number of tests performed (regardless of outcome, or whether they've been completed)
 * cumulative number of *known cases*, interpreting that to mean *confirmed* AND *probable/presumptive* cases
@@ -81,6 +77,15 @@ For example, a jurisdiction can stop reporting *presumptive* cases, because, for
 longer makes sense to keep that category. 
 This can have ripple effects into the provided data files, which can break code that parses them.
 
-# Implementation 
+# Data Formats
 
-? To be determined
+Likely data formats to provided by this project's web site:
+
+* JSON data as a web API, usable by other projects for creating charts based on the data (this is likely the most important).
+* .csv files for download. Such files can be loaded into spreadsheet tools, and into relational databases.
+* SQL scripts, that create a schema and load the data.
+
+
+# Implementation details
+
+To be determined.
