@@ -1,0 +1,65 @@
+/* 
+ Script for creating a relational database, and loading starting data (code tables).
+ You will need to add GRANT commands to your database accounts.
+ 
+ Example:
+ mysql -u myusername -p*** covid < C:\johanley\projects\covid-19-canada\data\mariadb\create-database.utf8
+ 
+*/
+DROP TABLE IF EXISTS config;
+DROP TABLE IF EXISTS stats;
+DROP TABLE IF EXISTS news;
+DROP TABLE IF EXISTS importance;
+DROP TABLE IF EXISTS pop;
+DROP TABLE IF EXISTS juris;
+/* Jurisdiction code table. The abbr is bilingual (the Canada Post abbreviation) */
+CREATE TABLE juris (
+  id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  abbr VARCHAR(2) NOT NULL,  /* Abbreviation is bilingual (the Canada Post abbreviation). */
+  name_en VARCHAR(30) NOT NULL,             
+  name_fr VARCHAR(30) NOT NULL
+);
+/* Population of each jurisdiction over time. For calculating per-capita stats. */
+CREATE TABLE pop (
+  id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  juris_fk SMALLINT UNSIGNED NOT NULL,
+  year SMALLINT UNSIGNED NOT NULL,             
+  pop MEDIUMINT NOT NULL,
+  CONSTRAINT `pop_juris_fk` FOREIGN KEY (juris_fk) REFERENCES juris (id)
+);
+/* The relative significance of something: low, medium, high. Code table */
+CREATE TABLE importance (
+  id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  descr_en VARCHAR(20) NOT NULL,             
+  descr_fr VARCHAR(20) NOT NULL,             
+  abbr_en VARCHAR(2) NOT NULL,             
+  abbr_fr VARCHAR(2) NOT NULL
+);
+CREATE TABLE news (	
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  juris_fk SMALLINT UNSIGNED NOT NULL,
+  importance_fk SMALLINT UNSIGNED NOT NULL,
+  url VARCHAR(1000) NOT NULL,
+  source VARCHAR(100) NOT NULL, /* for example CNN, or BBC */
+  descr VARCHAR(1000) NOT NULL, /* text of the link to the news article */
+  when_published VARCHAR(100) NULL, /* when the article was published by the source */
+  CONSTRAINT `news_juris_fk` FOREIGN KEY (juris_fk) REFERENCES juris (id),
+  CONSTRAINT `news_importance_fk` FOREIGN KEY (importance_fk) REFERENCES importance(id)
+);
+CREATE TABLE stats (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  juris_fk SMALLINT UNSIGNED NOT NULL,
+  when_published VARCHAR(100) NULL, /* when the data was published */
+  ttl_deaths MEDIUMINT NOT NULL,
+  ttl_known_cases MEDIUMINT NOT NULL, /* interpreted liberally: confirmed plus probable, presumed */
+  ttl_tests_performed MEDIUMINT NOT NULL, /* regardless of the status of the test; the result may be pending */
+  CONSTRAINT `stats_juris_fk` FOREIGN KEY (juris_fk) REFERENCES juris (id)
+);
+/* For the use of the application */
+CREATE TABLE app_config (
+  id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  value VARCHAR(100) NOT NULL,
+  descr VARCHAR(100) NOT NULL         
+);
+/* LOAD DATA LOCAL INFILE "C:\\johanley\\Projects\\covid-19-canada\\data\\mariadb\\Chapter.dat" INTO TABLE Chapter IGNORE 1 LINES; */

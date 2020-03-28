@@ -1,0 +1,36 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd"
+    version="2.5">
+
+  <display-name>COVID-13 Canada</display-name>
+  <description>COVID-13 stats</description>
+  
+  <servlet>
+    <servlet-name>JsonController</servlet-name>
+    <description>
+      Serve timely data about epidemics in the JSON format.
+    </description>
+    <servlet-class>epidemic.JsonController</servlet-class>
+    <load-on-startup>5</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>JsonController</servlet-name>
+    <url-pattern>*.json</url-pattern>
+  </servlet-mapping>
+
+  <session-config>
+    <session-timeout>15</session-timeout> <!-- minutes -->
+  </session-config>
+
+  <mime-mapping>
+    <extension>.json</extension> 
+    <mime-type>application/json</mime-type>
+  </mime-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>welcome</welcome-file>
+  </welcome-file-list>
+
+</web-app>
