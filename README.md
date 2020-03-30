@@ -60,7 +60,7 @@ https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmr
 The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
 
 It's interesting to note that having publicly-readable Google spreadsheets is already *de facto* web api.
-I originally thought that building a web api around the spreadsheet was needed, but that's *wrong*: 
+I originally thought that building a web api around the spreadsheet was needed, but that's *just stupid*: 
 Google has excellent tools for talking to Google spreadsheets, from all kinds of contexts, including browsers.
 https://developers.google.com/sheets/api/quickstart/js
 
