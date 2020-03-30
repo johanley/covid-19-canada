@@ -41,8 +41,11 @@ That leads to
 # Problem 3.
 The *COVID-19 Canada Open Data Working Group* spreadsheet is too hard to parse:
 
-* 2 of the 4 common data sets are not summed by jurisdiction.
+* 2 of the 4 common data sets are not summed by jurisdiction (cases and deaths).
 They are detailed records that need to be summed up by each and every programmer that wants to extract the usual totals out of them.
+* it doesn't scale: in an epidemic, the number of cases increases exponentially. 
+So the consumer of the data needs to cycle through thousands of case records in order to get 13 summations. 
+Doing that in javascript is going to be slow. The 13 summations should be directly available (for cases and deaths).
 * the layout of the data is not as simple as it could be. That makes it a chore to extract data from it.
 
 The Virihealth website has taken some pains to produce the kind of summary data that most people want.
