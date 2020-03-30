@@ -67,4 +67,7 @@ I originally thought that building a web api around the spreadsheet was needed, 
 Google has excellent tools for talking to Google spreadsheets, from all kinds of contexts, including browsers.
 https://developers.google.com/sheets/api/quickstart/js
 
+And yet it might be worthwhile looking into a JSON API even so: it might be possible for a service 
+to reduce the burden on the javascript programmer. Perhaps by providing filtering operations, perhaps by 
+returning JSON objects that are better structured than what you'd get by default using the Google Sheets API.
 
