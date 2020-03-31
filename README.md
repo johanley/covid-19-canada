@@ -24,6 +24,9 @@ Here's a breakdown:
 
 Note that C,D are easier to get than R, T (using the codes defined above). 
 R and T are sometimes absent from some record sets.
+
+Note that currently **none** of the provinces/territories share time-series data.
+It's only current-day!
  
 Ways of sharing data on the web:
 
@@ -61,61 +64,6 @@ Tests are a kind of pipeline: Pending -> Result Positive or Negative.
 One human often goes through that pipeline multiple times.
 I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
 
-### Is a positive test 100% necessary to say that a person is a Case?
-If every Case is tested, then Test-positive is the same as Case-confirmed.
-But, in the extreme conditions of a bad outbreak, testing is likely not going to be feasible all the time.
-
-Here's what seems to be happening in Canada.
-
-# Problem 1.
-There are 14 jurisdictions in Canada (provinces, territories, and the federal government).
-Health is administered separately by each jurisdiction. 
-This leads to silos and difficulty in getting consistent summary data across all jurisdictions.
-See below.
-
-# Problem 2.
-The data made available by the various provinces/territories is **current-day only**!
-If there was ever a time that time-series data was important, *it's during an epidemic*. 
-The feds have started to provide a [.csv](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv) file on the web. 
-It has the defect (as of this writing), of not including number of tests or recovered cases. 
-It's also not layed out in a way that's trivial to parse.
-https://health-infobase.canada.ca/src/data/covidLive/covid19.csv
-
-Because of these problems, the good people of the 
-<a href='https://github.com/ishaberry/Covid19Canada'>COVID-19 Canada Open Data Working Group</a> of university professionals 
-have *manually* gathered together basic time-series stats on the outbreak. 
-(Their data is used by the <a href='https://virihealth.com/provincial-trends/'>Virihealth</a> site, for example.)
-Each day they laboriously scan authoritative sources on the web, place relevant data in a spreadsheet, and make it publicly available.
-They should be applauded for doing so, but they are forced into doing this by the lack of authoritative stats from the government.
-
-The COVID-19 Canada Open Data Working Group have their data as a publicly readable Google spreadsheet.
-https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing
-
-That leads to 
-
-# Problem 3.
-The *COVID-19 Canada Open Data Working Group* spreadsheet is too hard to parse:
-
-* 2 of the 4 common data sets are not summed by jurisdiction (cases and deaths).
-They are detailed records that need to be summed up by each and every programmer that wants to extract the usual totals out of them.
-* it doesn't scale: in an epidemic, the number of cases increases exponentially. 
-So the consumer of the data needs to cycle through thousands of case records in order to get 13 summations. 
-Doing that in javascript is going to be slow. The 13 summations should be directly available (for cases and deaths).
-* the layout of the data is not as simple as it could be. That makes it a chore to extract data from it.
-
-The Virihealth website has taken some pains to produce the kind of summary data that most people want.
-Take a look at the spreadsheet, and what was needed to get the desired result:
-https://docs.google.com/spreadsheets/d/1C59nxtgcnwGyo6lgypsgN18duxmwWigjeVdKY58t0mU/edit#gid=1268011970 
-
-Not simple! And every single consumer of this data would need to go through the same shenanigans.
-
-Which is a shame, because it's the best data we have.
-
-# So? Yet another spreadsheet
-So, I've started to compile the daily basic stats myself, and I'm putting them here:
-https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmrxkc/edit#gid=0
-
-The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
 
 # A close look at the source data
 
@@ -127,7 +75,7 @@ Note:
 * differences in language
 * the use of technical language, for example *Currently Under Investigation*, whose meaning to the non-expert is far from clear
 * differences in what's reported
-* the incompleteness of Recovered data
+* the incompleteness of *Recovered* data
 * provinces have changed what they report over time
 
 
@@ -305,7 +253,7 @@ One food chain:
 
 - Province/Territory web sites
   - [GOC](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink) with [.csv](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)
-    - [John Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) github .csv files
+    - [John Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) files on github
 
 In this food chain, the GOC's .csv file has CD, but not TR.
 So that data is also missing from the John Hopkins dataset; it too has only C and D (for Canada).
@@ -367,7 +315,7 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 ...
 ```
 
-This data is easy to understand and parse, but it has C and D, not R or D.
+This data is easy to understand and parse, but it has Cases and Deaths, but not Recovered or Tests.
 
 
 # covidtracking.com
@@ -386,3 +334,9 @@ They have no *case* in their schema; they may equate it with positive tests:
 They even store screenshots, saving the state of the web page when the data was read by human!
 They also have an API for US data.
 They built it because they were frustrated by a lack of data from the CDC.
+
+# So? Yet another spreadsheet...
+So, I've started to compile the daily basic stats myself, and I'm putting them here:
+https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmrxkc/edit#gid=0
+
+The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
