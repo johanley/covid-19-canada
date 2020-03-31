@@ -37,7 +37,7 @@ Having such simple sources of publicly-readable data is a kind of simple, *de fa
 Once the data is in place, programmers can build tools to fetch and parse the data.
 
 
-# Desired data set
+## Desired data set
 
 To my mind, the data set I'd prefer is this one (see Saskatchewan below; they come close to this):
 
@@ -53,14 +53,15 @@ To my mind, the data set I'd prefer is this one (see Saskatchewan below; they co
 
 Points that seem to me to be important, but are overlooked:
 
-## Cases are really *known* cases. That's worth repeating, but it may seem pedantic to you.
+### Cases are really *known* cases. 
+That's worth repeating, but it may seem pedantic to you.
 
-## A Case can have more than 1 Test!
+### A Case can have more than 1 Test!
 Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
 One human often goes through that pipeline multiple times.
 I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
 
-## Is a positive test 100% necessary to say that a person is a Case?
+### Is a positive test 100% necessary to say that a person is a Case?
 If every Case is tested, then Test-positive is the same as Case-confirmed.
 But, in the extreme conditions of a bad outbreak, testing is likely not going to be feasible all the time.
 
