@@ -322,7 +322,6 @@ began to record TR a bit later, on 2020-03-15).
 
 # John Hopkins University data
 
-This data easy to understand and parse, but, as mentioned above, it has C and D, but not R or D.
 It has both daily and time-series data. 
 The files with Canadian data are about 50k in size (at the moment).
 That's likely small enough to be processed directly by javascript in a browser.
@@ -368,6 +367,7 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 ...
 ```
 
+This data is easy to understand and parse, but it has C and D, not R or D.
 
 
 # covidtracking.com
