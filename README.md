@@ -1,6 +1,6 @@
 # What's the problem?
 
-The problem is *lack of fast access to simple, parseable stats regarding the covid-19 outbreak in Canada*.
+The problem is *lack of fast access to a complete stats regarding the covid-19 outbreak in Canada*.
 
 I assume most people are looking for data with these characteristics:
 
@@ -22,6 +22,8 @@ Here's a breakdown:
  | Time-series | Yes | Yes | TR yes, CD no |
  | Parseability | Low | High | Low |
 
+Note that C,D are easier to get than R, T (using the codes defined above). 
+R and T are sometimes absent from some record sets.
  
 Ways of sharing data on the web:
 
@@ -34,6 +36,33 @@ You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quick
 Having such simple sources of publicly-readable data is a kind of simple, *de facto* web api.
 Once the data is in place, programmers can build tools to fetch and parse the data.
 
+
+# Desired data set
+
+To my mind, the data set I'd prefer is this one (see Saskatchewan below; they come close to this):
+
+* Tests - positive
+* Tests - negative
+* Tests - pending
+* (Cases - confirmed is the same as Test - positive)
+* Cases - probable
+* Cases - recovered
+* Cases - in hospital
+* Cases - in intensive care
+* Cases - deaths
+
+Points that seem to me to be important, but are overlooked:
+
+## Cases are really *known* cases. That's worth repeating, but it may seem pedantic to you.
+
+## A Case can have more than 1 Test!
+Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
+One human often goes through that pipeline multiple times.
+I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
+
+## Is a positive test 100% necessary to say that a person is a Case?
+If every Case is tested, then Test-positive is the same as Case-confirmed.
+But, in the extreme conditions of a bad outbreak, testing is likely not going to be feasible all the time.
 
 Here's what seems to be happening in Canada.
 
@@ -87,14 +116,9 @@ https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmr
 
 The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
 
-# A closer look at the data
+# A close look at the source data
 
-The data "food chain" always starts with various government sources.
-
-- Prov/Terr 
-  - [GOC](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink) with [.csv](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)
-    - [John Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv)
-
+    
 Here's exactly what's being reported right now (morning of 202-03-31) by the provinces, 
 territories, and federal government, from east to west. 
 Note:
@@ -163,9 +187,13 @@ Note:
 * January 15, 2020 to March 30, 2020
 
 Footnote for Number of cases:  *Number of confirmed cases reported to date in iPHIS by Ontario’s 34 Public Health Units (PHUs), including resolved and deceased cases.  PHUs may publicly report on cases prior to updating the data in iPHIS.  In the event of a discrepancy between iPHIS cases and cases publicly reported by PHUs, data reported by PHUs should be considered the most up to date.*
+
 Footnote for Resolved:  *Includes cases reported as recovered in iPHIS and cases that are not currently listed as hospitalized in iPHIS, those that are 14 days past symptom onset (if present) or 14 days past the episode date if the case is closed.*
+
 Footnote for Deceased: *Public Health Units may publicly report deaths prior to updating the data in iPHIS. The data in iPHIS may therefore be underreported. This number includes data from iPHIS and public reports.*
+
 Footnote for Total tested: *This includes all persons with tests performed by the Public Health Ontario Laboratory  and non-Public Health Laboratories.  This is an underestimate of the total number of tests completed, as a minimum of two specimens are recommended when testing hospitalized individuals for COVID-19.*
+
 Footnote for Currently Under Investigation: *Test results pending*
 
 The data for this report were based on information extracted from the integrated Public Health Information 
@@ -268,3 +296,70 @@ Possible error: *Total people tested* should be *Total tests performed, includin
 
 Currently, there's no stats for Recovered and Tests on the federal government site, but they are the only Canadian 
 jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv).
+
+# Food chains of data
+The data "food chain" always starts with various government sources.
+In the case of Canada, it starts with provinces and territories.
+One food chain:
+
+- Province/Territory web sites
+  - [GOC](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink) with [.csv](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)
+    - [John Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) github .csv files
+
+In this food chain, the GOC's .csv file has CD, but not TR.
+So that data is also missing from the John Hopkins dataset; it too has only C and D (for Canada).
+
+Another food chain:
+
+- Province/Territory web sites
+  - [CODWG](https://github.com/ishaberry/Covid19Canada) github .csv files
+    - [Virihealth](https://docs.google.com/spreadsheets/d/1C59nxtgcnwGyo6lgypsgN18duxmwWigjeVdKY58t0mU/edit#gid=1268011970) google spreadsheet
+    
+Here, CODWG has all 4 of TCRD.
+Virihealth consumes that data, and summarizes its details. (It also adds some early test case data, as of 2020-03-07; CODWG
+began to record TR a bit later, on 2020-03-15). 
+
+# John Hopkins University data
+
+As mentioned above, it has CD, but not RD.
+It has daily and time-series data. 
+The files are large. 
+I'm not sure how people are using it.
+The files may be a bit large for processing directly from javascript in a browser.
+It may be the case that the files are downloaded daily and imported into other tools.
+In that case, the .csv files act as a data source, but not as part of a web api.
+
+Take a look at their data. This is taken from their global deaths file, as a time series:
+
+```
+Province/State,Country/Region,Lat,Long,1/22/20,1/23/20,1/24/20,1/25/20,1/26/20,1/27/20,1/28/20,1/29/20,1/30/20,1/31/20,2/1/20,2/2/20,2/3/20,2/4/20,2/5/20,2/6/20,2/7/20,2/8/20,2/9/20,2/10/20,2/11/20,2/12/20,2/13/20,2/14/20,2/15/20,2/16/20,2/17/20,2/18/20,2/19/20,2/20/20,2/21/20,2/22/20,2/23/20,2/24/20,2/25/20,2/26/20,2/27/20,2/28/20,2/29/20,3/1/20,3/2/20,3/3/20,3/4/20,3/5/20,3/6/20,3/7/20,3/8/20,3/9/20,3/10/20,3/11/20,3/12/20,3/13/20,3/14/20,3/15/20,3/16/20,3/17/20,3/18/20,3/19/20,3/20/20,3/21/20,3/22/20,3/23/20,3/24/20,3/25/20,3/26/20,3/27/20,3/28/20,3/29/20,3/30/20
+Alberta,Canada,53.9333,-116.5765,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3
+British Columbia,Canada,49.2827,-123.1207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,4,4,7,7,8,10,10,13,13,13,14,14,17,17,19
+Grand Princess,Canada,37.6489,-122.6655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Manitoba,Canada,53.7609,-98.8139,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+New Brunswick,Canada,46.5653,-66.4619,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Newfoundland and Labrador,Canada,53.1355,-57.6604,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Nova Scotia,Canada,44.681999999999995,-63.7443,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ontario,Canada,51.2538,-85.3232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,3,5,6,7,8,13,18,18,21,31
+Prince Edward Island,Canada,46.5107,-63.4168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Quebec,Canada,52.9399,-73.5491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,4,4,4,6,8,18,22,22,22
+Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+```
+
+
+# covidtracking.com
+
+Interesting and technically impressive: https://covidtracking.com/ and https://github.com/COVID19Tracking. 
+It uses [Google sheets as input](https://github.com/COVID19Tracking/covid-data-pipeline), I think, and stores in Amazon AWS/S3.
+They have no *Recovered* in their schema.
+They have no *case* in their schema; they may equate it with positive tests:
+
+* positive (test)
+* negative (test)
+* pending (test)
+* hospitalized (person)
+* deaths (person)
+
+They even store screenshots, saving the state of the web page when the data was read by human!
+They also have an API for US data.
+They built it because they were frustrated by a lack of data from the CDC.
