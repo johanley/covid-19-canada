@@ -28,7 +28,7 @@ R and T are sometimes absent from some record sets.
 Note that currently **none** of the provinces/territories share time-series data.
 It's only current-day!
  
-Ways of sharing data on the web:
+# Ways of sharing data on the web
 
 * well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
 Using github is likely the preferred method for most people.
@@ -243,10 +243,10 @@ Possible error: *Total people tested* should be *Total tests performed, includin
 * Total cases 7448
 * March 31st, 2020
 
-Currently, there's no stats for Recovered and Tests on the federal government site, but they are the only Canadian 
+Currently, there are no stats for *Recovered* and *Tests* on the federal government site, but they are the only Canadian 
 jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv).
 
-# Food chains of data
+# Up the food chain
 The data "food chain" always starts with various government sources.
 In the case of Canada, it starts with provinces and territories.
 One food chain:
@@ -315,21 +315,25 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 ...
 ```
 
-This data is easy to understand and parse, but it has Cases and Deaths, but not Recovered or Tests.
+This data is easy to understand and parse. It has Cases and Deaths, but no Recovered or Tests.
 
 
 # covidtracking.com
 
 Interesting and technically impressive: https://covidtracking.com/ and https://github.com/COVID19Tracking. 
-It uses [Google sheets as input](https://github.com/COVID19Tracking/covid-data-pipeline), I think, and stores in Amazon AWS/S3.
-They have no *Recovered* in their schema.
-They have no *case* in their schema; they may equate it with positive tests:
+(I love America; they know how to get things done in a hurry.)
+It uses [Google sheets as input](https://github.com/COVID19Tracking/covid-data-pipeline), I think, and stores 
+data in Amazon AWS/S3.
+Their schema:
 
 * positive (test)
 * negative (test)
 * pending (test)
 * hospitalized (person)
 * deaths (person)
+
+They have no *Recovered* in their schema.
+They have no *Case* in their schema; they may equate it with positive tests.
 
 They even store screenshots, saving the state of the web page when the data was read by human!
 They also have an API for US data.
