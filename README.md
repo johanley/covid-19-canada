@@ -13,13 +13,13 @@ I assume most people are looking for data with these characteristics:
 I don't see any data source that has all of the above.
 Here's a breakdown:
 
-Characteristic | [Federal .csv file](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv) | [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) | [COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada)
------------- | -------------
-13 jurisdictions | Yes | Yes | Yes
-World-readable | Yes | Yes | Yes
-4 Categories TCRD | CD only | CD only | Yes
-Time-series | Yes | Yes | TR yes, CD no
-Parseability | Low | High | Low
+ Characteristic | [Federal .csv file](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv) | [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) | [COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada) 
+ ------------ | -------------
+ 13 jurisdictions | Yes | Yes | Yes
+ World-readable | Yes | Yes | Yes
+ 4 Categories TCRD | CD only | CD only | Yes
+ Time-series | Yes | Yes | TR yes, CD no
+ Parseability | Low | High | Low
 
  
 Ways of sharing data on the web:
