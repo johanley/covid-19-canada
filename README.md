@@ -28,7 +28,7 @@ Note that C,D are easier to get than R, T (using the codes defined above).
 R and T are sometimes absent from some record sets.
 
  
-# Screenshots of what's being reported  
+# Daily screenshots of exactly what's reported  
 
 In imitation of [this project in the US](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
 web pages at the end of the day, for the 14 jurisdictions. 
