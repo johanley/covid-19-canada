@@ -6,7 +6,7 @@ Each and every data point is linked to a supporting screen-shot of a web page, a
 
 The *table* form of the data links to supporting screen-shots (*csv* does not):
 
- |Time series Data|Table|CSV|
+ |Time series data|Table|CSV|
  |----|-----|---|
  |Known Cases (confirmed and probable/presumptive)|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/known-cases.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/known-cases.csv) |
  |Deaths|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/deaths.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/deaths.csv)|
