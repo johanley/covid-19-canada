@@ -1,6 +1,6 @@
 # What's the problem?
 
-The problem is *lack of fast access to a complete stats regarding the covid-19 outbreak in Canada*.
+The problem is a *lack of fast programmatic access to a complete, robust set of stats on the COVID-19 outbreak in Canada*.
 
 I assume most people are looking for data with these characteristics:
 
@@ -33,17 +33,6 @@ It's only current-day!
 In imitation of [this project in the US](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
 web pages at the end of the day, for the 14 jurisdictions. 
 The results are [described here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
-
-# Ways of sharing data on the web
-
-* well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
-Using github is likely the preferred method for most people.
-You can use tools like [papaparse](https://www.papaparse.com/) to fetch the data.
-* a world-readable, *easily parsed* Google spreadsheet. You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quickstart/js) to access the data, however.
-
-Having such simple sources of publicly-readable data is a kind of simple, *de facto* web api.
-Once the data is in place, programmers can build tools to fetch and parse the data.
-
 
 # A deep dive into the source data
     
@@ -298,9 +287,20 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 
 This data is easy to understand and parse. It has Cases and Deaths, but no Recovered or Tests.
 
+# Ways of sharing data on the web
+
+* well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
+Using github is likely the preferred method for most people.
+You can use tools like [papaparse](https://www.papaparse.com/) to fetch the data.
+* a world-readable, *easily parsed* Google spreadsheet. You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quickstart/js) to access the data, however.
+
+Having such simple sources of publicly-readable data is a kind of simple, *de facto* web api.
+Once the data is in place, programmers can build tools to fetch and parse the data.
+
+
 ## Desired data set
 
-For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan below; they come close to this):
+For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan's data; they come close to this):
 
 * Tests - positive
 * Tests - negative
@@ -312,7 +312,7 @@ For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan b
 * Cases - in intensive care
 * Cases - deaths
 
-Points that seem to me to be important, but are overlooked:
+Points that seem to be important but overlooked:
 
 ### Cases are really *known* cases. 
 It may seem pedantic to you, but it's worth repeating.
@@ -326,7 +326,6 @@ It's important to remember that the actual reality today is almost always *worse
 Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
 One human often goes through that pipeline multiple times.
 I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
-
 
 
 # covidtracking.com
@@ -349,13 +348,6 @@ They have no *Case* in their schema; they may equate it with positive tests.
 They even store screenshots, saving the state of the web page when the data was read by human!
 They also have an API for US data.
 They built it because they were frustrated by a lack of data from the CDC.
-
-# So? Yet another spreadsheet...
-So, I've started to compile the daily basic stats myself, and I'm putting them here:
-https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmrxkc/edit#gid=0
-
-The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
-
 
 # Other
 
