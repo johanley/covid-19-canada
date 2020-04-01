@@ -1,12 +1,14 @@
-# What's the problem?
+# Overview of the COVID-19 stats being reported in Canada
 
-The problem is a *lack of fast programmatic access to a complete, robust set of stats on the COVID-19 outbreak in Canada*.
+There is a *lack of fast programmatic access to a complete, robust set of stats on the COVID-19 outbreak in Canada*.
 
-I assume most people are looking for data with these characteristics:
+In a perfect world, I assume that most programmers looking to consume this data would want the following:
 
-* 4 categories: test, cases, recoveries, and deaths (T,C,R,D)
-* time-series data from the beginning of an outbreak until present
-* 13 jurisdictions: provinces, territories (14, if you count the federal level)
+* 4 categories of data: tests, cases, recoveries, and deaths (T,C,R,D)
+* an authoritative source of the data
+* precise semantics for the data, that's also easy to understand
+* time-series data from the beginning of an outbreak until the present day
+* 14 jurisdictions: provinces, territories, and the federal government
 * world-readable (can be easily accessed in a browser, with no restrictions)
 * easily parsed and consumed by programming tools 
 
@@ -25,8 +27,6 @@ Here's a breakdown:
 Note that C,D are easier to get than R, T (using the codes defined above). 
 R and T are sometimes absent from some record sets.
 
-Note that currently **none** of the provinces/territories share time-series data.
-It's only current-day!
  
 # Screenshots of what's being reported  
 
@@ -38,16 +38,6 @@ The results are [described here](https://github.com/johanley/covid-19-canada/blo
     
 Here's exactly what's being reported right now (morning of 202-03-31) by the provinces, 
 territories, and federal government, from east to west. 
-Note:
-
-* differences in language
-* the use of technical language, for example *Currently Under Investigation*, whose meaning to the non-expert is far from clear
-* differences in what's reported
-* the incompleteness of *Recovered* data
-* provinces have changed what they report over time
-
-https://www.cbc.ca/news/health/covid-19-pandemic-data-primer-stats-charts-1.5513222
-
 
 [BC](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements)
 
@@ -216,6 +206,32 @@ Possible error: *Total people tested* should be *Total tests performed, includin
 Currently, there are no stats for *Recovered* and *Tests* on the federal government site, but they are the only Canadian 
 jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv).
 
+# Some criticisms of the reported data
+
+Taken as a whole across the 14 jurisdictions, I think the following are fair criticisms:
+
+*No time series*: none of the provinces and territories publish a time series of the data.
+In every case, it's current-day only. If there was ever a time in which a time-series is needed, it's during a 
+rapidly escalating epidemic!
+
+*Inconsistent across jurisdictions*. The various jurisdictions are inconsistent, in that they report different data.
+If they report the same data, they sometimes give it a slightly different name. 
+
+*Inconsistent across time*. Some jurisdictions have changed their reporting over time.
+
+*Not always 100% clear*:
+
+* NB reports *Tests conducted*. Does that including pending tests? 
+* when ON says *Total tested*, is that a count of people or tests?
+* the phrases *persons under investigation* and *presumptive positive* are terms that are understood immediately only by experts in the field
+
+*No data nicely formatted as csv or JSON*: see the above. 
+This is format that programmers look for when they want to rapidly access and share data.
+
+The effective collection and distribution of such data is **a job that belongs to the government.** 
+Citizens should not rely on anyone else for this critical data.
+
+
 # Up the food chain
 The data "food chain" always starts with various government sources.
 In the case of Canada, it starts with provinces and territories.
@@ -298,7 +314,7 @@ Having such simple sources of publicly-readable data is a kind of simple, *de fa
 Once the data is in place, programmers can build tools to fetch and parse the data.
 
 
-## Desired data set
+# Desired data set
 
 For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan's data; they come close to this):
 
@@ -354,3 +370,5 @@ They built it because they were frustrated by a lack of data from the CDC.
 https://coronavirusapi.com/ - they [crawl web sites](https://github.com/coronavirusapi/crawl-and-parse) to get the data. No humans involved. 
 
 https://github.com/wzmli/COVID19-Canada - has a version of all 4 stats in csv format on github.
+
+https://www.cbc.ca/news/health/covid-19-pandemic-data-primer-stats-charts-1.5513222
