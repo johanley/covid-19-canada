@@ -225,8 +225,8 @@ If they report the same data, they sometimes give it a slightly different name.
 * when ON says *Total tested*, is that a count of people or tests?
 * the phrases *persons under investigation* and *presumptive positive* are terms that are understood immediately only by experts in the field
 
-*No data nicely formatted as csv or JSON*: see the above. 
-This is format that programmers look for when they want to rapidly access and share data.
+*No data nicely formatted as csv or JSON*.
+These are the formats that programmers look for when they want to rapidly access and share data.
 
 The effective collection and distribution of such data is **a job that belongs to the government.** 
 Citizens should not rely on anyone else for this critical data.
