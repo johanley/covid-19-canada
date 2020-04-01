@@ -5,7 +5,7 @@ The problem is *lack of fast access to a complete stats regarding the covid-19 o
 I assume most people are looking for data with these characteristics:
 
 * 4 categories: test, cases, recoveries, and deaths (T,C,R,D)
-* time-series data (which of course includes the latest day), from the beginning of an outbreak until present
+* time-series data from the beginning of an outbreak until present
 * 13 jurisdictions: provinces, territories (14, if you count the federal level)
 * world-readable (can be easily accessed in a browser, with no restrictions)
 * easily parsed and consumed by programming tools 
@@ -30,9 +30,9 @@ It's only current-day!
  
 # Screenshots of what's being reported  
 
-In imitation of [this project](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
-web pages, at the end of the day, for the 14 jurisdictions. 
-See [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md) for more info.
+In imitation of [this project in the US](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
+web pages at the end of the day, for the 14 jurisdictions. 
+The results are [described here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
 
 # Ways of sharing data on the web
 
@@ -45,38 +45,7 @@ Having such simple sources of publicly-readable data is a kind of simple, *de fa
 Once the data is in place, programmers can build tools to fetch and parse the data.
 
 
-## Desired data set
-
-To my mind, the data set I'd prefer is this one (see Saskatchewan below; they come close to this):
-
-* Tests - positive
-* Tests - negative
-* Tests - pending
-* (Cases - confirmed is the same as Test - positive; or is it? See below.)
-* Cases - probable
-* Cases - recovered
-* Cases - in hospital
-* Cases - in intensive care
-* Cases - deaths
-
-Points that seem to me to be important, but are overlooked:
-
-### Cases are really *known* cases. 
-It may seem pedantic to you, but it's worth repeating.
-When you don't keep this in mind, the data give you the feeling of having precise knowledge about the world: *there are 56 cases in my province*.
-No, there very likely *aren't* 56 cases in your province.
-
-### The number of Cases really reflect the past, not the present
-It's important to remember that the actual reality today is almost always *worse* than what the numbers are saying.
- 
-### A Case can have more than 1 Test!
-Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
-One human often goes through that pipeline multiple times.
-I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
-
-
-# A close look at the source data
-
+# A deep dive into the source data
     
 Here's exactly what's being reported right now (morning of 202-03-31) by the provinces, 
 territories, and federal government, from east to west. 
@@ -328,6 +297,36 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 ```
 
 This data is easy to understand and parse. It has Cases and Deaths, but no Recovered or Tests.
+
+## Desired data set
+
+For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan below; they come close to this):
+
+* Tests - positive
+* Tests - negative
+* Tests - pending
+* (Cases - confirmed is the same as Test - positive; or is it? See below.)
+* Cases - probable
+* Cases - recovered
+* Cases - in hospital
+* Cases - in intensive care
+* Cases - deaths
+
+Points that seem to me to be important, but are overlooked:
+
+### Cases are really *known* cases. 
+It may seem pedantic to you, but it's worth repeating.
+When you don't keep this in mind, the data give you the feeling of having precise knowledge about the world: *there are 56 cases in my province*.
+No, there very likely *aren't* 56 cases in your province.
+
+### The number of Cases really reflect the past, not the present
+It's important to remember that the actual reality today is almost always *worse* than what the numbers are saying.
+ 
+### A Case can have more than 1 Test!
+Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
+One human often goes through that pipeline multiple times.
+I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
+
 
 
 # covidtracking.com
