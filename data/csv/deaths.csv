@@ -1,0 +1,17 @@
+# Confirmed and presumptive/probable cases. Cumulative.
+# What the jurisdiction is REPORTING near the end of the given day. 
+Jurisdiction,Country,Lat,Long,2020-03-31
+BC,CA,49.2827,-123.1207,24
+AB,CA,53.9333,-116.5765,9
+SK,CA,52.9399,-106.4509,2
+MB,CA,53.7609,-98.8139,1
+ON,CA,51.2538,-85.3232,33
+QC,CA,52.9399,-73.5491,31
+NB,CA,46.5653,-66.4619,0
+NS,CA,44.682,-63.7443,0
+PE,CA,46.5107,-63.4168,0
+NL,CA,53.1355,-57.6604,0
+NU,CA,65.7,-93.9,0
+NT,CA,63.2,-115.8,0
+YT,CA,63.0,-135.7,0
+CA,CA,60.2,-102.0,96
