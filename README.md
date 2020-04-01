@@ -206,13 +206,13 @@ Possible error: *Total people tested* should be *Total tests performed, includin
 Currently, there are no stats for *Recovered* and *Tests* on the federal government site, but they are the only Canadian 
 jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv).
 
-# Some criticisms of the reported data
+# Some criticisms of the data reporting
 
 Taken as a whole across the 14 jurisdictions, I think the following are fair criticisms:
 
-*No time series*: none of the provinces and territories publish a time series of the data.
-In every case, it's current-day only. If there was ever a time in which a time-series is needed, it's during a 
-rapidly escalating epidemic!
+*No time series for the provinces and territories*: none of the provinces and territories publish a time series of the data.
+In every case, it's current-day only. (If there was ever a time in which a time-series is needed, it's during a 
+rapidly escalating epidemic!)
 
 *Inconsistent across jurisdictions*. The various jurisdictions are inconsistent, in that they report different data.
 If they report the same data, they sometimes give it a slightly different name. 
@@ -225,11 +225,13 @@ If they report the same data, they sometimes give it a slightly different name.
 * when ON says *Total tested*, is that a count of people or tests?
 * the phrases *persons under investigation* and *presumptive positive* are terms that are understood immediately only by experts in the field
 
-*No data nicely formatted as csv or JSON*.
+*No data nicely formatted as csv or JSON* (CA has a csv, but the format isn't the greatest).
 These are the formats that programmers look for when they want to rapidly access and share data.
 
 The effective collection and distribution of such data is **a job that belongs to the government.** 
-Citizens should not rely on anyone else for this critical data.
+Citizens should not rely on anyone else for this critical data. 
+I understand that there are difficulties involved when there are so many separate health systems. 
+But many citizens would appreciate it if these problems were fixed.
 
 
 # Up the food chain
