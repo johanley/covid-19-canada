@@ -28,7 +28,7 @@ R and T are sometimes absent from some record sets.
 Note that currently **none** of the provinces/territories share time-series data.
 It's only current-day!
  
-# Screenshots of what's actually being reported  
+# Screenshots of what's being reported  
 
 In imitation of [this project](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
 web pages, at the end of the day, for the 14 jurisdictions. 
@@ -360,11 +360,6 @@ The initial data load is from Virihealth's spreadsheet, but I'm now inputting ma
 
 # Other
 
-https://coronavirusapi.com/
-They crawl web sites to get the data. No humans involved. 
-https://github.com/coronavirusapi/crawl-and-parse
+https://coronavirusapi.com/ - they [crawl web sites](https://github.com/coronavirusapi/crawl-and-parse) to get the data. No humans involved. 
 
-https://developer.github.com/apps/about-apps/
-
-https://github.com/wzmli/COVID19-Canada
-Has a version of all 4 stats in csv format on github.
+https://github.com/wzmli/COVID19-Canada - has a version of all 4 stats in csv format on github.
