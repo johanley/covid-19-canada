@@ -47,7 +47,7 @@ To my mind, the data set I'd prefer is this one (see Saskatchewan below; they co
 * Tests - positive
 * Tests - negative
 * Tests - pending
-* (Cases - confirmed is the same as Test - positive)
+* (Cases - confirmed is the same as Test - positive; or is it? See below.)
 * Cases - probable
 * Cases - recovered
 * Cases - in hospital
@@ -57,8 +57,13 @@ To my mind, the data set I'd prefer is this one (see Saskatchewan below; they co
 Points that seem to me to be important, but are overlooked:
 
 ### Cases are really *known* cases. 
-That's worth repeating, but it may seem pedantic to you.
+It may seem pedantic to you, but it's worth repeating.
+When you don't keep this in mind, the data give you the feeling of having precise knowledge about the world: *there are 56 cases in my province*.
+No, there very likely *aren't* 56 cases in your province.
 
+### The number of Cases really reflect the past, not the present
+It's important to remember that the actual reality today is almost always *worse* than what the numbers are saying.
+ 
 ### A Case can have more than 1 Test!
 Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
 One human often goes through that pipeline multiple times.
@@ -77,6 +82,8 @@ Note:
 * differences in what's reported
 * the incompleteness of *Recovered* data
 * provinces have changed what they report over time
+
+https://www.cbc.ca/news/health/covid-19-pandemic-data-primer-stats-charts-1.5513222
 
 
 [BC](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements)
@@ -344,3 +351,15 @@ So, I've started to compile the daily basic stats myself, and I'm putting them h
 https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmrxkc/edit#gid=0
 
 The initial data load is from Virihealth's spreadsheet, but I'm now inputting manually into it each day.
+
+
+# Other
+
+https://coronavirusapi.com/
+They crawl web sites to get the data. No humans involved. 
+https://github.com/coronavirusapi/crawl-and-parse
+
+https://developer.github.com/apps/about-apps/
+
+https://github.com/wzmli/COVID19-Canada
+Has a version of all 4 stats in csv format on github.
