@@ -39,8 +39,7 @@ See [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about
 * well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
 Using github is likely the preferred method for most people.
 You can use tools like [papaparse](https://www.papaparse.com/) to fetch the data.
-* a world-readable, *easily parsed* Google spreadsheet. Example: [my file](https://docs.google.com/spreadsheets/d/1s253rdkFK4E_J5gjbbZyFgaatTBewUk9s-CMFxmrxkc/edit#gid=1626901138) .
-You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quickstart/js) to access the data, however.
+* a world-readable, *easily parsed* Google spreadsheet. You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quickstart/js) to access the data, however.
 
 Having such simple sources of publicly-readable data is a kind of simple, *de facto* web api.
 Once the data is in place, programmers can build tools to fetch and parse the data.
