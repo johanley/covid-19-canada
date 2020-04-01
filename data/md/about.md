@@ -1,4 +1,4 @@
-# What jurisdictions are reporting
+# What's reported: daily screen-shots
 
 This is what the various jurisdictions are *reporting* near the end of the given day.
 Each and every data point is linked to a supporting screen-shot of a web page, as of that time.

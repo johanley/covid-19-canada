@@ -28,6 +28,12 @@ R and T are sometimes absent from some record sets.
 Note that currently **none** of the provinces/territories share time-series data.
 It's only current-day!
  
+# Screenshots of what's actually being reported  
+
+In imitation of [this project](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
+web pages, at the end of the day, for the 14 jurisdictions. 
+See [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md) for more info.
+
 # Ways of sharing data on the web
 
 * well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
