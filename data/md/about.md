@@ -17,7 +17,3 @@ The tables that link to supporting screen-shots:
 
 * [Known Cases](https://github.com/johanley/covid-19-canada/blob/master/data/md/known-cases.md) (confirmed and probable/presumptive)
 * [Deaths](https://github.com/johanley/covid-19-canada/blob/master/data/md/deaths.md)
-
-
-https://github.com/johanley/covid-19-canada/blob/master/data/md/deaths.md
-
