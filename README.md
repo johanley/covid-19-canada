@@ -36,8 +36,8 @@ You can view those screenshots conveniently [here](https://github.com/johanley/c
 
 # A deep dive into the source data
     
-Here's exactly what's being reported right now (morning of 202-03-31) by the provinces, 
-territories, and federal government, from east to west. 
+Here's exactly what's being reported right now (morning of 2020-03-31) by the provinces, 
+territories, and federal government, from west to east. 
 
 [BC](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements)
 
@@ -150,7 +150,7 @@ Recovered? Can't find it; sometimes in press releases, sometimes not.
 
 Footnote: *Positive results includes those for cases who have recovered.*
 Deaths presumed 0.
-Here, Total number of tests conducted INCLUDES pending. 
+Here, Total number of tests conducted *includes* pending. 
 
 
 [NL](https://www.gov.nl.ca/covid-19/pandemic-update/)
@@ -203,8 +203,9 @@ Possible error: *Total people tested* should be *Total tests performed, includin
 * Total cases 7448
 * March 31st, 2020
 
-Currently, there are no stats for *Recovered* and *Tests* on the federal government site, but they are the only Canadian 
-jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv).
+Currently, there are no stats for *Recovered* and *Tests* on the federal government site.
+They are the only Canadian 
+jurisdiction to provide a [time-series download](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv) as of 2020-03-30.
 
 # Some criticisms of the data reporting
 
@@ -228,8 +229,6 @@ If they report the same data, they sometimes give it a slightly different name.
 *No data nicely formatted as csv or JSON* (CA has a csv, but the format isn't the greatest).
 These are the formats that programmers look for when they want to rapidly access and share data.
 
-The effective collection and distribution of such data is **a job that belongs to the government.** 
-Citizens should not rely on anyone else for this critical data. 
 I understand that there are difficulties involved when there are so many separate health systems. 
 But many citizens would appreciate it if these problems were fixed.
 
@@ -303,7 +302,7 @@ Saskatchewan,Canada,52.9399,-106.4509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 ...
 ```
 
-This data is easy to understand and parse. It has Cases and Deaths, but no Recovered or Tests.
+This data is easy to understand and parse. It has *Cases* and *Deaths*, but no *Recovered* or *Tests*.
 
 # Ways of sharing data on the web
 
@@ -316,19 +315,57 @@ Having such simple sources of publicly-readable data is a kind of simple, *de fa
 Once the data is in place, programmers can build tools to fetch and parse the data.
 
 
-# Desired data set
+# Perfect world
 
-For my two cent's worth, the data set I'd prefer is this one (see Saskatchewan's data; they come close to this):
+In a perfect world, what would a top-notch data set look like?
+That's a matter of opinion; here's mine.
 
+General:
+
+* *frequency*: daily updates are a necessity. Some jurisdictions are not currently updating on the weekends.
+ I understand that people want to take a break on the weekends.
+ But the virus isn't taking a break, and the numbers often double in a few days.
+ This data is so critical, that it *needs* to be updated every day.
+* *plain language*: avoid technical terms that the typical citizen will not immediately understand. Make it so clear that 
+there are no questions in people's minds as to what the numbers really mean.
+* *time series*: show both the current numbers *and* the time series for important stats
+* show both total cumulative values, and the daily change
+* show both nominal values, and *per capita* values; without *per capita* values, you can't directly compare jurisdictions
+* show both linear and logarithmic charts of the time series data
+* *formats*: csv and/or JSON formats should be available so that programming tools can easily fetch and parse the data
+* *accessibility*: never publish the data *solely* as images or PDF files. Always have an HTML version at minimum.
+
+My preferred data set is roughly similar to Saskatchewan's.
+
+* Tests - pending
 * Tests - positive
 * Tests - negative
-* Tests - pending
 * (Cases - confirmed is the same as Test - positive; or is it? See below.)
-* Cases - probable
-* Cases - recovered
-* Cases - in hospital
-* Cases - in intensive care
-* Cases - deaths
+* Known Cases - probable
+* Known Cases - recovered
+* Known Cases - in hospital
+* Known Cases - in intensive care
+* Known Cases - deaths
+
+In my perfect world, *cases* would always be referred to as *known cases*.
+The only way these stats are generated are by having an entry into some health system's computer somewhere.
+That's how a case becomes *known*.
+
+Some might say this is pedantic, but I disagree. 
+I think it's important. 
+The French writer Guy de Maupassant once wrote: *Les mots ont une âme* (*Words have a soul*).
+The words you use affect how you *think*.
+The feeling-tone you have when you see the phrase *the number of cases is 176* is one of excessive precision.
+You have a feeling of being informed accurately about the state of the world when you read that.
+But you are *not* accurately informed at all. 
+These are *known* cases, that have been entered into a computer system somewhere.
+It's a certainty that there are many people who are sick with the virus, but who haven't been recorded anywhere.
+
+Clarity of language and clarity of thought are one and the same thing.
+If you repeatedly see the phrase *known cases* rather than *cases*, then you are continually reminded of 
+something which is actually rather important: *acknowledging our ignorance*.
+
+# Miscellaneous
 
 Points that seem to be important but overlooked:
 
