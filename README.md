@@ -348,7 +348,7 @@ My preferred data set is roughly similar to Saskatchewan's.
 * Known Cases - deaths
 
 In my perfect world, *cases* would always be referred to as *known cases*.
-The only way these stats are generated are by having an entry into some health system's computer somewhere.
+The only way these stats are generated are by having an entry into some health system's database somewhere.
 That's how a case becomes *known*.
 
 Some might say this is pedantic, but I disagree. 
@@ -369,15 +369,11 @@ something which is actually rather important: *acknowledging our ignorance*.
 
 Points that seem to be important but overlooked:
 
-### Cases are really *known* cases. 
-It may seem pedantic to you, but it's worth repeating.
-When you don't keep this in mind, the data give you the feeling of having precise knowledge about the world: *there are 56 cases in my province*.
-No, there very likely *aren't* 56 cases in your province.
 
-### The number of Cases really reflect the past, not the present
+### The number of Known Cases really reflect the past, not the present
 It's important to remember that the actual reality today is almost always *worse* than what the numbers are saying.
  
-### A Case can have more than 1 Test!
+### A Known Case can have more than 1 Test!
 Tests are a kind of pipeline: Pending -> Result Positive or Negative. 
 One human often goes through that pipeline multiple times.
 I think there's a natural mistake to assume the number of tests equates to the number of people who've been tested.
