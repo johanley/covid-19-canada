@@ -1,6 +1,6 @@
 # What's reported: daily screen-shots
 
-This is what the various jurisdictions are *reporting* near the end of the given day.
+This is what the various jurisdictions are *reporting* at approximately 21:00 EDT each day.
 Each and every data point is linked to a supporting screen-shot of a web page, as of that time.
 (It's hard to argue with a screen-shot.)
 
