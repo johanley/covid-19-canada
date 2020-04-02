@@ -32,7 +32,7 @@ R and T are sometimes absent from some record sets.
 
 In imitation of [this project in the US](https://github.com/COVID19Tracking), as of 2020-03-31 I've begun to take screen shots of 
 web pages at the end of the day, for the 14 jurisdictions. 
-The results are [described here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
+You can view those screenshots conveniently [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
 
 # A deep dive into the source data
     
