@@ -337,15 +337,15 @@ there are no questions in people's minds as to what the numbers really mean.
 
 My preferred data set is roughly similar to Saskatchewan's.
 
-* Tests - pending
-* Tests - positive
-* Tests - negative
-* (Cases - confirmed is the same as Test - positive; or is it? See below.)
-* Known Cases - probable
-* Known Cases - recovered
-* Known Cases - in hospital
-* Known Cases - in intensive care
-* Known Cases - deaths
+* Tests: pending
+* Tests: positive
+* Tests: negative
+* (Known Cases: confirmed is the same as Tests: positive)
+* Known Cases: probable
+* Known Cases: recovered
+* Known Cases: in hospital
+* Known Cases: in intensive care
+* Known Cases: deaths
 
 In my perfect world, *cases* would always be referred to as *known cases*.
 The only way these stats are generated are by having an entry into some health system's database somewhere.
@@ -364,6 +364,7 @@ It's a certainty that there are many people who are sick with the virus, but who
 Clarity of language and clarity of thought are one and the same thing.
 If you repeatedly see the phrase *known cases* rather than *cases*, then you are continually reminded of 
 something which is actually rather important: *acknowledging our ignorance*.
+
 
 # Miscellaneous
 
