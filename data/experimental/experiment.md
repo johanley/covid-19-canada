@@ -10,7 +10,7 @@ Experiment for histogram.
 |SK|50|<img src="green.gif" height="10" width="50%" alt='50'>|
 |MB|75|<img src="green.gif" height="10" width="75%" alt='75'>|
 
-<TABLE>
+<TABLE STYLE="WIDTH:100%">
  <TR><TH>TITLE1 <TH>TITLE2
- <TR><TD>123 <TH>ABC
+ <TR><TD>123 <TD>ABC
 </TABLE>
