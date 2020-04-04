@@ -1,17 +1,5 @@
-<style>
-table th:first-of-type {
-  width: 10%;
-}
-table th:nth-of-type(2) {
-  width: 10%;
-}
-table th:nth-of-type(3) {
-  width: 80%;
-}
-</style>
-
 Experiment for histogram.
-|Juris|Value|Graph|
+|Juris|Value|Graph&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |---|---|---|
 |BC|22|<img src="green.gif" height="10" width="22%" alt='22'>|
 |AB|36|<img src="green.gif" height="10" width="36%" alt='36'>|
