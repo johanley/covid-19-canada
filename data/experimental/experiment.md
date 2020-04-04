@@ -1,10 +1,5 @@
 
 
-<style>
-table{
-  width:100%;
-}
-</style>
 
 
 Experiment for histogram.
@@ -14,3 +9,8 @@ Experiment for histogram.
 |AB|36|<img src="green.gif" height="10" width="36%" alt='36'>|
 |SK|50|<img src="green.gif" height="10" width="50%" alt='50'>|
 |MB|75|<img src="green.gif" height="10" width="75%" alt='75'>|
+
+<TABLE>
+ <TR><TH>TITLE1 <TH>TITLE2
+ <TR><TD>123 <TH>ABC
+</TABLE>
