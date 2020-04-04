@@ -1,4 +1,12 @@
 
+
+<style>
+table{
+  width:100%;
+}
+</style>
+
+
 Experiment for histogram.
 |Juris|Value|Graph&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |---|---|---|
