@@ -1,3 +1,10 @@
+<style>
+table {
+  padding: 0;
+  border-collapse:collapse;
+}
+</style>
+
 Experiment for histogram.
 |Juris|Value|Graph&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |---|---|---|
