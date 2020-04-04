@@ -13,9 +13,9 @@ Experiment for histogram.
 Experiment for histogram.
 |Juris|Value|Graph|
 |---|---|---|
-|BC|10|<img src="green.gif" height="10" width="10" alt='10'>|
-|AB|100|<img src="green.gif" height="10" width="100" alt='100'>|
-|SK|1000|<img src="green.gif" height="10" width="1000" alt='1000'>|
+|BC|10|<img src="green.gif" height="10" width="10" alt='10' title='10'>|
+|AB|100|<img src="green.gif" height="10" width="100" alt='100' title='100'>|
+|SK|1000|<img src="green.gif" height="10" width="1000" alt='1000' title='1000'>|
 
 
 Experiment for histogram.
