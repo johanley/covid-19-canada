@@ -10,6 +10,15 @@ Experiment for histogram.
 |SK|50|<img src="green.gif" height="10" width="50%" alt='50'>|
 |MB|75|<img src="green.gif" height="10" width="75%" alt='75'>|
 
+Experiment for histogram.
+|Juris|Value|Graph|
+|---|---|---|
+|BC|10|<img src="green.gif" height="10" width="10" alt='10'>|
+|AB|100|<img src="green.gif" height="10" width="100" alt='100'>|
+|SK|1000|<img src="green.gif" height="10" width="1000" alt='1000'>|
+
+
+
 <TABLE STYLE="WIDTH:100%">
  <TR><TH>TITLE1 <TH>TITLE2
  <TR><TD>123 <TD>ABC
