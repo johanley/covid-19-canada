@@ -18,6 +18,14 @@ Experiment for histogram.
 |SK|1000|<img src="green.gif" height="10" width="1000" alt='1000'>|
 
 
+Experiment for histogram.
+|Juris|Value|Graph|
+|---|---|---|
+|BC|10|![10](green.gif){width=10px}|
+|AB|100|![100](green.gif){width=100px}|
+|SK|1000|![1000](green.gif){width=1000px}|
+
+
 
 <TABLE STYLE="WIDTH:100%">
  <TR><TH>TITLE1 <TH>TITLE2
