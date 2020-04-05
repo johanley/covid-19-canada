@@ -8,7 +8,7 @@ The *table* form of the data links to supporting screen-shots (*csv* does not):
 
  |Time series data|Table|CSV|
  |----|-----|---|
- |Known Cases (confirmed and probable/presumptive)|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/known-cases.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/known-cases.csv) |
+ |Known Cases (confirmed and probable/presumptive)|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/known_cases.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/known_cases.csv) |
  |Deaths|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/deaths.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/deaths.csv)|
  
 *Warning*: what a jurisdiction reports may not accurately reflect other sources.
