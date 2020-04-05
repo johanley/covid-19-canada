@@ -1,4 +1,4 @@
-Cumulative deaths reported on the given date, with links to screen-shots.
+Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -9,7 +9,7 @@ N means no update occurred that day.
 |2020-03-31|[24](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/bc.png)|[9](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ab.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/sk.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/mb.png)|[33](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/on.png)|[31](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nb.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/pe.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/yt.png)|[96](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ca.png)|
 
 
-Cumulative deaths per capita (100,000) reported on the given date.
+Total **deaths per capita (100,000)** reported on the given date.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
