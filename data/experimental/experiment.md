@@ -56,6 +56,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[1203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|23.54|
 
 
+|[38](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|Deaths|
+|[1203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|Known cases|
+|0.74|Deaths per 100,000 pop.|
+|23.54|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -89,6 +97,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[23](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|0.52|
 |Known Cases|[1250](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|28.32|
+
+
+|[23](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|Deaths|
+|[1250](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|Known cases|
+|0.52|Deaths per 100,000 pop.|
+|28.32|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -126,6 +142,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[249](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/sk.png)|21.07|
 
 
+|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/sk.png)|Deaths|
+|[249](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/sk.png)|Known cases|
+|0.25|Deaths per 100,000 pop.|
+|21.07|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -159,6 +183,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|0.15|
 |Known Cases|[203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|14.74|
+
+
+|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|Deaths|
+|[203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|Known cases|
+|0.15|Deaths per 100,000 pop.|
+|14.74|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -196,6 +228,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[4038](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/on.png)|27.45|
 
 
+|[119](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/on.png)|Deaths|
+|[4038](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/on.png)|Known cases|
+|0.81|Deaths per 100,000 pop.|
+|27.45|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -229,6 +269,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|1.10|
 |Known Cases|[7944](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|93.05|
+
+
+|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|Deaths|
+|[7944](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|Known cases|
+|1.10|Deaths per 100,000 pop.|
+|93.05|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -266,6 +314,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[101](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nb.png)|12.95|
 
 
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nb.png)|Deaths|
+|[101](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nb.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|12.95|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -299,6 +355,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|0.00|
 |Known Cases|[262](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|26.80|
+
+
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|Deaths|
+|[262](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|26.80|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -336,6 +400,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[22](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/pe.png)|13.91|
 
 
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/pe.png)|Deaths|
+|[22](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/pe.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|13.91|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -369,6 +441,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|0.19|
 |Known Cases|[217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|41.62|
+
+
+|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|Deaths|
+|[217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|Known cases|
+|0.19|Deaths per 100,000 pop.|
+|41.62|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -406,6 +486,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nu.png)|0.00|
 
 
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nu.png)|Deaths|
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nu.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|0.00|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -439,6 +527,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|0.00|
 |Known Cases|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|8.91|
+
+
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|Deaths|
+|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|8.91|Known cases per 100,000 pop.|
+
+
 
 
 
@@ -476,6 +572,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |Known Cases|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/yt.png)|14.61|
 
 
+|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/yt.png)|Deaths|
+|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/yt.png)|Known cases|
+|0.00|Deaths per 100,000 pop.|
+|14.61|Known cases per 100,000 pop.|
+
+
+
+
 
 Total known **cases** reported on the given date, with **links to screen-shots**.
 Confirmed cases plus presumptive/probable cases.
@@ -509,6 +613,14 @@ As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data
 |---|---|---|
 |Deaths|[258](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|0.68|
 |Known Cases|[14426](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|38.07|
+
+
+|[258](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|Deaths|
+|[14426](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|Known cases|
+|0.68|Deaths per 100,000 pop.|
+|38.07|Known cases per 100,000 pop.|
+
+
 
 
 
