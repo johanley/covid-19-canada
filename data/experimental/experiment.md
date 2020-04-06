@@ -1,4 +1,3 @@
-Data series found from .csv file names: [deaths, known_cases]
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
@@ -72,6 +71,8 @@ N means no update occurred that day.
 |2020-03-31|[1013](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/bc.png)|<img src='bar.png' height='10' width='421' title='1013'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -109,6 +110,8 @@ N means no update occurred that day.
 |2020-04-01|[871](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/ab.png)|<img src='bar.png' height='10' width='348' title='871'>|
 |2020-03-31|[754](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ab.png)|<img src='bar.png' height='10' width='301' title='754'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -148,6 +151,8 @@ N means no update occurred that day.
 |2020-03-31|[184](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/sk.png)|<img src='bar.png' height='10' width='369' title='184'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -185,6 +190,8 @@ N means no update occurred that day.
 |2020-04-01|[127](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/mb.png)|<img src='bar.png' height='10' width='312' title='127'>|
 |2020-03-31|[103](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/mb.png)|<img src='bar.png' height='10' width='253' title='103'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -224,6 +231,8 @@ N means no update occurred that day.
 |2020-03-31|[1966](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/on.png)|<img src='bar.png' height='10' width='243' title='1966'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -261,6 +270,8 @@ N means no update occurred that day.
 |2020-04-01|[4611](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/qc.png)|<img src='bar.png' height='10' width='290' title='4611'>|
 |2020-03-31|[4162](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/qc.png)|<img src='bar.png' height='10' width='261' title='4162'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -300,6 +311,8 @@ N means no update occurred that day.
 |2020-03-31|[70](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nb.png)|<img src='bar.png' height='10' width='346' title='70'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -337,6 +350,8 @@ N means no update occurred that day.
 |2020-04-01|[173](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/ns.png)|<img src='bar.png' height='10' width='330' title='173'>|
 |2020-03-31|[147](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ns.png)|<img src='bar.png' height='10' width='280' title='147'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -376,6 +391,8 @@ N means no update occurred that day.
 |2020-03-31|[21](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/pe.png)|<img src='bar.png' height='10' width='477' title='21'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -413,6 +430,8 @@ N means no update occurred that day.
 |2020-04-01|[175](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nl.png)|<img src='bar.png' height='10' width='403' title='175'>|
 |2020-03-31|[152](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nl.png)|<img src='bar.png' height='10' width='350' title='152'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -452,6 +471,8 @@ N means no update occurred that day.
 |2020-03-31|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nu.png)|<img src='bar.png' height='10' width='0' title='0'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -489,6 +510,8 @@ N means no update occurred that day.
 |2020-04-01|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nt.png)|<img src='bar.png' height='10' width='250' title='2'>|
 |2020-03-31|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nt.png)|<img src='bar.png' height='10' width='125' title='1'>|
 
+
+***
 
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
@@ -528,6 +551,8 @@ N means no update occurred that day.
 |2020-03-31|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/yt.png)|<img src='bar.png' height='10' width='416' title='5'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -566,6 +591,8 @@ N means no update occurred that day.
 |2020-03-31|[8548](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ca.png)|<img src='bar.png' height='10' width='296' title='8548'>|
 
 
+***
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|Deaths|Deaths|
@@ -577,5 +604,94 @@ N means no update occurred that day.
 |2020-04-01|[109](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/ca.png)|<img src='bar.png' height='10' width='211' title='109'>|
 |2020-03-31|[96](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/ca.png)|<img src='bar.png' height='10' width='186' title='96'>|
 
+
+***
+# CA
+
+As of: [2020-04-05](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)
+
+|Number|Description|
+|---|---|
+|[258](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|Deaths|
+|[14426](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|Known cases|
+|0.68|Deaths per 100,000 pop.|
+|38.07|Known cases per 100,000 pop.|
+
+***
+
+|Where|Deaths|Known Cases|
+|---|---|---|
+|bc|[38](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/bc.png)|[1203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/bc.png)|
+|ab|[23](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|[1250](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ab.png)|
+|sk|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/sk.png)|[249](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/sk.png)|
+|mb|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|[203](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/mb.png)|
+|on|[119](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/on.png)|[4038](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/on.png)|
+|qc|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|[7944](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|
+|nb|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nb.png)|[101](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nb.png)|
+|ns|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|[262](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ns.png)|
+|pe|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/pe.png)|[22](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/pe.png)|
+|nl|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|[217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|
+|nu|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nu.png)|
+|nt|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nt.png)|
+|yt|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/yt.png)|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/yt.png)|
+|ca|[258](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|[14426](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/ca.png)|
+
+
+Per 100,000 population:
+|Where|Deaths|Known Cases|
+|---|---|---|
+|bc|38|1203|
+|ab|23|1250|
+|sk|3|249|
+|mb|2|203|
+|on|119|4038|
+|qc|94|7944|
+|nb|0|101|
+|ns|0|262|
+|pe|0|22|
+|nl|1|217|
+|nu|0|0|
+|nt|0|4|
+|yt|0|6|
+|ca|258|14426|
+
+
+***
+
+Total **known cases**.
+Confirmed cases plus presumptive/probable cases.
+N means no update occurred that day.
+
+|Where|Value|Known Cases|
+|---|---|---|
+${summaryRowsKnownCasesGraph}
+
+***
+
+Total **deaths**.
+N means no update occurred that day.
+
+|Where|Value|Deaths|
+|---|---|---|
+${summaryRowsDeathsGraph}
+
+***
+
+Total **known cases** per 100,000 population.
+Confirmed cases plus presumptive/probable cases.
+N means no update occurred that day.
+
+|Where|Value|Known Cases/100k|
+|---|---|---|
+${summaryRowsKnownCasesPerCapitaGraph}
+
+***
+
+Total **deaths** per 100,000 population.
+N means no update occurred that day.
+
+|Where|Value|Deaths/100k|
+|---|---|---|
+${summaryRowsDeathsPerCapitaGraph}
 
 ***
