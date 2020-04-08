@@ -654,3 +654,47 @@ As of: 2020-04-07
 |Cases p.c.|25|31|22|16|32|109|13|32|14|44|0|11|0|47|
 
 p.c. = per capita, per 100,000 population
+
+***
+
+Deaths per capita (100,000 population)
+
+||Deaths p.c.|Deaths p.c.|
+|---|---|---|
+|BC|0.84|<img src='bar.png' height='10' width='9' title='0.84'>|
+|AB|0.59|<img src='bar.png' height='10' width='11' title='0.59'>|
+|SK|0.25|<img src='bar.png' height='10' width='41' title='0.25'>|
+|MB|0.22|<img src='bar.png' height='10' width='36' title='0.22'>|
+|ON|1.04|<img src='bar.png' height='10' width='3' title='1.04'>|
+|QC|1.76|<img src='bar.png' height='10' width='5' title='1.76'>|
+|NB|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NS|0.1|<img src='bar.png' height='10' width='50' title='0.1'>|
+|PE|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NL|0.38|<img src='bar.png' height='10' width='95' title='0.38'>|
+|NU|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|YT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|CA|1.0|<img src='bar.png' height='10' width='1' title='1.0'>|
+
+
+***
+
+Known cases per capita (100,000 population)
+
+||Cases p.c.|Cases p.c.|
+|---|---|---|
+|BC|25|<img src='bar.png' height='10' width='9' title='25'>|
+|AB|31|<img src='bar.png' height='10' width='11' title='31'>|
+|SK|22|<img src='bar.png' height='10' width='42' title='22'>|
+|MB|16|<img src='bar.png' height='10' width='36' title='16'>|
+|ON|32|<img src='bar.png' height='10' width='3' title='32'>|
+|QC|109|<img src='bar.png' height='10' width='5' title='109'>|
+|NB|13|<img src='bar.png' height='10' width='61' title='13'>|
+|NS|32|<img src='bar.png' height='10' width='51' title='32'>|
+|PE|14|<img src='bar.png' height='10' width='318' title='14'>|
+|NL|44|<img src='bar.png' height='10' width='96' title='44'>|
+|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|11|<img src='bar.png' height='10' width='1100' title='11'>|
+|YT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|CA|47|<img src='bar.png' height='10' width='1' title='47'>|
+
