@@ -657,9 +657,9 @@ p.c. = per capita, per 100,000 population
 
 ***
 
-Deaths per capita (100,000 population)
+*Deaths per capita* (100,000 population)
 
-||Deaths p.c.|Deaths p.c.|
+||Deaths p.c.|Deaths per 100,000 pop.|
 |---|---|---|
 |BC|0.84|<img src='bar.png' height='10' width='238' title='0.84'>|
 |AB|0.59|<img src='bar.png' height='10' width='167' title='0.59'>|
@@ -679,9 +679,9 @@ Deaths per capita (100,000 population)
 
 ***
 
-Known cases per capita (100,000 population)
+*Known cases per capita* (100,000 population)
 
-||Cases p.c.|Cases p.c.|
+||Cases p.c.|Cases per 100,000 pop.|
 |---|---|---|
 |BC|25|<img src='bar.png' height='10' width='114' title='25'>|
 |AB|31|<img src='bar.png' height='10' width='142' title='31'>|
