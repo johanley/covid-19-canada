@@ -1,4 +1,3 @@
-Data series found from .csv file names: [deaths, known_cases]
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
@@ -847,18 +846,18 @@ With links to screenshots.
 
 ||Cases p.c.|Known cases per 100,000 pop.|
 |---|---|---|
-|BC|26|<img src='bar.png' height='10' width='111' title='26'>|
-|AB|32|<img src='bar.png' height='10' width='136' title='32'>|
-|SK|23|<img src='bar.png' height='10' width='98' title='23'>|
-|MB|16|<img src='bar.png' height='10' width='68' title='16'>|
-|ON|36|<img src='bar.png' height='10' width='153' title='36'>|
-|QC|117|<img src='bar.png' height='10' width='500' title='117'>|
-|NB|14|<img src='bar.png' height='10' width='59' title='14'>|
-|NS|35|<img src='bar.png' height='10' width='149' title='35'>|
-|PE|16|<img src='bar.png' height='10' width='68' title='16'>|
-|NL|44|<img src='bar.png' height='10' width='188' title='44'>|
-|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
-|NT|11|<img src='bar.png' height='10' width='47' title='11'>|
-|YT|19|<img src='bar.png' height='10' width='81' title='19'>|
-|CA|51|<img src='bar.png' height='10' width='217' title='51'>|
+|BC|26.14|<img src='bar.png' height='10' width='111' title='26.14'>|
+|AB|32.24|<img src='bar.png' height='10' width='137' title='32.24'>|
+|SK|22.93|<img src='bar.png' height='10' width='97' title='22.93'>|
+|MB|16.04|<img src='bar.png' height='10' width='68' title='16.04'>|
+|ON|35.86|<img src='bar.png' height='10' width='152' title='35.86'>|
+|QC|117.49|<img src='bar.png' height='10' width='500' title='117.49'>|
+|NB|13.85|<img src='bar.png' height='10' width='58' title='13.85'>|
+|NS|34.99|<img src='bar.png' height='10' width='148' title='34.99'>|
+|PE|15.81|<img src='bar.png' height='10' width='67' title='15.81'>|
+|NL|44.5|<img src='bar.png' height='10' width='189' title='44.5'>|
+|NU|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NT|11.13|<img src='bar.png' height='10' width='47' title='11.13'>|
+|YT|19.48|<img src='bar.png' height='10' width='82' title='19.48'>|
+|CA|50.9|<img src='bar.png' height='10' width='216' title='50.9'>|
 
