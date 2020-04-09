@@ -63,6 +63,7 @@ N means no update occurred that day.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|48|0.94|
 |Known cases|1336|26|
 
@@ -113,6 +114,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|29|0.66|
 |Known cases|1423|32|
 
@@ -163,6 +165,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|3|0.25|
 |Known cases|271|23|
 
@@ -213,6 +216,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|3|0.22|
 |Known cases|221|16|
 
@@ -263,6 +267,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|174|1.18|
 |Known cases|5276|36|
 
@@ -313,6 +318,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|175|2.05|
 |Known cases|10031|117|
 
@@ -363,6 +369,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|0|0.0|
 |Known cases|108|14|
 
@@ -413,6 +420,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|1|0.1|
 |Known cases|342|35|
 
@@ -463,6 +471,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|0|0.0|
 |Known cases|25|16|
 
@@ -513,6 +522,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|2|0.38|
 |Known cases|232|44|
 
@@ -563,6 +573,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|0|0.0|
 |Known cases|0|0|
 
@@ -613,6 +624,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|0|0.0|
 |Known cases|5|11|
 
@@ -663,6 +675,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|0|0.0|
 |Known cases|8|19|
 
@@ -713,6 +726,7 @@ Links to screen-shots.
 Values as of: **2020-04-08**
 
 ||Total|P.C.|
+|---|---|---|
 |Deaths|435|1.15|
 |Known cases|19289|51|
 
