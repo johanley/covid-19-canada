@@ -832,4 +832,3 @@ With links to screenshots.
 |NT|11.13|<img src='bar.png' height='10' width='47' title='11.13'>|
 |YT|19.48|<img src='bar.png' height='10' width='82' title='19.48'>|
 |CA|50.9|<img src='bar.png' height='10' width='216' title='50.9'>|
-
