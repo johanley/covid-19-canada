@@ -67,7 +67,7 @@ Values as of: **2020-04-08**
 |Deaths|[48](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|0.94|
 |Known cases|[1336](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|26|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
