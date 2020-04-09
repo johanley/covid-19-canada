@@ -115,7 +115,7 @@ Values as of: **2020-04-08**
 |Deaths|[29](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ab.png)|0.66|
 |Known cases|[1423](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ab.png)|32|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -163,7 +163,7 @@ Values as of: **2020-04-08**
 |Deaths|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/sk.png)|0.25|
 |Known cases|[271](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/sk.png)|23|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -211,7 +211,7 @@ Values as of: **2020-04-08**
 |Deaths|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/mb.png)|0.22|
 |Known cases|[221](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/mb.png)|16|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -259,7 +259,7 @@ Values as of: **2020-04-08**
 |Deaths|[174](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/on.png)|1.18|
 |Known cases|[5276](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/on.png)|36|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -307,7 +307,7 @@ Values as of: **2020-04-08**
 |Deaths|[175](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|2.05|
 |Known cases|[10031](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|117|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -355,7 +355,7 @@ Values as of: **2020-04-08**
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nb.png)|0.0|
 |Known cases|[108](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nb.png)|14|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -403,7 +403,7 @@ Values as of: **2020-04-08**
 |Deaths|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ns.png)|0.1|
 |Known cases|[342](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ns.png)|35|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -451,7 +451,7 @@ Values as of: **2020-04-08**
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/pe.png)|0.0|
 |Known cases|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/pe.png)|16|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -499,7 +499,7 @@ Values as of: **2020-04-08**
 |Deaths|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nl.png)|0.38|
 |Known cases|[232](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nl.png)|44|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -547,7 +547,7 @@ Values as of: **2020-04-08**
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nu.png)|0.0|
 |Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nu.png)|0|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -595,7 +595,7 @@ Values as of: **2020-04-08**
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nt.png)|0.0|
 |Known cases|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nt.png)|11|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -643,7 +643,7 @@ Values as of: **2020-04-08**
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/yt.png)|0.0|
 |Known cases|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/yt.png)|19|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -691,7 +691,7 @@ Values as of: **2020-04-08**
 |Deaths|[435](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ca.png)|1.15|
 |Known cases|[19289](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ca.png)|51|
 
-<span style="font-size:smaller">P.C. = per capita, per 100,000 population</span>
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -739,7 +739,9 @@ As of: **2020-04-08**
 |Deaths|[48](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|[29](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ab.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/sk.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/mb.png)|[174](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/on.png)|[175](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nb.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/pe.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/yt.png)|[435](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ca.png)|
 |Cases|[1336](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|[1423](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ab.png)|[271](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/sk.png)|[221](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/mb.png)|[5276](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/on.png)|[10031](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|[108](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nb.png)|[342](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ns.png)|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/pe.png)|[232](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nu.png)|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/nt.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/yt.png)|[19289](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/ca.png)|
 |Deaths p.c.|0.94|0.66|0.25|0.22|1.18|2.05|0.0|0.1|0.0|0.38|0.0|0.0|0.0|1.15|
-|Cases p.c.|26|32|23|16|36|117|14|35|16|44|0|11|19|51|
+|Known Cases p.c.|26|32|23|16|36|117|14|35|16|44|0|11|19|51|
+|Deaths daily|5|3|0|0|21|25|0|0|0|0|0|0|0|55|
+|Known Cases daily|45|50|11|4|550|691|3|32|3|4|0|0|8|1392|
 
 p.c. = per capita, per 100,000 population
 With links to screenshots.
@@ -832,4 +834,3 @@ With links to screenshots.
 |NT|11.13|<img src='bar.png' height='10' width='47' title='11.13'>|
 |YT|19.48|<img src='bar.png' height='10' width='82' title='19.48'>|
 |CA|50.9|<img src='bar.png' height='10' width='216' title='50.9'>|
-
