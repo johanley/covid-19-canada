@@ -60,13 +60,13 @@ N means no update occurred that day.
 
 # BC
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|48|0.94|1336|26|
+||Total|P.C.|
+|Deaths|48|0.94|
+|Known cases|1336|26|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -110,13 +110,13 @@ Links to screen-shots.
 ***
 # AB
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|29|0.66|1423|32|
+||Total|P.C.|
+|Deaths|29|0.66|
+|Known cases|1423|32|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -160,13 +160,13 @@ Links to screen-shots.
 ***
 # SK
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|3|0.25|271|23|
+||Total|P.C.|
+|Deaths|3|0.25|
+|Known cases|271|23|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -210,13 +210,13 @@ Links to screen-shots.
 ***
 # MB
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|3|0.22|221|16|
+||Total|P.C.|
+|Deaths|3|0.22|
+|Known cases|221|16|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -260,13 +260,13 @@ Links to screen-shots.
 ***
 # ON
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|174|1.18|5276|36|
+||Total|P.C.|
+|Deaths|174|1.18|
+|Known cases|5276|36|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -310,13 +310,13 @@ Links to screen-shots.
 ***
 # QC
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|175|2.05|10031|117|
+||Total|P.C.|
+|Deaths|175|2.05|
+|Known cases|10031|117|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -360,13 +360,13 @@ Links to screen-shots.
 ***
 # NB
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|0|0.0|108|14|
+||Total|P.C.|
+|Deaths|0|0.0|
+|Known cases|108|14|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -410,13 +410,13 @@ Links to screen-shots.
 ***
 # NS
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|1|0.1|342|35|
+||Total|P.C.|
+|Deaths|1|0.1|
+|Known cases|342|35|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -460,13 +460,13 @@ Links to screen-shots.
 ***
 # PE
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|0|0.0|25|16|
+||Total|P.C.|
+|Deaths|0|0.0|
+|Known cases|25|16|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -510,13 +510,13 @@ Links to screen-shots.
 ***
 # NL
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|2|0.38|232|44|
+||Total|P.C.|
+|Deaths|2|0.38|
+|Known cases|232|44|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -560,13 +560,13 @@ Links to screen-shots.
 ***
 # NU
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|0|0.0|0|0|
+||Total|P.C.|
+|Deaths|0|0.0|
+|Known cases|0|0|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -610,13 +610,13 @@ Links to screen-shots.
 ***
 # NT
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|0|0.0|5|11|
+||Total|P.C.|
+|Deaths|0|0.0|
+|Known cases|5|11|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -660,13 +660,13 @@ Links to screen-shots.
 ***
 # YT
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|0|0.0|8|19|
+||Total|P.C.|
+|Deaths|0|0.0|
+|Known cases|8|19|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
@@ -710,13 +710,13 @@ Links to screen-shots.
 ***
 # CA
 
-**Total cumulative values** as of: **2020-04-08**
+Values as of: **2020-04-08**
 
-|Deaths|Deaths p.c.|Known Cases|Known Cases p.c.|
-|---|---|---|---|
-|435|1.15|19289|51|
+||Total|P.C.|
+|Deaths|435|1.15|
+|Known cases|19289|51|
 
-p.c = per capita, per 100,000 population
+P.C. = per capita, per 100,000 population
 
 ***
 
