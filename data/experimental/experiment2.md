@@ -816,20 +816,20 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 
 ||Deaths d.i.|Deaths daily increase|
 |---|---:|---|
-|BC|2|<img src='bar.png' height='10' width='13' title='2'>|
-|AB|3|<img src='bar.png' height='10' width='20' title='3'>|
+|BC|+2|<img src='bar.png' height='10' width='13' title='+2'>|
+|AB|+3|<img src='bar.png' height='10' width='20' title='+3'>|
 |SK|0|<img src='bar.png' height='10' width='0' title='0'>|
 |MB|0|<img src='bar.png' height='10' width='0' title='0'>|
-|ON|26|<img src='bar.png' height='10' width='175' title='26'>|
-|QC|41|<img src='bar.png' height='10' width='277' title='41'>|
+|ON|+26|<img src='bar.png' height='10' width='175' title='+26'>|
+|QC|+41|<img src='bar.png' height='10' width='277' title='+41'>|
 |NB|0|<img src='bar.png' height='10' width='0' title='0'>|
-|NS|1|<img src='bar.png' height='10' width='6' title='1'>|
+|NS|+1|<img src='bar.png' height='10' width='6' title='+1'>|
 |PE|0|<img src='bar.png' height='10' width='0' title='0'>|
-|NL|1|<img src='bar.png' height='10' width='6' title='1'>|
+|NL|+1|<img src='bar.png' height='10' width='6' title='+1'>|
 |NU|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|0|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|N|<img src='bar.png' height='10' width='0' title='N'>|
-|CA|74|<img src='bar.png' height='10' width='500' title='74'>|
+|CA|+74|<img src='bar.png' height='10' width='500' title='+74'>|
 
 
 
@@ -881,24 +881,24 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 
 ***
 
-**Know cases daily increase**
+**Known cases daily increase**
 
-||Know cases d.i.|Know cases daily increase|
+||Known cases d.i.|Known cases daily increase|
 |---|---:|---|
-|BC|34|<img src='bar.png' height='10' width='11' title='34'>|
-|AB|28|<img src='bar.png' height='10' width='9' title='28'>|
-|SK|7|<img src='bar.png' height='10' width='2' title='7'>|
-|MB|3|<img src='bar.png' height='10' width='1' title='3'>|
-|ON|483|<img src='bar.png' height='10' width='163' title='483'>|
-|QC|881|<img src='bar.png' height='10' width='298' title='881'>|
-|NB|3|<img src='bar.png' height='10' width='1' title='3'>|
-|NS|31|<img src='bar.png' height='10' width='10' title='31'>|
+|BC|+34|<img src='bar.png' height='10' width='11' title='+34'>|
+|AB|+28|<img src='bar.png' height='10' width='9' title='+28'>|
+|SK|+7|<img src='bar.png' height='10' width='2' title='+7'>|
+|MB|+3|<img src='bar.png' height='10' width='1' title='+3'>|
+|ON|+483|<img src='bar.png' height='10' width='163' title='+483'>|
+|QC|+881|<img src='bar.png' height='10' width='298' title='+881'>|
+|NB|+3|<img src='bar.png' height='10' width='1' title='+3'>|
+|NS|+31|<img src='bar.png' height='10' width='10' title='+31'>|
 |PE|0|<img src='bar.png' height='10' width='0' title='0'>|
-|NL|4|<img src='bar.png' height='10' width='1' title='4'>|
+|NL|+4|<img src='bar.png' height='10' width='1' title='+4'>|
 |NU|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|0|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|N|<img src='bar.png' height='10' width='0' title='N'>|
-|CA|1476|<img src='bar.png' height='10' width='500' title='1476'>|
+|CA|+1476|<img src='bar.png' height='10' width='500' title='+1476'>|
 
 
 
@@ -909,18 +909,18 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 
 ||Cases p.c.|Known cases per 100,000 pop.|
 |---|---:|---|
-|BC|26.81|<img src='bar.png' height='10' width='104' title='26.81'>|
-|AB|32.88|<img src='bar.png' height='10' width='128' title='32.88'>|
-|SK|23.53|<img src='bar.png' height='10' width='92' title='23.53'>|
-|MB|16.26|<img src='bar.png' height='10' width='63' title='16.26'>|
-|ON|39.15|<img src='bar.png' height='10' width='153' title='39.15'>|
-|QC|127.81|<img src='bar.png' height='10' width='500' title='127.81'>|
-|NB|14.23|<img src='bar.png' height='10' width='55' title='14.23'>|
-|NS|38.16|<img src='bar.png' height='10' width='149' title='38.16'>|
-|PE|15.81|<img src='bar.png' height='10' width='61' title='15.81'>|
-|NL|45.27|<img src='bar.png' height='10' width='177' title='45.27'>|
-|NU|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|NT|11.13|<img src='bar.png' height='10' width='43' title='11.13'>|
-|YT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|CA|54.8|<img src='bar.png' height='10' width='214' title='54.8'>|
+|BC|27|<img src='bar.png' height='10' width='105' title='27'>|
+|AB|33|<img src='bar.png' height='10' width='128' title='33'>|
+|SK|24|<img src='bar.png' height='10' width='93' title='24'>|
+|MB|16|<img src='bar.png' height='10' width='62' title='16'>|
+|ON|39|<img src='bar.png' height='10' width='152' title='39'>|
+|QC|128|<img src='bar.png' height='10' width='500' title='128'>|
+|NB|14|<img src='bar.png' height='10' width='54' title='14'>|
+|NS|38|<img src='bar.png' height='10' width='148' title='38'>|
+|PE|16|<img src='bar.png' height='10' width='62' title='16'>|
+|NL|45|<img src='bar.png' height='10' width='175' title='45'>|
+|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|11|<img src='bar.png' height='10' width='42' title='11'>|
+|YT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|CA|55|<img src='bar.png' height='10' width='214' title='55'>|
 
