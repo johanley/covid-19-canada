@@ -776,7 +776,7 @@ As of: **2020-04-09**
 
 d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 
-**Known Cases**
+**Known Cases** (confirmed and presumed)
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -785,6 +785,7 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |Cases p.c.|27|33|24|16|39|128|14|38|16|45|0|11|0|55|
 
 d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+
 
 ***
 
@@ -806,6 +807,52 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |NT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/nt.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/yt.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |CA|[509](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/ca.png)|<img src='bar.png' height='10' width='500' title='509'>|
+
+
+
+***
+
+**Deaths daily increase**
+
+||Deaths d.i.|Deaths daily increase|
+|---|---:|---|
+|BC|2|<img src='bar.png' height='10' width='13' title='2'>|
+|AB|3|<img src='bar.png' height='10' width='20' title='3'>|
+|SK|0|<img src='bar.png' height='10' width='0' title='0'>|
+|MB|0|<img src='bar.png' height='10' width='0' title='0'>|
+|ON|26|<img src='bar.png' height='10' width='175' title='26'>|
+|QC|41|<img src='bar.png' height='10' width='277' title='41'>|
+|NB|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NS|1|<img src='bar.png' height='10' width='6' title='1'>|
+|PE|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NL|1|<img src='bar.png' height='10' width='6' title='1'>|
+|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|N|<img src='bar.png' height='10' width='0' title='N'>|
+|CA|74|<img src='bar.png' height='10' width='500' title='74'>|
+
+
+
+***
+
+**Deaths per capita** (100,000 population)
+
+||Deaths p.c.|Deaths per 100,000 pop.|
+|---|---:|---|
+|BC|0.98|<img src='bar.png' height='10' width='193' title='0.98'>|
+|AB|0.73|<img src='bar.png' height='10' width='144' title='0.73'>|
+|SK|0.25|<img src='bar.png' height='10' width='49' title='0.25'>|
+|MB|0.22|<img src='bar.png' height='10' width='43' title='0.22'>|
+|ON|1.36|<img src='bar.png' height='10' width='268' title='1.36'>|
+|QC|2.53|<img src='bar.png' height='10' width='500' title='2.53'>|
+|NB|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NS|0.2|<img src='bar.png' height='10' width='39' title='0.2'>|
+|PE|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NL|0.58|<img src='bar.png' height='10' width='114' title='0.58'>|
+|NU|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|NT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|YT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|CA|1.34|<img src='bar.png' height='10' width='264' title='1.34'>|
 
 
 
@@ -834,24 +881,26 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 
 ***
 
-**Deaths per capita** (100,000 population)
+**Know cases daily increase**
 
-||Deaths p.c.|Deaths per 100,000 pop.|
+||Know cases d.i.|Know cases daily increase|
 |---|---:|---|
-|BC|0.98|<img src='bar.png' height='10' width='193' title='0.98'>|
-|AB|0.73|<img src='bar.png' height='10' width='144' title='0.73'>|
-|SK|0.25|<img src='bar.png' height='10' width='49' title='0.25'>|
-|MB|0.22|<img src='bar.png' height='10' width='43' title='0.22'>|
-|ON|1.36|<img src='bar.png' height='10' width='268' title='1.36'>|
-|QC|2.53|<img src='bar.png' height='10' width='500' title='2.53'>|
-|NB|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|NS|0.2|<img src='bar.png' height='10' width='39' title='0.2'>|
-|PE|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|NL|0.58|<img src='bar.png' height='10' width='114' title='0.58'>|
-|NU|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|NT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|YT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
-|CA|1.34|<img src='bar.png' height='10' width='264' title='1.34'>|
+|BC|34|<img src='bar.png' height='10' width='11' title='34'>|
+|AB|28|<img src='bar.png' height='10' width='9' title='28'>|
+|SK|7|<img src='bar.png' height='10' width='2' title='7'>|
+|MB|3|<img src='bar.png' height='10' width='1' title='3'>|
+|ON|483|<img src='bar.png' height='10' width='163' title='483'>|
+|QC|881|<img src='bar.png' height='10' width='298' title='881'>|
+|NB|3|<img src='bar.png' height='10' width='1' title='3'>|
+|NS|31|<img src='bar.png' height='10' width='10' title='31'>|
+|PE|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NL|4|<img src='bar.png' height='10' width='1' title='4'>|
+|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|N|<img src='bar.png' height='10' width='0' title='N'>|
+|CA|1476|<img src='bar.png' height='10' width='500' title='1476'>|
+
+
 
 
 ***
