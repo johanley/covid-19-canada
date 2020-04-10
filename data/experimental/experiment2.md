@@ -1,3 +1,4 @@
+
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
@@ -99,16 +100,16 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
-|2020-04-09|+2|<img src='bar.png' height='10' width='25' title='2'>|
-|2020-04-08|+5|<img src='bar.png' height='10' width='64' title='5'>|
-|2020-04-07|+4|<img src='bar.png' height='10' width='51' title='4'>|
-|2020-04-06|+39|<img src='bar.png' height='10' width='500' title='39'>|
+|2020-04-09|+2|<img src='bar.png' height='10' width='166' title='2'>|
+|2020-04-08|+5|<img src='bar.png' height='10' width='416' title='5'>|
+|2020-04-07|+4|<img src='bar.png' height='10' width='333' title='4'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-04|+3|<img src='bar.png' height='10' width='38' title='3'>|
-|2020-04-03|+4|<img src='bar.png' height='10' width='51' title='4'>|
-|2020-04-02|+6|<img src='bar.png' height='10' width='76' title='6'>|
-|2020-04-01|+1|<img src='bar.png' height='10' width='12' title='1'>|
-|2020-03-31|+24|<img src='bar.png' height='10' width='307' title='24'>|
+|2020-04-04|+3|<img src='bar.png' height='10' width='250' title='3'>|
+|2020-04-03|+4|<img src='bar.png' height='10' width='333' title='4'>|
+|2020-04-02|+6|<img src='bar.png' height='10' width='500' title='6'>|
+|2020-04-01|+1|<img src='bar.png' height='10' width='83' title='1'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -138,16 +139,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+34|<img src='bar.png' height='10' width='13' title='34'>|
-|2020-04-08|+45|<img src='bar.png' height='10' width='17' title='45'>|
-|2020-04-07|+25|<img src='bar.png' height='10' width='9' title='25'>|
-|2020-04-06|+1266|<img src='bar.png' height='10' width='500' title='1266'>|
+|2020-04-09|+34|<img src='bar.png' height='10' width='309' title='34'>|
+|2020-04-08|+45|<img src='bar.png' height='10' width='409' title='45'>|
+|2020-04-07|+25|<img src='bar.png' height='10' width='227' title='25'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-04|+29|<img src='bar.png' height='10' width='11' title='29'>|
-|2020-04-03|+53|<img src='bar.png' height='10' width='20' title='53'>|
-|2020-04-02|+55|<img src='bar.png' height='10' width='21' title='55'>|
-|2020-04-01|+53|<img src='bar.png' height='10' width='20' title='53'>|
-|2020-03-31|+1013|<img src='bar.png' height='10' width='400' title='1013'>|
+|2020-04-04|+29|<img src='bar.png' height='10' width='263' title='29'>|
+|2020-04-03|+53|<img src='bar.png' height='10' width='481' title='53'>|
+|2020-04-02|+55|<img src='bar.png' height='10' width='500' title='55'>|
+|2020-04-01|+53|<img src='bar.png' height='10' width='481' title='53'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -188,16 +189,16 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
-|2020-04-09|+3|<img src='bar.png' height='10' width='166' title='3'>|
-|2020-04-08|+3|<img src='bar.png' height='10' width='166' title='3'>|
-|2020-04-07|+2|<img src='bar.png' height='10' width='111' title='2'>|
-|2020-04-06|+1|<img src='bar.png' height='10' width='55' title='1'>|
-|2020-04-05|+3|<img src='bar.png' height='10' width='166' title='3'>|
-|2020-04-04|+2|<img src='bar.png' height='10' width='111' title='2'>|
-|2020-04-03|+5|<img src='bar.png' height='10' width='277' title='5'>|
-|2020-04-02|+2|<img src='bar.png' height='10' width='111' title='2'>|
-|2020-04-01|+2|<img src='bar.png' height='10' width='111' title='2'>|
-|2020-03-31|+9|<img src='bar.png' height='10' width='500' title='9'>|
+|2020-04-09|+3|<img src='bar.png' height='10' width='300' title='3'>|
+|2020-04-08|+3|<img src='bar.png' height='10' width='300' title='3'>|
+|2020-04-07|+2|<img src='bar.png' height='10' width='200' title='2'>|
+|2020-04-06|+1|<img src='bar.png' height='10' width='100' title='1'>|
+|2020-04-05|+3|<img src='bar.png' height='10' width='300' title='3'>|
+|2020-04-04|+2|<img src='bar.png' height='10' width='200' title='2'>|
+|2020-04-03|+5|<img src='bar.png' height='10' width='500' title='5'>|
+|2020-04-02|+2|<img src='bar.png' height='10' width='200' title='2'>|
+|2020-04-01|+2|<img src='bar.png' height='10' width='200' title='2'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -227,16 +228,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+28|<img src='bar.png' height='10' width='18' title='28'>|
-|2020-04-08|+50|<img src='bar.png' height='10' width='33' title='50'>|
-|2020-04-07|+25|<img src='bar.png' height='10' width='16' title='25'>|
-|2020-04-06|+98|<img src='bar.png' height='10' width='64' title='98'>|
-|2020-04-05|+69|<img src='bar.png' height='10' width='45' title='69'>|
-|2020-04-04|+106|<img src='bar.png' height='10' width='70' title='106'>|
-|2020-04-03|+107|<img src='bar.png' height='10' width='70' title='107'>|
-|2020-04-02|+97|<img src='bar.png' height='10' width='64' title='97'>|
-|2020-04-01|+117|<img src='bar.png' height='10' width='77' title='117'>|
-|2020-03-31|+754|<img src='bar.png' height='10' width='500' title='754'>|
+|2020-04-09|+28|<img src='bar.png' height='10' width='119' title='28'>|
+|2020-04-08|+50|<img src='bar.png' height='10' width='213' title='50'>|
+|2020-04-07|+25|<img src='bar.png' height='10' width='106' title='25'>|
+|2020-04-06|+98|<img src='bar.png' height='10' width='418' title='98'>|
+|2020-04-05|+69|<img src='bar.png' height='10' width='294' title='69'>|
+|2020-04-04|+106|<img src='bar.png' height='10' width='452' title='106'>|
+|2020-04-03|+107|<img src='bar.png' height='10' width='457' title='107'>|
+|2020-04-02|+97|<img src='bar.png' height='10' width='414' title='97'>|
+|2020-04-01|+117|<img src='bar.png' height='10' width='500' title='117'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -285,8 +286,8 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-04|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-01|+1|<img src='bar.png' height='10' width='250' title='1'>|
-|2020-03-31|+2|<img src='bar.png' height='10' width='500' title='2'>|
+|2020-04-01|+1|<img src='bar.png' height='10' width='500' title='1'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -316,16 +317,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+7|<img src='bar.png' height='10' width='19' title='7'>|
-|2020-04-08|+11|<img src='bar.png' height='10' width='29' title='11'>|
-|2020-04-07|+7|<img src='bar.png' height='10' width='19' title='7'>|
-|2020-04-06|+4|<img src='bar.png' height='10' width='10' title='4'>|
-|2020-04-05|+18|<img src='bar.png' height='10' width='48' title='18'>|
-|2020-04-04|+11|<img src='bar.png' height='10' width='29' title='11'>|
-|2020-04-03|+14|<img src='bar.png' height='10' width='38' title='14'>|
-|2020-04-02|+13|<img src='bar.png' height='10' width='35' title='13'>|
-|2020-04-01|+9|<img src='bar.png' height='10' width='24' title='9'>|
-|2020-03-31|+184|<img src='bar.png' height='10' width='500' title='184'>|
+|2020-04-09|+7|<img src='bar.png' height='10' width='194' title='7'>|
+|2020-04-08|+11|<img src='bar.png' height='10' width='305' title='11'>|
+|2020-04-07|+7|<img src='bar.png' height='10' width='194' title='7'>|
+|2020-04-06|+4|<img src='bar.png' height='10' width='111' title='4'>|
+|2020-04-05|+18|<img src='bar.png' height='10' width='500' title='18'>|
+|2020-04-04|+11|<img src='bar.png' height='10' width='305' title='11'>|
+|2020-04-03|+14|<img src='bar.png' height='10' width='388' title='14'>|
+|2020-04-02|+13|<img src='bar.png' height='10' width='361' title='13'>|
+|2020-04-01|+9|<img src='bar.png' height='10' width='250' title='9'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -375,7 +376,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-03|+1|<img src='bar.png' height='10' width='500' title='1'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|+1|<img src='bar.png' height='10' width='500' title='1'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -405,16 +406,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+3|<img src='bar.png' height='10' width='14' title='3'>|
-|2020-04-08|+4|<img src='bar.png' height='10' width='19' title='4'>|
-|2020-04-07|+13|<img src='bar.png' height='10' width='63' title='13'>|
-|2020-04-06|+1|<img src='bar.png' height='10' width='4' title='1'>|
-|2020-04-05|+9|<img src='bar.png' height='10' width='43' title='9'>|
-|2020-04-04|+12|<img src='bar.png' height='10' width='58' title='12'>|
-|2020-04-03|+15|<img src='bar.png' height='10' width='72' title='15'>|
-|2020-04-02|+40|<img src='bar.png' height='10' width='194' title='40'>|
-|2020-04-01|+24|<img src='bar.png' height='10' width='116' title='24'>|
-|2020-03-31|+103|<img src='bar.png' height='10' width='500' title='103'>|
+|2020-04-09|+3|<img src='bar.png' height='10' width='37' title='3'>|
+|2020-04-08|+4|<img src='bar.png' height='10' width='50' title='4'>|
+|2020-04-07|+13|<img src='bar.png' height='10' width='162' title='13'>|
+|2020-04-06|+1|<img src='bar.png' height='10' width='12' title='1'>|
+|2020-04-05|+9|<img src='bar.png' height='10' width='112' title='9'>|
+|2020-04-04|+12|<img src='bar.png' height='10' width='150' title='12'>|
+|2020-04-03|+15|<img src='bar.png' height='10' width='187' title='15'>|
+|2020-04-02|+40|<img src='bar.png' height='10' width='500' title='40'>|
+|2020-04-01|+24|<img src='bar.png' height='10' width='300' title='24'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -455,16 +456,16 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
-|2020-04-09|+26|<img src='bar.png' height='10' width='393' title='26'>|
-|2020-04-08|+21|<img src='bar.png' height='10' width='318' title='21'>|
-|2020-04-07|+21|<img src='bar.png' height='10' width='318' title='21'>|
-|2020-04-06|+13|<img src='bar.png' height='10' width='196' title='13'>|
-|2020-04-05|+25|<img src='bar.png' height='10' width='378' title='25'>|
-|2020-04-04|+27|<img src='bar.png' height='10' width='409' title='27'>|
-|2020-04-03|+14|<img src='bar.png' height='10' width='212' title='14'>|
-|2020-04-02|+16|<img src='bar.png' height='10' width='242' title='16'>|
-|2020-04-01|+4|<img src='bar.png' height='10' width='60' title='4'>|
-|2020-03-31|+33|<img src='bar.png' height='10' width='500' title='33'>|
+|2020-04-09|+26|<img src='bar.png' height='10' width='481' title='26'>|
+|2020-04-08|+21|<img src='bar.png' height='10' width='388' title='21'>|
+|2020-04-07|+21|<img src='bar.png' height='10' width='388' title='21'>|
+|2020-04-06|+13|<img src='bar.png' height='10' width='240' title='13'>|
+|2020-04-05|+25|<img src='bar.png' height='10' width='462' title='25'>|
+|2020-04-04|+27|<img src='bar.png' height='10' width='500' title='27'>|
+|2020-04-03|+14|<img src='bar.png' height='10' width='259' title='14'>|
+|2020-04-02|+16|<img src='bar.png' height='10' width='296' title='16'>|
+|2020-04-01|+4|<img src='bar.png' height='10' width='74' title='4'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -494,16 +495,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+483|<img src='bar.png' height='10' width='122' title='483'>|
-|2020-04-08|+550|<img src='bar.png' height='10' width='139' title='550'>|
-|2020-04-07|+379|<img src='bar.png' height='10' width='96' title='379'>|
-|2020-04-06|+309|<img src='bar.png' height='10' width='78' title='309'>|
-|2020-04-05|+408|<img src='bar.png' height='10' width='103' title='408'>|
-|2020-04-04|+375|<img src='bar.png' height='10' width='95' title='375'>|
-|2020-04-03|+462|<img src='bar.png' height='10' width='117' title='462'>|
-|2020-04-02|+401|<img src='bar.png' height='10' width='101' title='401'>|
-|2020-04-01|+426|<img src='bar.png' height='10' width='108' title='426'>|
-|2020-03-31|+1966|<img src='bar.png' height='10' width='500' title='1966'>|
+|2020-04-09|+483|<img src='bar.png' height='10' width='439' title='483'>|
+|2020-04-08|+550|<img src='bar.png' height='10' width='500' title='550'>|
+|2020-04-07|+379|<img src='bar.png' height='10' width='344' title='379'>|
+|2020-04-06|+309|<img src='bar.png' height='10' width='280' title='309'>|
+|2020-04-05|+408|<img src='bar.png' height='10' width='370' title='408'>|
+|2020-04-04|+375|<img src='bar.png' height='10' width='340' title='375'>|
+|2020-04-03|+462|<img src='bar.png' height='10' width='420' title='462'>|
+|2020-04-02|+401|<img src='bar.png' height='10' width='364' title='401'>|
+|2020-04-01|+426|<img src='bar.png' height='10' width='387' title='426'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -553,7 +554,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-03|+25|<img src='bar.png' height='10' width='304' title='25'>|
 |2020-04-02|+3|<img src='bar.png' height='10' width='36' title='3'>|
 |2020-04-01|+2|<img src='bar.png' height='10' width='24' title='2'>|
-|2020-03-31|+31|<img src='bar.png' height='10' width='378' title='31'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -583,16 +584,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+881|<img src='bar.png' height='10' width='105' title='881'>|
-|2020-04-08|+691|<img src='bar.png' height='10' width='83' title='691'>|
-|2020-04-07|+760|<img src='bar.png' height='10' width='91' title='760'>|
-|2020-04-06|+636|<img src='bar.png' height='10' width='76' title='636'>|
-|2020-04-05|+947|<img src='bar.png' height='10' width='113' title='947'>|
-|2020-04-04|+896|<img src='bar.png' height='10' width='107' title='896'>|
-|2020-04-03|+583|<img src='bar.png' height='10' width='70' title='583'>|
-|2020-04-02|+907|<img src='bar.png' height='10' width='108' title='907'>|
-|2020-04-01|+449|<img src='bar.png' height='10' width='53' title='449'>|
-|2020-03-31|+4162|<img src='bar.png' height='10' width='500' title='4162'>|
+|2020-04-09|+881|<img src='bar.png' height='10' width='465' title='881'>|
+|2020-04-08|+691|<img src='bar.png' height='10' width='364' title='691'>|
+|2020-04-07|+760|<img src='bar.png' height='10' width='401' title='760'>|
+|2020-04-06|+636|<img src='bar.png' height='10' width='335' title='636'>|
+|2020-04-05|+947|<img src='bar.png' height='10' width='500' title='947'>|
+|2020-04-04|+896|<img src='bar.png' height='10' width='473' title='896'>|
+|2020-04-03|+583|<img src='bar.png' height='10' width='307' title='583'>|
+|2020-04-02|+907|<img src='bar.png' height='10' width='478' title='907'>|
+|2020-04-01|+449|<img src='bar.png' height='10' width='237' title='449'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -642,7 +643,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -672,16 +673,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+3|<img src='bar.png' height='10' width='21' title='3'>|
-|2020-04-08|+3|<img src='bar.png' height='10' width='21' title='3'>|
-|2020-04-07|+2|<img src='bar.png' height='10' width='14' title='2'>|
-|2020-04-06|+2|<img src='bar.png' height='10' width='14' title='2'>|
-|2020-04-05|+3|<img src='bar.png' height='10' width='21' title='3'>|
-|2020-04-04|+3|<img src='bar.png' height='10' width='21' title='3'>|
-|2020-04-03|+4|<img src='bar.png' height='10' width='28' title='4'>|
-|2020-04-02|+10|<img src='bar.png' height='10' width='71' title='10'>|
-|2020-04-01|+11|<img src='bar.png' height='10' width='78' title='11'>|
-|2020-03-31|+70|<img src='bar.png' height='10' width='500' title='70'>|
+|2020-04-09|+3|<img src='bar.png' height='10' width='136' title='3'>|
+|2020-04-08|+3|<img src='bar.png' height='10' width='136' title='3'>|
+|2020-04-07|+2|<img src='bar.png' height='10' width='90' title='2'>|
+|2020-04-06|+2|<img src='bar.png' height='10' width='90' title='2'>|
+|2020-04-05|+3|<img src='bar.png' height='10' width='136' title='3'>|
+|2020-04-04|+3|<img src='bar.png' height='10' width='136' title='3'>|
+|2020-04-03|+4|<img src='bar.png' height='10' width='181' title='4'>|
+|2020-04-02|+10|<img src='bar.png' height='10' width='454' title='10'>|
+|2020-04-01|+11|<img src='bar.png' height='10' width='500' title='11'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -731,7 +732,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -761,16 +762,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+31|<img src='bar.png' height='10' width='105' title='31'>|
-|2020-04-08|+32|<img src='bar.png' height='10' width='108' title='32'>|
-|2020-04-07|+17|<img src='bar.png' height='10' width='57' title='17'>|
-|2020-04-06|+31|<img src='bar.png' height='10' width='105' title='31'>|
-|2020-04-05|+26|<img src='bar.png' height='10' width='88' title='26'>|
-|2020-04-04|+29|<img src='bar.png' height='10' width='98' title='29'>|
-|2020-04-03|+14|<img src='bar.png' height='10' width='47' title='14'>|
-|2020-04-02|+20|<img src='bar.png' height='10' width='68' title='20'>|
-|2020-04-01|+26|<img src='bar.png' height='10' width='88' title='26'>|
-|2020-03-31|+147|<img src='bar.png' height='10' width='500' title='147'>|
+|2020-04-09|+31|<img src='bar.png' height='10' width='484' title='31'>|
+|2020-04-08|+32|<img src='bar.png' height='10' width='500' title='32'>|
+|2020-04-07|+17|<img src='bar.png' height='10' width='265' title='17'>|
+|2020-04-06|+31|<img src='bar.png' height='10' width='484' title='31'>|
+|2020-04-05|+26|<img src='bar.png' height='10' width='406' title='26'>|
+|2020-04-04|+29|<img src='bar.png' height='10' width='453' title='29'>|
+|2020-04-03|+14|<img src='bar.png' height='10' width='218' title='14'>|
+|2020-04-02|+20|<img src='bar.png' height='10' width='312' title='20'>|
+|2020-04-01|+26|<img src='bar.png' height='10' width='406' title='26'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -814,13 +815,13 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-09|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-08|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-07|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-06|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -851,15 +852,15 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
 |2020-04-09|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-08|+3|<img src='bar.png' height='10' width='68' title='3'>|
+|2020-04-08|+3|<img src='bar.png' height='10' width='500' title='3'>|
 |2020-04-07|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-06|+22|<img src='bar.png' height='10' width='500' title='22'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-02|+1|<img src='bar.png' height='10' width='22' title='1'>|
+|2020-04-02|+1|<img src='bar.png' height='10' width='166' title='1'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|+21|<img src='bar.png' height='10' width='477' title='21'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -905,11 +906,11 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-07|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-06|+1|<img src='bar.png' height='10' width='500' title='1'>|
 |2020-04-05|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-04|+1|<img src='bar.png' height='10' width='500' title='1'>|
+|2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -939,16 +940,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+4|<img src='bar.png' height='10' width='9' title='4'>|
-|2020-04-08|+4|<img src='bar.png' height='10' width='9' title='4'>|
-|2020-04-07|+2|<img src='bar.png' height='10' width='4' title='2'>|
-|2020-04-06|+9|<img src='bar.png' height='10' width='22' title='9'>|
-|2020-04-05|+14|<img src='bar.png' height='10' width='34' title='14'>|
-|2020-04-04|+203|<img src='bar.png' height='10' width='500' title='203'>|
+|2020-04-09|+4|<img src='bar.png' height='10' width='86' title='4'>|
+|2020-04-08|+4|<img src='bar.png' height='10' width='86' title='4'>|
+|2020-04-07|+2|<img src='bar.png' height='10' width='43' title='2'>|
+|2020-04-06|+9|<img src='bar.png' height='10' width='195' title='9'>|
+|2020-04-05|+14|<img src='bar.png' height='10' width='304' title='14'>|
+|2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-02|+8|<img src='bar.png' height='10' width='19' title='8'>|
-|2020-04-01|+23|<img src='bar.png' height='10' width='56' title='23'>|
-|2020-03-31|+152|<img src='bar.png' height='10' width='374' title='152'>|
+|2020-04-02|+8|<img src='bar.png' height='10' width='173' title='8'>|
+|2020-04-01|+23|<img src='bar.png' height='10' width='500' title='23'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -990,15 +991,15 @@ N means no update occurred that day. Links to screen-shots.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
 |2020-04-09|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-08|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-07|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-06|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-02|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -1029,15 +1030,15 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
 |2020-04-09|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-08|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-07|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-06|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-02|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -1087,7 +1088,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -1126,7 +1127,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-04-03|+2|<img src='bar.png' height='10' width='500' title='2'>|
 |2020-04-02|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-01|+1|<img src='bar.png' height='10' width='250' title='1'>|
-|2020-03-31|+1|<img src='bar.png' height='10' width='250' title='1'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -1168,15 +1169,15 @@ N means no update occurred that day. Links to screen-shots.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
 |2020-04-09|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-08|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-07|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-06|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-02|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-01|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-03-31|0|<img src='bar.png' height='10' width='0' title='0'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -1207,15 +1208,15 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
 |2020-04-09|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-08|+8|<img src='bar.png' height='10' width='500' title='8'>|
+|2020-04-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-07|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-06|+7|<img src='bar.png' height='10' width='437' title='7'>|
+|2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-04|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-03|+6|<img src='bar.png' height='10' width='375' title='6'>|
+|2020-04-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-02|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-01|+1|<img src='bar.png' height='10' width='62' title='1'>|
-|2020-03-31|+5|<img src='bar.png' height='10' width='312' title='5'>|
+|2020-04-01|+1|<img src='bar.png' height='10' width='500' title='1'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
@@ -1256,16 +1257,16 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|Deaths+|Deaths daily increase|
 |:--|---:|---|
-|2020-04-09|+74|<img src='bar.png' height='10' width='385' title='74'>|
-|2020-04-08|+55|<img src='bar.png' height='10' width='286' title='55'>|
-|2020-04-07|+87|<img src='bar.png' height='10' width='453' title='87'>|
-|2020-04-06|+35|<img src='bar.png' height='10' width='182' title='35'>|
-|2020-04-05|+27|<img src='bar.png' height='10' width='140' title='27'>|
-|2020-04-04|+44|<img src='bar.png' height='10' width='229' title='44'>|
-|2020-04-03|+49|<img src='bar.png' height='10' width='255' title='49'>|
-|2020-04-02|+29|<img src='bar.png' height='10' width='151' title='29'>|
-|2020-04-01|+13|<img src='bar.png' height='10' width='67' title='13'>|
-|2020-03-31|+96|<img src='bar.png' height='10' width='500' title='96'>|
+|2020-04-09|+74|<img src='bar.png' height='10' width='425' title='74'>|
+|2020-04-08|+55|<img src='bar.png' height='10' width='316' title='55'>|
+|2020-04-07|+87|<img src='bar.png' height='10' width='500' title='87'>|
+|2020-04-06|+35|<img src='bar.png' height='10' width='201' title='35'>|
+|2020-04-05|+27|<img src='bar.png' height='10' width='155' title='27'>|
+|2020-04-04|+44|<img src='bar.png' height='10' width='252' title='44'>|
+|2020-04-03|+49|<img src='bar.png' height='10' width='281' title='49'>|
+|2020-04-02|+29|<img src='bar.png' height='10' width='166' title='29'>|
+|2020-04-01|+13|<img src='bar.png' height='10' width='74' title='13'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 N means no update occurred that day.
@@ -1295,16 +1296,16 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Know cases daily increase** reported on the given date.
 |Date|Cases+|Known cases daily increase|
 |:--|---:|---|
-|2020-04-09|+1476|<img src='bar.png' height='10' width='86' title='1476'>|
-|2020-04-08|+1392|<img src='bar.png' height='10' width='81' title='1392'>|
-|2020-04-07|+2075|<img src='bar.png' height='10' width='121' title='2075'>|
-|2020-04-06|+1396|<img src='bar.png' height='10' width='81' title='1396'>|
-|2020-04-05|+522|<img src='bar.png' height='10' width='30' title='522'>|
-|2020-04-04|+1367|<img src='bar.png' height='10' width='79' title='1367'>|
-|2020-04-03|+1254|<img src='bar.png' height='10' width='73' title='1254'>|
-|2020-04-02|+1670|<img src='bar.png' height='10' width='97' title='1670'>|
-|2020-04-01|+1065|<img src='bar.png' height='10' width='62' title='1065'>|
-|2020-03-31|+8548|<img src='bar.png' height='10' width='500' title='8548'>|
+|2020-04-09|+1476|<img src='bar.png' height='10' width='355' title='1476'>|
+|2020-04-08|+1392|<img src='bar.png' height='10' width='335' title='1392'>|
+|2020-04-07|+2075|<img src='bar.png' height='10' width='500' title='2075'>|
+|2020-04-06|+1396|<img src='bar.png' height='10' width='336' title='1396'>|
+|2020-04-05|+522|<img src='bar.png' height='10' width='125' title='522'>|
+|2020-04-04|+1367|<img src='bar.png' height='10' width='329' title='1367'>|
+|2020-04-03|+1254|<img src='bar.png' height='10' width='302' title='1254'>|
+|2020-04-02|+1670|<img src='bar.png' height='10' width='402' title='1670'>|
+|2020-04-01|+1065|<img src='bar.png' height='10' width='256' title='1065'>|
+|2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
 Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
