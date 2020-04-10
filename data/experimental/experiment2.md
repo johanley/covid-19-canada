@@ -1,4 +1,3 @@
-
 Total **deaths** reported on the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
@@ -112,7 +111,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -151,7 +150,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # AB
 
 Values as of: **2020-04-09**
@@ -201,7 +201,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -240,7 +240,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # SK
 
 Values as of: **2020-04-09**
@@ -290,7 +291,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -329,7 +330,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # MB
 
 Values as of: **2020-04-09**
@@ -379,7 +381,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -418,7 +420,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # ON
 
 Values as of: **2020-04-09**
@@ -468,7 +471,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -507,7 +510,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # QC
 
 Values as of: **2020-04-09**
@@ -557,7 +561,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -596,7 +600,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # NB
 
 Values as of: **2020-04-09**
@@ -646,7 +651,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -685,7 +690,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # NS
 
 Values as of: **2020-04-09**
@@ -735,7 +741,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -774,7 +780,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # PE
 
 Values as of: **2020-04-09**
@@ -824,7 +831,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -863,7 +870,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # NL
 
 Values as of: **2020-04-09**
@@ -913,7 +921,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -952,7 +960,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # NU
 
 Values as of: **2020-04-09**
@@ -1002,7 +1011,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -1041,7 +1050,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # NT
 
 Values as of: **2020-04-09**
@@ -1091,7 +1101,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -1130,7 +1140,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # YT
 
 Values as of: **2020-04-09**
@@ -1180,7 +1191,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -1219,7 +1230,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # CA
 
 Values as of: **2020-04-09**
@@ -1269,7 +1281,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-N means no update occurred that day.
+N means no daily increase can be calculated for that day.
 
 
 ***
@@ -1308,7 +1320,8 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
-Confirmed cases plus presumptive/probable cases. N means no update occurred that day.
+Confirmed cases plus presumptive/probable cases.
+N means no daily increase can be calculated for that day.
 # Summary
 
 As of: **2020-04-09**
@@ -1353,7 +1366,6 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |NU|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/nu.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/nt.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/yt.png)|<img src='bar.png' height='10' width='0' title='0'>|
-|CA|[509](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/ca.png)|<img src='bar.png' height='10' width='500' title='509'>|
 
 
 
@@ -1376,7 +1388,6 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |NU|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|0|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|N|<img src='bar.png' height='10' width='0' title='N'>|
-|CA|+74|<img src='bar.png' height='10' width='500' title='+74'>|
 
 
 
@@ -1422,7 +1433,6 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |NU|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/nu.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/nt.png)|<img src='bar.png' height='10' width='0' title='5'>|
 |YT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/yt.png)|<img src='bar.png' height='10' width='0' title='0'>|
-|CA|[20765](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/ca.png)|<img src='bar.png' height='10' width='500' title='20765'>|
 
 
 
@@ -1445,7 +1455,6 @@ d.i. = daily increase. p.c. = per capita, per 100,000 population. Nominal values
 |NU|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|0|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|N|<img src='bar.png' height='10' width='0' title='N'>|
-|CA|+1476|<img src='bar.png' height='10' width='500' title='+1476'>|
 
 
 
