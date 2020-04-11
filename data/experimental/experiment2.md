@@ -2017,6 +2017,7 @@ As of: **2020-04-10**
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 
+
 ***
 
 **Known Cases** (confirmed and presumed)
@@ -2028,6 +2029,21 @@ As of: **2020-04-10**
 |Cases p.c.|28|33|24|17|42|137|14|42|16|46|0|11|19|56|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+
+
+***
+
+**Completed Tests**
+
+||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|Tests|[53505](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|[70247](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|[17634](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|[16220](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|[92673](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|[118217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|[7095](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|[13421](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|[1531](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|[4520](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|[147](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|[1397](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|[775](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ca.png)|
+|+Tests|N|N|+962|+961|+3975|+4842|+446|+871|N|+130|N|+83|N|N|
+|Tests p.c.|1047|1592|1492|1177|630|1385|910|1373|968|867|376|3111|1887|0|
+
+\+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+N = not reported.
+
 
 
 ***
@@ -2094,6 +2110,8 @@ As of: **2020-04-10**
 |NT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
 |YT|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
 |CA|1.4|<img src='bar.png' height='10' width='248' title='1.4'>|
+
+
 
 
 
