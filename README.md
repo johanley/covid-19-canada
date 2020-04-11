@@ -6,7 +6,9 @@ Three data sets, all starting as of 2020-03-31:
 * known cases, both confirmed and probable/presumptive (cumulative)
 * tests completed (cumulative)
 
-Tables and basic charts for the various jurisdictions:
+## Tables and basic charts for the various jurisdictions
+
+In these tables and charts, the nominal values always **link directly to the screenshot** from which the data-point originates.
 
 * [Summary](https://github.com/johanley/covid-19-canada/blob/master/data/md/summary.md)
 * [BC](https://github.com/johanley/covid-19-canada/blob/master/data/md/bc.md)
@@ -23,11 +25,6 @@ Tables and basic charts for the various jurisdictions:
 * [NT](https://github.com/johanley/covid-19-canada/blob/master/data/md/nt.md)
 * [YT](https://github.com/johanley/covid-19-canada/blob/master/data/md/yt.md)
 * [CA](https://github.com/johanley/covid-19-canada/blob/master/data/md/ca.md)
-
-**In these tables and charts, the nominal values always link directly to the screenshot from which the data-point originates.**
-
-
-***
 
 
 More info about the source data is [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
