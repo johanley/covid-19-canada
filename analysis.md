@@ -326,6 +326,10 @@ General:
  I understand that people want to take a break on the weekends.
  But the virus isn't taking a break, and the numbers often double in a few days.
  This data is so critical, that it *needs* to be updated every day.
+* *federal updates at end-of-day*: the federal stats often don't add up to the sum of the others. 
+This is because of timing issues with the transfer of the data.
+The only way to get rid of the issue is to updated at the end of the day. 
+But, the downside is that the data at the federal level would not be as timely.
 * *plain language*: avoid technical terms that the typical citizen will not immediately understand. Make it so clear that 
 there are no questions in people's minds as to what the numbers really mean.
 * *time series*: show both the current numbers *and* the time series for important stats
@@ -430,25 +434,37 @@ changing environmental conditions, and social distancing behavior.*
 # Sources of screenshots
 
 https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink
+
 http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+
 https://www.alberta.ca/covid-19-alberta-data.aspx
+
 https://www.albertahealthservices.ca/topics/Page16944.aspx
+
 https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
+
 https://www.gov.mb.ca/covid19/updates/index.html
+
 https://www.ontario.ca/page/2019-novel-coronavirus#section-0
 
 https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
+
 https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020
 
 https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
 
 https://novascotia.ca/coronavirus/#cases
+
 https://novascotia.ca/coronavirus/data/
 
-https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data
+https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data/
+
 https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/
+
 https://www.gov.nu.ca/health/information/covid-19-novel-coronavirus
+
 https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19
+
 https://yukon.ca/covid-19
 
 
