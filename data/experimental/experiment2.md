@@ -2042,7 +2042,7 @@ As of: **2020-04-10**
 |Tests p.c.|1047|1592|1492|1177|630|1385|910|1373|968|867|376|3111|1887|0|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
-N = not reported.
+N = not reported. The CA jurisdiction is not yet reporting test numbers.
 
 
 
@@ -2143,21 +2143,7 @@ N = not reported.
 
 ||+Known cases|Known cases daily increase|
 |---|---:|---|
-|BC|+40|<img src='bar.png' height='10' width='26' title='+40'>|
-|AB|N|<img src='bar.png' height='10' width='0' title='N'>|
-|SK|+7|<img src='bar.png' height='10' width='4' title='+7'>|
-|MB|+6|<img src='bar.png' height='10' width='3' title='+6'>|
-|ON|+478|<img src='bar.png' height='10' width='312' title='+478'>|
-|QC|+765|<img src='bar.png' height='10' width='500' title='+765'>|
-|NB|+1|<img src='bar.png' height='10' width='0' title='+1'>|
-|NS|+34|<img src='bar.png' height='10' width='22' title='+34'>|
-|PE|N|<img src='bar.png' height='10' width='0' title='N'>|
-|NL|+3|<img src='bar.png' height='10' width='1' title='+3'>|
-|NU|N|<img src='bar.png' height='10' width='0' title='N'>|
-|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
-|YT|N|<img src='bar.png' height='10' width='0' title='N'>|
-
-
+${summaryHistoKnownCasesDailyIncrease}
 
 
 ***
@@ -2180,4 +2166,75 @@ N = not reported.
 |NT|11|<img src='bar.png' height='10' width='40' title='11'>|
 |YT|19|<img src='bar.png' height='10' width='69' title='19'>|
 |CA|56|<img src='bar.png' height='10' width='204' title='56'>|
+
+
+
+
+
+
+
+***
+
+**Completed Tests**
+
+||Tests|Completed Tests|
+|---|---:|---|
+|BC|[53505](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|<img src='bar.png' height='10' width='226' title='53505'>|
+|AB|[70247](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|<img src='bar.png' height='10' width='297' title='70247'>|
+|SK|[17634](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|<img src='bar.png' height='10' width='74' title='17634'>|
+|MB|[16220](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|<img src='bar.png' height='10' width='68' title='16220'>|
+|ON|[92673](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|<img src='bar.png' height='10' width='391' title='92673'>|
+|QC|[118217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|<img src='bar.png' height='10' width='500' title='118217'>|
+|NB|[7095](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|<img src='bar.png' height='10' width='30' title='7095'>|
+|NS|[13421](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|<img src='bar.png' height='10' width='56' title='13421'>|
+|PE|[1531](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|<img src='bar.png' height='10' width='6' title='1531'>|
+|NL|[4520](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|<img src='bar.png' height='10' width='19' title='4520'>|
+|NU|[147](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|<img src='bar.png' height='10' width='0' title='147'>|
+|NT|[1397](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|<img src='bar.png' height='10' width='5' title='1397'>|
+|YT|[775](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|<img src='bar.png' height='10' width='3' title='775'>|
+
+
+
+***
+
+**Completed tests daily increase**
+
+||+Tests|Completed tests daily increase|
+|---|---:|---|
+|BC|N|<img src='bar.png' height='10' width='0' title='N'>|
+|AB|N|<img src='bar.png' height='10' width='0' title='N'>|
+|SK|+962|<img src='bar.png' height='10' width='99' title='+962'>|
+|MB|+961|<img src='bar.png' height='10' width='99' title='+961'>|
+|ON|+3975|<img src='bar.png' height='10' width='410' title='+3975'>|
+|QC|+4842|<img src='bar.png' height='10' width='500' title='+4842'>|
+|NB|+446|<img src='bar.png' height='10' width='46' title='+446'>|
+|NS|+871|<img src='bar.png' height='10' width='89' title='+871'>|
+|PE|N|<img src='bar.png' height='10' width='0' title='N'>|
+|NL|+130|<img src='bar.png' height='10' width='13' title='+130'>|
+|NU|N|<img src='bar.png' height='10' width='0' title='N'>|
+|NT|+83|<img src='bar.png' height='10' width='8' title='+83'>|
+|YT|N|<img src='bar.png' height='10' width='0' title='N'>|
+
+
+
+***
+
+**Completed tests per capita** (100,000 population)
+
+||Tests p.c.|Completed tests per 100,000 pop.|
+|---|---:|---|
+|BC|1046.88|<img src='bar.png' height='10' width='168' title='1046.88'>|
+|AB|1591.77|<img src='bar.png' height='10' width='255' title='1591.77'>|
+|SK|1492.3|<img src='bar.png' height='10' width='239' title='1492.3'>|
+|MB|1177.48|<img src='bar.png' height='10' width='189' title='1177.48'>|
+|ON|629.92|<img src='bar.png' height='10' width='101' title='629.92'>|
+|QC|1384.65|<img src='bar.png' height='10' width='222' title='1384.65'>|
+|NB|909.62|<img src='bar.png' height='10' width='146' title='909.62'>|
+|NS|1373.05|<img src='bar.png' height='10' width='220' title='1373.05'>|
+|PE|968.02|<img src='bar.png' height='10' width='155' title='968.02'>|
+|NL|866.96|<img src='bar.png' height='10' width='139' title='866.96'>|
+|NU|375.99|<img src='bar.png' height='10' width='60' title='375.99'>|
+|NT|3111.08|<img src='bar.png' height='10' width='500' title='3111.08'>|
+|YT|1886.65|<img src='bar.png' height='10' width='303' title='1886.65'>|
+|CA|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
 
