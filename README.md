@@ -24,6 +24,14 @@ Tables and basic charts for the various jurisdictions:
 * [YT](https://github.com/johanley/covid-19-canada/blob/master/data/md/yt.md)
 * [CA](https://github.com/johanley/covid-19-canada/blob/master/data/md/ca.md)
 
+**In these tables and charts, the nominal values always link directly to the screenshot from which the data-point originates.**
+
+
+***
+
+
+More info about the source data is [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
+
 The source of these stats are [screenshots](https://github.com/johanley/covid-19-canada/tree/master/data/screenshots) of 
 various government web pages.
 The screenshots are taken at about 21:00 ADT each day (after the update from BC).
