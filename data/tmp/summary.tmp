@@ -1,0 +1,132 @@
+# Summary
+
+As of: **${dateOfMostRecentScreenshots}**
+
+**Deaths**
+
+||${tableHeaderJurisdictions}
+|:---|${tableHeaderSeparator}
+|Deaths|${summaryTableDeaths}
+|+Deaths|${summaryTableDeathsDaily}
+|Deaths p.c.|${summaryTableDeathsPerCapita}
+
+\+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+
+
+***
+
+**Known Cases** (confirmed and presumed)
+
+||${tableHeaderJurisdictions}
+|:---|${tableHeaderSeparator}
+|Cases|${summaryTableCases}
+|+Cases|${summaryTableCasesDaily}
+|Cases p.c.|${summaryTableCasesPerCapita}
+
+\+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+
+
+***
+
+**Completed Tests** 
+
+||${tableHeaderJurisdictions}
+|:---|${tableHeaderSeparator}
+|Tests|${summaryTableTests}
+|+Tests|${summaryTableTestsDaily}
+|Tests p.c.|${summaryTableTestsPerCapita}
+
+\+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+N = not reported. The CA jurisdiction is not yet reporting test numbers.
+
+
+
+***
+
+**Deaths** 
+
+||Deaths|Deaths|
+|---|---:|---|
+${summaryHistoDeaths}
+
+
+***
+
+**Deaths daily increase** 
+
+||+Deaths|Deaths daily increase|
+|---|---:|---|
+${summaryHistoDeathsDailyIncrease}
+
+
+***
+
+**Deaths per capita** (100,000 population)
+
+||Deaths p.c.|Deaths per 100,000 pop.|
+|---|---:|---|
+${summaryHistoDeathsPerCapita}
+
+
+
+
+***
+
+**Known cases** 
+
+||Known cases|Known cases|
+|---|---:|---|
+${summaryHistoCases}
+
+
+***
+
+**Known cases daily increase** 
+
+||+Known cases|Known cases daily increase|
+|---|---:|---|
+${summaryHistoCasesDailyIncrease}
+
+
+***
+
+**Known cases per capita** (100,000 population)
+
+||Cases p.c.|Known cases per 100,000 pop.|
+|---|---:|---|
+${summaryHistoCasesPerCapita}
+
+
+
+
+
+
+***
+
+**Completed Tests** 
+
+||Tests|Completed Tests|
+|---|---:|---|
+${summaryHistoTests}
+
+
+***
+
+**Completed tests daily increase** 
+
+||+Tests|Completed tests daily increase|
+|---|---:|---|
+${summaryHistoTestsDailyIncrease}
+
+
+***
+
+**Completed tests per capita** (100,000 population)
+
+||Tests p.c.|Completed tests per 100,000 pop.|
+|---|---:|---|
+${summaryHistoTestsPerCapita}
+
+CA is not yet reporting test data.
+
+

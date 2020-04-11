@@ -1,0 +1,79 @@
+# ${jurisdiction}
+
+As of: **${dateOfMostRecentScreenshots}**
+
+||Total|+|p.c.|
+|--|---:|---:|---:|
+|Deaths|${totalDeaths}|${totalDeathsDailyIncrease}|${totalDeathsPerCapita}|
+|Known cases|${totalCases}|${totalCasesDailyIncrease}|${totalCasesPerCapita}|
+|Tests completed|${totalTests}|${totalTestsDailyIncrease}|${totalTestsPerCapita}|
+
+\+ = daily increase.
+p.c. = per capita (per 100,000 population).
+N = not reported.
+
+
+
+***
+
+**Total cumulative deaths** reported on the given date.
+|Date|Deaths|Deaths|
+|:--|---:|---|
+${deathsGraph}
+
+N means no update occurred that day. Links to screen-shots.
+
+
+***
+
+**Deaths daily increase** reported on the given date.
+|Date|+Deaths|Deaths daily increase|
+|:--|---:|---|
+${deathsDailyIncreaseGraph}
+
+N means no daily increase can be calculated for that day.
+
+
+
+
+***
+
+**Total cumulative known cases** reported on the given date.
+|Date|Known Cases|Known Cases|
+|:--|---:|---|
+${knownCasesGraph}
+
+Confirmed cases plus presumptive/probable cases. N means no update occurred that day. Links to screen-shots.
+
+***
+
+**Known cases daily increase** reported on the given date.
+|Date|+Cases|Known cases daily increase|
+|:--|---:|---|
+${knownCasesDailyIncreaseGraph}
+
+Confirmed cases plus presumptive/probable cases. 
+N means no daily increase can be calculated for that day.
+
+***
+
+
+
+
+**Total completed tests** reported on the given date.
+|Date|Tests|Tests completed|
+|:--|---:|---|
+${testsGraph}
+
+N means no update occurred that day. Links to screen-shots.
+
+***
+
+**Completed tests daily increase** reported on the given date.
+|Date|+Tests|Tests daily increase|
+|:--|---:|---|
+${testsDailyIncreaseGraph}
+
+N means no daily increase can be calculated for that day.
+
+

@@ -1,0 +1,7 @@
+Total **reported cases** as of the given date, with **links to screen-shots**.  
+Confirmed cases plus presumptive/probable cases.
+N means no update occurred that day.
+|Date|${tableHeaderJurisdictions}
+|:---|${tableHeaderSeparator}
+${tableRowsWithLinks}
+
