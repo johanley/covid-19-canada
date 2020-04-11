@@ -2143,7 +2143,20 @@ N = not reported. The CA jurisdiction is not yet reporting test numbers.
 
 ||+Known cases|Known cases daily increase|
 |---|---:|---|
-${summaryHistoKnownCasesDailyIncrease}
+|BC|+40|<img src='bar.png' height='10' width='26' title='+40'>|
+|AB|N|<img src='bar.png' height='10' width='0' title='N'>|
+|SK|+7|<img src='bar.png' height='10' width='4' title='+7'>|
+|MB|+6|<img src='bar.png' height='10' width='3' title='+6'>|
+|ON|+478|<img src='bar.png' height='10' width='312' title='+478'>|
+|QC|+765|<img src='bar.png' height='10' width='500' title='+765'>|
+|NB|+1|<img src='bar.png' height='10' width='0' title='+1'>|
+|NS|+34|<img src='bar.png' height='10' width='22' title='+34'>|
+|PE|N|<img src='bar.png' height='10' width='0' title='N'>|
+|NL|+3|<img src='bar.png' height='10' width='1' title='+3'>|
+|NU|N|<img src='bar.png' height='10' width='0' title='N'>|
+|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|N|<img src='bar.png' height='10' width='0' title='N'>|
+
 
 
 ***
@@ -2223,18 +2236,20 @@ ${summaryHistoKnownCasesDailyIncrease}
 
 ||Tests p.c.|Completed tests per 100,000 pop.|
 |---|---:|---|
-|BC|1046.88|<img src='bar.png' height='10' width='168' title='1046.88'>|
-|AB|1591.77|<img src='bar.png' height='10' width='255' title='1591.77'>|
-|SK|1492.3|<img src='bar.png' height='10' width='239' title='1492.3'>|
-|MB|1177.48|<img src='bar.png' height='10' width='189' title='1177.48'>|
-|ON|629.92|<img src='bar.png' height='10' width='101' title='629.92'>|
-|QC|1384.65|<img src='bar.png' height='10' width='222' title='1384.65'>|
-|NB|909.62|<img src='bar.png' height='10' width='146' title='909.62'>|
-|NS|1373.05|<img src='bar.png' height='10' width='220' title='1373.05'>|
-|PE|968.02|<img src='bar.png' height='10' width='155' title='968.02'>|
-|NL|866.96|<img src='bar.png' height='10' width='139' title='866.96'>|
-|NU|375.99|<img src='bar.png' height='10' width='60' title='375.99'>|
-|NT|3111.08|<img src='bar.png' height='10' width='500' title='3111.08'>|
-|YT|1886.65|<img src='bar.png' height='10' width='303' title='1886.65'>|
-|CA|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|BC|1047|<img src='bar.png' height='10' width='168' title='1047'>|
+|AB|1592|<img src='bar.png' height='10' width='255' title='1592'>|
+|SK|1492|<img src='bar.png' height='10' width='239' title='1492'>|
+|MB|1177|<img src='bar.png' height='10' width='189' title='1177'>|
+|ON|630|<img src='bar.png' height='10' width='101' title='630'>|
+|QC|1385|<img src='bar.png' height='10' width='222' title='1385'>|
+|NB|910|<img src='bar.png' height='10' width='146' title='910'>|
+|NS|1373|<img src='bar.png' height='10' width='220' title='1373'>|
+|PE|968|<img src='bar.png' height='10' width='155' title='968'>|
+|NL|867|<img src='bar.png' height='10' width='139' title='867'>|
+|NU|376|<img src='bar.png' height='10' width='60' title='376'>|
+|NT|3111|<img src='bar.png' height='10' width='500' title='3111'>|
+|YT|1887|<img src='bar.png' height='10' width='303' title='1887'>|
+|CA|0|<img src='bar.png' height='10' width='0' title='0'>|
 
+
+CA is not yet reporting test data.
