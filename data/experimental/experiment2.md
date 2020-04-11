@@ -1,3 +1,4 @@
+
 Total **reported deaths** as of the given date, with **links to screen-shots**.
 N means no update occurred that day.
 |Date|BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
@@ -55,7 +56,7 @@ As of: **2020-04-10**
 |--|---:|---:|---:|
 |Deaths|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|+5|1.08|
 |Known cases|[1410](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|+40|28|
-|Tests completed|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|N|0|
+|Tests completed|[53505](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|N|1047|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -149,9 +150,9 @@ As of: **2020-04-10**
 
 ||Total|+|p.c.|
 |--|---:|---:|---:|
-|Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|0.0|
-|Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|0|
-|Tests completed|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|0|
+|Deaths|[32](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|0.73|
+|Known cases|[1451](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|33|
+|Tests completed|[70247](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|N|1592|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -822,8 +823,8 @@ As of: **2020-04-10**
 ||Total|+|p.c.|
 |--|---:|---:|---:|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|N|0.0|
-|Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|N|0|
-|Tests completed|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|N|0|
+|Known cases|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|N|16|
+|Tests completed|[1531](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|N|968|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -1015,7 +1016,7 @@ As of: **2020-04-10**
 |--|---:|---:|---:|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|N|0.0|
 |Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|N|0|
-|Tests completed|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|N|0|
+|Tests completed|[147](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|N|376|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -1206,8 +1207,8 @@ As of: **2020-04-10**
 ||Total|+|p.c.|
 |--|---:|---:|---:|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|N|0.0|
-|Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|N|0|
-|Tests completed|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|N|0|
+|Known cases|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|N|19|
+|Tests completed|[775](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|N|1887|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -1399,9 +1400,9 @@ As of: **2020-04-10**
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Deaths|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|[222](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|[241](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|[531](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ca.png)|
+|Deaths|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|[32](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|[222](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|[241](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|[531](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ca.png)|
 |+Deaths|+5|N|0|0|+22|+25|0|0|N|0|N|0|N|+22|
-|Deaths p.c.|1.08|0.0|0.25|0.22|1.51|2.82|0.0|0.2|0.0|0.58|0.0|0.0|0.0|1.4|
+|Deaths p.c.|1.08|0.73|0.25|0.22|1.51|2.82|0.0|0.2|0.0|0.58|0.0|0.0|0.0|1.4|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 
@@ -1411,9 +1412,9 @@ As of: **2020-04-10**
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Cases|[1410](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|[285](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|[230](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|[6237](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|[11677](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|[112](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|[407](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|[239](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|[21243](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ca.png)|
+|Cases|[1410](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|[1451](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|[285](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|[230](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|[6237](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|[11677](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|[112](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|[407](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|[239](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|[21243](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ca.png)|
 |+Cases|+40|N|+7|+6|+478|+765|+1|+34|N|+3|N|0|N|+478|
-|Cases p.c.|28|0|24|17|42|137|14|42|0|46|0|11|0|56|
+|Cases p.c.|28|33|24|17|42|137|14|42|16|46|0|11|19|56|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 
@@ -1425,7 +1426,7 @@ As of: **2020-04-10**
 ||Deaths|Deaths|
 |---|---:|---|
 |BC|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|<img src='bar.png' height='10' width='114' title='55'>|
-|AB|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|AB|[32](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|<img src='bar.png' height='10' width='66' title='32'>|
 |SK|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|<img src='bar.png' height='10' width='6' title='3'>|
 |MB|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|<img src='bar.png' height='10' width='6' title='3'>|
 |ON|[222](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|<img src='bar.png' height='10' width='460' title='222'>|
@@ -1469,7 +1470,7 @@ As of: **2020-04-10**
 ||Deaths p.c.|Deaths per 100,000 pop.|
 |---|---:|---|
 |BC|1.08|<img src='bar.png' height='10' width='191' title='1.08'>|
-|AB|0.0|<img src='bar.png' height='10' width='0' title='0.0'>|
+|AB|0.73|<img src='bar.png' height='10' width='129' title='0.73'>|
 |SK|0.25|<img src='bar.png' height='10' width='44' title='0.25'>|
 |MB|0.22|<img src='bar.png' height='10' width='39' title='0.22'>|
 |ON|1.51|<img src='bar.png' height='10' width='267' title='1.51'>|
@@ -1492,18 +1493,18 @@ As of: **2020-04-10**
 ||Known cases|Known cases|
 |---|---:|---|
 |BC|[1410](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|<img src='bar.png' height='10' width='60' title='1410'>|
-|AB|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|AB|[1451](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ab.png)|<img src='bar.png' height='10' width='62' title='1451'>|
 |SK|[285](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/sk.png)|<img src='bar.png' height='10' width='12' title='285'>|
 |MB|[230](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/mb.png)|<img src='bar.png' height='10' width='9' title='230'>|
 |ON|[6237](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/on.png)|<img src='bar.png' height='10' width='267' title='6237'>|
 |QC|[11677](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|<img src='bar.png' height='10' width='500' title='11677'>|
 |NB|[112](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nb.png)|<img src='bar.png' height='10' width='4' title='112'>|
 |NS|[407](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/ns.png)|<img src='bar.png' height='10' width='17' title='407'>|
-|PE|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|PE|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/pe.png)|<img src='bar.png' height='10' width='1' title='25'>|
 |NL|[239](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nl.png)|<img src='bar.png' height='10' width='10' title='239'>|
 |NU|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nu.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|[5](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/nt.png)|<img src='bar.png' height='10' width='0' title='5'>|
-|YT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/yt.png)|<img src='bar.png' height='10' width='0' title='8'>|
 
 
 
@@ -1537,17 +1538,17 @@ As of: **2020-04-10**
 ||Cases p.c.|Known cases per 100,000 pop.|
 |---|---:|---|
 |BC|28|<img src='bar.png' height='10' width='102' title='28'>|
-|AB|0|<img src='bar.png' height='10' width='0' title='0'>|
+|AB|33|<img src='bar.png' height='10' width='120' title='33'>|
 |SK|24|<img src='bar.png' height='10' width='87' title='24'>|
 |MB|17|<img src='bar.png' height='10' width='62' title='17'>|
 |ON|42|<img src='bar.png' height='10' width='153' title='42'>|
 |QC|137|<img src='bar.png' height='10' width='500' title='137'>|
 |NB|14|<img src='bar.png' height='10' width='51' title='14'>|
 |NS|42|<img src='bar.png' height='10' width='153' title='42'>|
-|PE|0|<img src='bar.png' height='10' width='0' title='0'>|
+|PE|16|<img src='bar.png' height='10' width='58' title='16'>|
 |NL|46|<img src='bar.png' height='10' width='167' title='46'>|
 |NU|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NT|11|<img src='bar.png' height='10' width='40' title='11'>|
-|YT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|19|<img src='bar.png' height='10' width='69' title='19'>|
 |CA|56|<img src='bar.png' height='10' width='204' title='56'>|
 
