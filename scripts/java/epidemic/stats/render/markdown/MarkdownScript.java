@@ -1,18 +1,25 @@
 package epidemic.stats.render.markdown;
 
-import static epidemic.stats.Util.*;
-import static epidemic.stats.render.DataView.*;
+import static epidemic.stats.Util.DOT;
+import static epidemic.stats.Util.SCREENSHOT_FILE_EXTENSION;
+import static epidemic.stats.Util.chopInTwo;
+import static epidemic.stats.Util.log;
+import static epidemic.stats.Util.mustHave;
+import static epidemic.stats.Util.quote;
+import static epidemic.stats.render.DataView.HUNDRED_THOU;
+import static epidemic.stats.render.DataView.change;
+import static epidemic.stats.render.DataView.diff;
+import static epidemic.stats.render.DataView.forceNumeric;
+import static epidemic.stats.render.DataView.perCapita;
+import static epidemic.stats.render.DataView.round;
+import static epidemic.stats.render.DataView.sign;
 import static epidemic.stats.render.markdown.MarkdownRendering.barForGraph;
 import static epidemic.stats.render.markdown.MarkdownRendering.linkToScreenshot;
 import static java.util.stream.Collectors.toList;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,7 +32,6 @@ import java.util.stream.Stream;
 import epidemic.stats.Abort;
 import epidemic.stats.datastore.FileSys;
 import epidemic.stats.datastore.FileSys.Dir;
-import epidemic.stats.datastore.ParseCsvDataIntoTimeSeries;
 import epidemic.stats.model.Jurisdiction;
 import epidemic.stats.model.Series;
 import epidemic.stats.model.SourceData;
@@ -33,6 +39,7 @@ import epidemic.stats.render.DataView;
 import epidemic.stats.render.ExcludeFeds;
 import epidemic.stats.render.Range;
 import epidemic.stats.render.Rendering;
+import epidemic.stats.render.json.JsonScript;
 
 /** 
  Script to generate markdown files that can be viewed in the github repo.
@@ -40,7 +47,7 @@ import epidemic.stats.render.Rendering;
  Validates the data in various ways as the script is running. 
  If a problem is found, then the script terminates with a stack trace. 
 */
-public class MarkdownScript {
+public class MarkdownScript extends ScriptTemplate {
   
   /**
     Run this script against local files. 
@@ -62,6 +69,10 @@ public class MarkdownScript {
       mustHave(args.length == 1, "Must pass base dir location as first arg.");
       MarkdownScript script = new MarkdownScript(args[0]);
       script.run();
+      
+      //note: this needs to be called after the first script; only the first script does extensive validation
+      JsonScript jsonScript = new JsonScript(args[0]);
+      jsonScript.run();
     } 
     catch (Throwable ex) {
       log(ex.getMessage());
@@ -71,7 +82,7 @@ public class MarkdownScript {
   }
 
   MarkdownScript(String baseDir) throws Abort {
-   this.fileSys = new FileSys(baseDir);
+   super(new FileSys(baseDir), Dir.md);
  }
 
   /** Run this script. */
@@ -97,26 +108,20 @@ public class MarkdownScript {
 
   // PRIVATE
 
-  /** Passed as an argument to this script, on the java command line. */
-  private FileSys fileSys;
-
   private static final String DATE_TIME_SEP = "_";
   /** yyyy-mm-dd_. The underscore at the end is important. */
   private String DATE_PATTERN = "^\\d{4}-\\d{2}-\\d{2}" + DATE_TIME_SEP;
   private Pattern SCREENSHOT_DIR_NAME_PATTERN = Pattern.compile(DATE_PATTERN);
   
-  /**
-   Relies on a convention for the names of directories containing the
-   screenshots. 
-  */
+  /** Relies on a convention for the names of directories containing the screenshots. */
   private File mostRecentScreenshotDir() throws Abort {
-    File screenshotsDir = fileSys.dir(Dir.screenshots);
+    File screenshotsDir = fileSys().dir(Dir.screenshots);
     Optional<File> mostRecent = Stream.of(screenshotsDir.listFiles()).max(File::compareTo);
     return mostRecent.get();
   }
 
   private void checkForBadScreenshotDirNames() throws Abort {
-    File screenshotsDir = fileSys.dir(Dir.screenshots);
+    File screenshotsDir = fileSys().dir(Dir.screenshots);
     Predicate<File> badDirName = file -> !screenshotDirNameOK(file);
     List<File> badDirNames = Stream.of(screenshotsDir.listFiles()).filter(badDirName).collect(toList());
     mustHave(badDirNames.isEmpty(), "Screenshot directories aren't following the naming convention yyyy-mm-dd_blah: " + badDirNames);
@@ -127,7 +132,7 @@ public class MarkdownScript {
    Naming conventions: that same name is used in different places: deaths.csv, deaths.tmp, deaths.md.
   */
   private List<String> dataSeriesNames() {
-    File dir = fileSys.dir(Dir.csv);
+    File dir = fileSys().dir(Dir.csv);
     return Stream.of(dir.listFiles()).map(file -> dataSeriesName(file)).collect(toList());
   }
 
@@ -160,23 +165,6 @@ public class MarkdownScript {
     }
   }
 
-  private SourceData parseCsv(Series series) throws IOException, Abort {
-    File file = fileSys.fileInThe(Dir.csv, series);
-    ParseCsvDataIntoTimeSeries cvsParser = new ParseCsvDataIntoTimeSeries(file);
-    return new SourceData(cvsParser.parseIntoTimeSeries(), series);
-  }
-  
-  /** Trims all lines, and the whole file too. */
-  private String fileAsString(File file) throws IOException {
-    StringBuilder result = new StringBuilder();
-    Path path = Paths.get(file.getPath());
-    List<String> lines = Files.readAllLines(path, ENCODING);
-    for (String line : lines) {
-     result.append(line.trim() + NL); 
-    }
-    return result.toString().trim();
-  }
-  
   private void validateExpectedDataSeries() throws Abort {
     // names of the data-series, from csv files
     List<String> seriesNames = dataSeriesNames();
@@ -187,11 +175,6 @@ public class MarkdownScript {
     }
   }
 
-  private String templateFor(Object thing) throws IOException {
-    File templateFile = fileSys.fileInThe(Dir.tmp, thing);
-    return fileAsString(templateFile);
-  }
-  
   /** 
    Table only, no graphs.
    The core, nominal data, with links to screenshots of the underlying government web page. 
@@ -203,14 +186,14 @@ public class MarkdownScript {
       String firstDate = allDates.get(0); 
       mustHave(firstDate.equals(dateOfMostRecentScreenshots), "Mismatch. Expected date is " + dateOfMostRecentScreenshots + " but I see another date in the csv: " + firstDate);
       String template = templateFor(series);
-      Map<Key, String/*replacement*/> replacements = new LinkedHashMap<>();
+      Map<String, String/*replacement*/> replacements = new LinkedHashMap<>();
       MarkdownBuilder builder = new MarkdownBuilder();
       
       Jurisdiction[] juriss = (Series.tests == series) ? Jurisdiction.valuesWithoutCA() : Jurisdiction.values();
-      replacements.put(Key.tableHeaderJurisdictions, builder.tableHeaderFor(juriss));
-      replacements.put(Key.tableHeaderSeparator, builder.tableHeaderSeparator(juriss));
-      replacements.put(Key.tableRowsWithLinks, builder.tableRows(data, linkToScreenshot(fileSys)));
-      output(series, builder, template, replacements);
+      replacements.put(Key.tableHeaderJurisdictions.name(), builder.tableHeaderFor(juriss));
+      replacements.put(Key.tableHeaderSeparator.name(), builder.tableHeaderSeparator(juriss));
+      replacements.put(Key.tableRowsWithLinks.name(), builder.tableRows(data, linkToScreenshot(fileSys())));
+      output(series, template, replacements);
     }
   }
   
@@ -224,23 +207,23 @@ public class MarkdownScript {
       }
       String template = templateFor(templateName);
       
-      Map<Key, String /*replacement*/> replacements = new LinkedHashMap<>();
+      Map<String, String /*replacement*/> replacements = new LinkedHashMap<>();
       MarkdownBuilder builder = new MarkdownBuilder();
       
       //the summary table
-      replacements.put(Key.jurisdiction, juris.toString().toUpperCase());
-      replacements.put(Key.dateOfMostRecentScreenshots, dateOfMostRecentScreenshots);
+      replacements.put(Key.jurisdiction.name(), juris.toString().toUpperCase());
+      replacements.put(Key.dateOfMostRecentScreenshots.name(), dateOfMostRecentScreenshots);
       
-      injectValueFor(Key.totalDeaths, deaths, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys));
+      injectValueFor(Key.totalDeaths, deaths, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys()));
       injectValueFor(Key.totalDeathsDailyIncrease, deaths, dateOfMostRecentScreenshots, juris, replacements, change(1, diff()), sign());
       injectValueFor(Key.totalDeathsPerCapita, deaths, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), perCapita(HUNDRED_THOU), round(2));
       
-      injectValueFor(Key.totalCases, knownCases, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys));
+      injectValueFor(Key.totalCases, knownCases, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys()));
       injectValueFor(Key.totalCasesDailyIncrease, knownCases, dateOfMostRecentScreenshots, juris, replacements, change(1, diff()), sign());
       injectValueFor(Key.totalCasesPerCapita, knownCases, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), perCapita(HUNDRED_THOU), round());
       
       //tests data is simply ignored by the CA template (see above)
-      injectValueFor(Key.totalTests, tests, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys));
+      injectValueFor(Key.totalTests, tests, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys()));
       injectValueFor(Key.totalTestsDailyIncrease, tests, dateOfMostRecentScreenshots, juris, replacements, change(1, diff()), sign());
       injectValueFor(Key.totalTestsPerCapita, tests, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), perCapita(HUNDRED_THOU), round());
       
@@ -255,76 +238,64 @@ public class MarkdownScript {
       jurisdictionTimeSeries(Key.testsGraph, juris, replacements, tests, builder);
       jurisdictionTimeSeriesDailyChange(Key.testsDailyIncreaseGraph, juris, replacements, tests, builder);
       
-      output(juris, builder, template, replacements);
+      output(juris, template, replacements);
     }
   }
 
-  private void injectValueFor(Key key, SourceData data, String dateOfMostRecentScreenshots, Jurisdiction juris, Map<Key, String> replacements, Rendering... renderings) {
+  private void injectValueFor(Key key, SourceData data, String dateOfMostRecentScreenshots, Jurisdiction juris, Map<String, String> replacements, Rendering... renderings) {
     DataView view = new DataView(data, dateOfMostRecentScreenshots, juris, renderings);
     String rendering = view.render();
-    replacements.put(key, rendering);
+    replacements.put(key.name(), rendering);
   }
 
   /**
    Time series graph with horizontal bars. Don't force numeric.
    Two renderings for the same item. 
   */
-  private void jurisdictionTimeSeries(Key key, Jurisdiction juris, Map<Key, String> replacements, SourceData data, MarkdownBuilder builder) {
-    Rendering[] rcase1 = {linkToScreenshot(fileSys)}; 
+  private void jurisdictionTimeSeries(Key key, Jurisdiction juris, Map<String, String> replacements, SourceData data, MarkdownBuilder builder) {
+    Rendering[] rcase1 = {linkToScreenshot(fileSys())}; 
     Range range = DataView.rangeAcrossTimeForGiven(juris, data, 0, rcase1);
     Rendering[] rcase2 = {barForGraph(range)}; 
-    replacements.put(key, builder.jurisdictionHistogramRows(data, juris, rcase1, rcase2));
+    replacements.put(key.name(), builder.jurisdictionHistogramRows(data, juris, rcase1, rcase2));
   }
   
-  private void jurisdictionTimeSeriesDailyChange(Key key, Jurisdiction juris,  Map<Key, String> replacements, SourceData data, MarkdownBuilder builder) {
+  private void jurisdictionTimeSeriesDailyChange(Key key, Jurisdiction juris,  Map<String, String> replacements, SourceData data, MarkdownBuilder builder) {
     Rendering[] daily = {change(1, diff()), sign()}; 
     Range range = DataView.rangeAcrossTimeForGiven(juris, data, 1, daily);
     Rendering[] bar = {change(1, diff()), barForGraph(range)}; 
-    replacements.put(key, builder.jurisdictionHistogramRows(data, juris, daily, bar));
+    replacements.put(key.name(), builder.jurisdictionHistogramRows(data, juris, daily, bar));
   }
   
   /** Top level summary for all jurisdictions. Compares jurisdictions. */
   private void summaryStats(String dateOfMostRecentScreenshots, SourceData deaths, SourceData knownCases, SourceData tests) throws IOException, Abort {
     String SUMMARY = "summary";
     String template = templateFor(SUMMARY);
-    Map<Key, String /*replacement*/> replacements = new LinkedHashMap<>();
+    Map<String, String /*replacement*/> replacements = new LinkedHashMap<>();
     
     MarkdownBuilder builder = new MarkdownBuilder();
-    replacements.put(Key.dateOfMostRecentScreenshots, dateOfMostRecentScreenshots);
-    replacements.put(Key.tableHeaderJurisdictions, builder.tableHeaderFor(Jurisdiction.values()));
-    replacements.put(Key.tableHeaderSeparator, builder.tableHeaderSeparator(Jurisdiction.values()));
+    replacements.put(Key.dateOfMostRecentScreenshots.name(), dateOfMostRecentScreenshots);
+    replacements.put(Key.tableHeaderJurisdictions.name(), builder.tableHeaderFor(Jurisdiction.values()));
+    replacements.put(Key.tableHeaderSeparator.name(), builder.tableHeaderSeparator(Jurisdiction.values()));
     
     //numeric table: nominal, daily change, per capita 
-    replacements.put(Key.summaryTableDeaths, builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys)));
-    replacements.put(Key.summaryTableDeathsDaily, builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, change(1, diff()), sign()));
-    replacements.put(Key.summaryTableDeathsPerCapita, builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round(2)));
+    replacements.put(Key.summaryTableDeaths.name(), builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys())));
+    replacements.put(Key.summaryTableDeathsDaily.name(), builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, change(1, diff()), sign()));
+    replacements.put(Key.summaryTableDeathsPerCapita.name(), builder.summaryRowFor(deaths, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round(2)));
 
-    replacements.put(Key.summaryTableCases, builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys)));
-    replacements.put(Key.summaryTableCasesDaily, builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, change(1, diff()), sign()));
-    replacements.put(Key.summaryTableCasesPerCapita, builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
+    replacements.put(Key.summaryTableCases.name(), builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys())));
+    replacements.put(Key.summaryTableCasesDaily.name(), builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, change(1, diff()), sign()));
+    replacements.put(Key.summaryTableCasesPerCapita.name(), builder.summaryRowFor(knownCases, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
     
-    replacements.put(Key.summaryTableTests, builder.summaryRowFor(tests, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys)));
-    replacements.put(Key.summaryTableTestsDaily, builder.summaryRowFor(tests, dateOfMostRecentScreenshots, change(1, diff()), sign()));
-    replacements.put(Key.summaryTableTestsPerCapita, builder.summaryRowFor(tests, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
+    replacements.put(Key.summaryTableTests.name(), builder.summaryRowFor(tests, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys())));
+    replacements.put(Key.summaryTableTestsDaily.name(), builder.summaryRowFor(tests, dateOfMostRecentScreenshots, change(1, diff()), sign()));
+    replacements.put(Key.summaryTableTestsPerCapita.name(), builder.summaryRowFor(tests, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
     
     //histograms by jurisdiction: nominal, daily change, per capita
     summaryHistograms(Key.summaryHistoDeaths, Key.summaryHistoDeathsPerCapita, Key.summaryHistoDeathsDailyIncrease, replacements, deaths, dateOfMostRecentScreenshots, builder);
     summaryHistograms(Key.summaryHistoCases, Key.summaryHistoCasesPerCapita, Key.summaryHistoCasesDailyIncrease, replacements, knownCases, dateOfMostRecentScreenshots, builder);
     summaryHistograms(Key.summaryHistoTests, Key.summaryHistoTestsPerCapita, Key.summaryHistoTestsDailyIncrease, replacements, tests, dateOfMostRecentScreenshots, builder);
 
-    output(SUMMARY, builder, template, replacements);
-  }
-  
-  private void output(Object thing, MarkdownBuilder builder, String template, Map<Key,String> replacements) throws IOException {
-    String finalText = builder.populate(template, replacements);
-    log(finalText);
-    writeMarkdownToFileFor(thing, finalText);
-  }
-  
-  private void writeMarkdownToFileFor(Object thing, String finalText) throws IOException {
-    File file = fileSys.fileInThe(Dir.md, thing);
-    Path path = Paths.get(file.getPath());
-    Files.write(path, Arrays.asList(finalText.split(NL)), ENCODING);
+    output(SUMMARY, template, replacements);
   }
 
   /** 
@@ -333,24 +304,24 @@ public class MarkdownScript {
    Nominal and per-capita force-numeric; daily increase can show 'N'.
    Two renderings in sequence for the same item: number + bar.
   */
-  private void summaryHistograms(Key nominal, Key perCapita, Key dailyIncrease, Map<Key, String> replacements, SourceData data, String currentDate, MarkdownBuilder builder) {
+  private void summaryHistograms(Key nominal, Key perCapita, Key dailyIncrease, Map<String, String> replacements, SourceData data, String currentDate, MarkdownBuilder builder) {
     //nominal
-    Rendering[] n1 = {forceNumeric(), linkToScreenshot(fileSys)}; 
+    Rendering[] n1 = {forceNumeric(), linkToScreenshot(fileSys())}; 
     Range range = DataView.rangeAcrossJurisdictionsForGiven(currentDate, data, ExcludeFeds.YES, 1, n1);
     Rendering[] n2 = {forceNumeric(), barForGraph(range)}; 
-    replacements.put(nominal, builder.summaryHistoRows(data, currentDate, n1, n2, ExcludeFeds.YES));
+    replacements.put(nominal.name(), builder.summaryHistoRows(data, currentDate, n1, n2, ExcludeFeds.YES));
 
     //per-capita: include the feds (CA) only in this case 
     int decimals = Series.deaths == data.getSeries() ? 2 : 0;
     Rendering[] pc1 = {forceNumeric(), perCapita(HUNDRED_THOU), round(decimals)}; 
     range = DataView.rangeAcrossJurisdictionsForGiven(currentDate, data, ExcludeFeds.NO, 3, pc1);
     Rendering[] pc2 = {forceNumeric(), perCapita(HUNDRED_THOU), round(decimals), barForGraph(range)}; 
-    replacements.put(perCapita, builder.summaryHistoRows(data, currentDate, pc1, pc2, ExcludeFeds.NO));
+    replacements.put(perCapita.name(), builder.summaryHistoRows(data, currentDate, pc1, pc2, ExcludeFeds.NO));
     
     //daily increase 
     Rendering[] di1 = {change(1, diff()), sign()}; //don't force numeric here; can be a code
     range = DataView.rangeAcrossJurisdictionsForGiven(currentDate, data, ExcludeFeds.YES, 1, di1); //ignore the sign!
     Rendering[] di2 = {change(1, diff()), sign(), barForGraph(range)}; 
-    replacements.put(dailyIncrease, builder.summaryHistoRows(data, currentDate, di1, di2, ExcludeFeds.YES));
+    replacements.put(dailyIncrease.name(), builder.summaryHistoRows(data, currentDate, di1, di2, ExcludeFeds.YES));
   }
 }

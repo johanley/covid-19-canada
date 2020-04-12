@@ -5,12 +5,19 @@ package epidemic.stats.model;
 */
 public enum Series {
   
-  /** Cumulative. */
-  deaths, 
+  deaths("Total deaths reported. Cumulative"), 
   
-  /** Cumulative. Confirmed and probable/presumptive. */
-  known_cases,
+  known_cases("Known cases reported. Cumulative total. Includes both confirmed and probable/presumptive cases"),
   
-  /** Cumulative. Completed tests. Different: the federal jurisdiction doesn't track tests. */
-  tests;
+  /**  Different: the federal jurisdiction doesn't track tests. */
+  tests("Total completed tests. Cumulative. Excludes pending tests");
+  
+  public String getDescription() {
+    return descr;
+  }
+  
+  private Series(String descr) {
+    this.descr = descr;
+  }
+  private String descr;
 }

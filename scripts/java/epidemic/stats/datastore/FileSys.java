@@ -22,7 +22,7 @@ public class FileSys {
 
   /** Directory names. */
   public enum Dir {
-    screenshots, md, tmp, csv;
+    screenshots, md, tmp, csv, json;
   }
   
   /** @param baseDir the directory under which the data files are found. */
