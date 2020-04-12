@@ -240,10 +240,10 @@ One food chain:
 
 - Province/Territory web sites
   - [GOC](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink) with [.csv](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)
-    - [John Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) files on github
+    - [Johns Hopkins University](https://coronavirus.jhu.edu/map.html) with [.csv](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv) files on github
 
 In this food chain, the GOC's .csv file has CD, but not TR.
-So that data is also missing from the John Hopkins dataset; it too has only C and D (for Canada).
+So that data is also missing from the Johns Hopkins dataset; it too has only C and D (for Canada).
 
 Another food chain:
 
@@ -255,7 +255,7 @@ Here, CODWG has all 4 of TCRD.
 Virihealth consumes that data, and summarizes its details. (It also adds some early test case data, as of 2020-03-07; CODWG
 began to record TR a bit later, on 2020-03-15). 
 
-# John Hopkins University data
+# Johns Hopkins University data
 
 It has both daily and time-series data. 
 The files with Canadian data are about 50k in size (at the moment).
@@ -306,7 +306,7 @@ This data is easy to understand and parse. It has *Cases* and *Deaths*, but no *
 
 # Ways of sharing data on the web
 
-* well-formatted .csv files on [github](https://github.com/). Example: a file from [John Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
+* well-formatted .csv files on [github](https://github.com/). Example: a file from [Johns Hopkins University](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv).
 Using github is likely the preferred method for most people.
 You can use tools like [papaparse](https://www.papaparse.com/) to fetch the data.
 * a world-readable, *easily parsed* Google spreadsheet. You'll need Google's [Sheets API](https://developers.google.com/sheets/api/quickstart/js) to access the data, however.
