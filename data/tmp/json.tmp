@@ -1,0 +1,7 @@
+{
+ "series":"${series}",
+ "description":"${description}",
+ "data":{
+${rows}
+ }
+}
