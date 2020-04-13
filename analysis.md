@@ -411,6 +411,8 @@ https://coronavirusapi.com/ - they [crawl web sites](https://github.com/coronavi
 
 https://github.com/wzmli/COVID19-Canada - has a version of all 4 stats in csv format on github.
 
+https://github.com/tomwhite/covid-19-uk-data - the UK has the same problem as the US and Canada. The data is all over the place.
+
 https://www.cbc.ca/news/health/covid-19-pandemic-data-primer-stats-charts-1.5513222
 
 https://www.cbc.ca/news/covid-19/italy-covid-19-outbreak-lessons-1.5517520 - Number of dead underestimated?
