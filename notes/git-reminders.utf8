@@ -37,3 +37,5 @@ Day-to-day, after initial setup (on the default branch):
    git pull origin master       -- pull changes from the remote repo
    git add blah.txt -- adds to staging
    git checkout blah.txt -- revert  
+   git add -u  -- add all modified/tracked files to staging
+   git add -A  -- add all modified/tracked files to staging, and modified dir's too

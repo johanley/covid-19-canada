@@ -70,6 +70,7 @@ public class MarkdownScript extends ScriptTemplate {
       MarkdownScript script = new MarkdownScript(args[0]);
       script.run();
       
+      log("Generating json too.");
       //note: this needs to be called after the first script; only the first script does extensive validation
       JsonScript jsonScript = new JsonScript(args[0]);
       jsonScript.run();
