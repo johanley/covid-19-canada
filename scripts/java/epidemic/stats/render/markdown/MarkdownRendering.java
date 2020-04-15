@@ -46,7 +46,7 @@ class MarkdownRendering {
   // PRIVATE
   private static final String SCREENSHOT_BASE_URL = "https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/";
   private static final String SLASH = "/";
-  private static final Integer IMAGE_MAX_WIDTH = 500; //seems to work ok
+  private static final Integer IMAGE_MAX_WIDTH = 350; //500: complaints about truncation on an old ipad
 
   private static Integer graphWidth(String v, SourceData data, Jurisdiction juris, Range range) {
     //Typical data:

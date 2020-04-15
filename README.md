@@ -26,6 +26,8 @@ In these tables and charts, the nominal values always **link directly to the scr
 * [YT](https://github.com/johanley/covid-19-canada/blob/master/data/md/yt.md)
 * [CA](https://github.com/johanley/covid-19-canada/blob/master/data/md/ca.md)
 
+**Warning**: the bar charts presented here don't render well (they max out) when the screen width is small.
+If you see a problem, try using landscape instead of portrait.
 
 More info about the source data is [here](https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md).
 
