@@ -192,7 +192,7 @@ public final class DataView {
           int sign = value.get().compareTo(BigDecimal.ZERO);
           String signStr = ""; //for 0
           if (sign > 0) {signStr = "+";};
-          if (sign < 0) {signStr = "-";};
+          if (sign < 0) {signStr = "";}; //not needed! it's already there in the number!
           s = signStr + s;
         }
       }
