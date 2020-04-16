@@ -433,6 +433,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4526984/ waves
 *For influenza pandemics, possible explanations include antigenic drift, waning immunity, 
 changing environmental conditions, and social distancing behavior.*
 
+
+[New Zealand Gov't](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases) doing a good job of reporting.
+
+[NZ dashboard](https://covid19map.nz/)
+
+
 # Sources of screenshots
 
 https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink
