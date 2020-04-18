@@ -6,7 +6,7 @@ As of: **2020-04-17**
 |--|---:|---:|---:|
 |Deaths|[688](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|+58|8.06|
 |Known cases|[16798](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|+941|197|
-|Tests completed|[153902](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|+5331|1803|
+|Tests completed|[153722](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|+5151|1801|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -135,15 +135,15 @@ N means no daily increase can be calculated for that day.
 **Total completed tests** reported on the given date.
 |Date|Tests|Tests completed|
 |:--|---:|---|
-|2020-04-17|[153902](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|<img src='bar.png' height='10' width='350' title='153902'>|
-|2020-04-16|[148571](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/qc.png)|<img src='bar.png' height='10' width='337' title='148571'>|
+|2020-04-17|[153722](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/qc.png)|<img src='bar.png' height='10' width='350' title='153722'>|
+|2020-04-16|[148571](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/qc.png)|<img src='bar.png' height='10' width='338' title='148571'>|
 |2020-04-15|[143174](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/qc.png)|<img src='bar.png' height='10' width='325' title='143174'>|
 |2020-04-14|[137451](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/qc.png)|<img src='bar.png' height='10' width='312' title='137451'>|
 |2020-04-13|[131570](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/qc.png)|<img src='bar.png' height='10' width='299' title='131570'>|
 |2020-04-12|[126771](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-12_21h30mADT/qc.png)|<img src='bar.png' height='10' width='288' title='126771'>|
-|2020-04-11|[123115](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/qc.png)|<img src='bar.png' height='10' width='279' title='123115'>|
-|2020-04-10|[118217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|<img src='bar.png' height='10' width='268' title='118217'>|
-|2020-04-09|[113375](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/qc.png)|<img src='bar.png' height='10' width='257' title='113375'>|
+|2020-04-11|[123115](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/qc.png)|<img src='bar.png' height='10' width='280' title='123115'>|
+|2020-04-10|[118217](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/qc.png)|<img src='bar.png' height='10' width='269' title='118217'>|
+|2020-04-09|[113375](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/qc.png)|<img src='bar.png' height='10' width='258' title='113375'>|
 |2020-04-08|[109270](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|<img src='bar.png' height='10' width='248' title='109270'>|
 |2020-04-07|[104526](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-07_21h45mADT/qc.png)|<img src='bar.png' height='10' width='237' title='104526'>|
 |2020-04-06|[100113](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/qc.png)|<img src='bar.png' height='10' width='227' title='100113'>|
@@ -162,7 +162,7 @@ N means no update occurred that day. Links to screen-shots.
 **Completed tests daily increase** reported on the given date.
 |Date|+Tests|Tests daily increase|
 |:--|---:|---|
-|2020-04-17|+5331|<img src='bar.png' height='10' width='206' title='5331'>|
+|2020-04-17|+5151|<img src='bar.png' height='10' width='199' title='5151'>|
 |2020-04-16|+5397|<img src='bar.png' height='10' width='209' title='5397'>|
 |2020-04-15|+5723|<img src='bar.png' height='10' width='221' title='5723'>|
 |2020-04-14|+5881|<img src='bar.png' height='10' width='227' title='5881'>|
