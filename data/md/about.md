@@ -41,7 +41,8 @@ The data presented here is by date-reported.
 *Warning*: because of timing issues, the values for the federal jurisdiction often don't add up to the sum
 of the values from the provinces and territories.
 
-*Error*: the testing data for SK is almost certainly erroneous on 2020-04-14. I have recorded it as 'E', for error.
+*Error*: the testing data for SK was mis-reported on 2020-04-14. An incorrect value appears in the expected place.
+The value of 20,282 completed tests appears near the top of the screenshot, however, and that value is used here.
 
 *Warning*: In BC, the total tests-completed *dropped* from 58,626 (on 2020-04-14) to 57,997 (on 2020-04-15), with no explanation that I can see.
 

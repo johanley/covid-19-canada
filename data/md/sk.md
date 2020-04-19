@@ -143,7 +143,7 @@ N means no daily increase can be calculated for that day.
 |2020-04-17|[22207](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/sk.png)|<img src='bar.png' height='10' width='336' title='22207'>|
 |2020-04-16|[21569](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/sk.png)|<img src='bar.png' height='10' width='326' title='21569'>|
 |2020-04-15|[20907](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/sk.png)|<img src='bar.png' height='10' width='316' title='20907'>|
-|2020-04-14|[E](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/sk.png)|<img src='bar.png' height='10' width='0' title='E'>|
+|2020-04-14|[20282](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/sk.png)|<img src='bar.png' height='10' width='307' title='20282'>|
 |2020-04-13|[19804](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/sk.png)|<img src='bar.png' height='10' width='300' title='19804'>|
 |2020-04-12|[19276](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-12_21h30mADT/sk.png)|<img src='bar.png' height='10' width='292' title='19276'>|
 |2020-04-11|[18448](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/sk.png)|<img src='bar.png' height='10' width='279' title='18448'>|
@@ -170,8 +170,8 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-18|+885|<img src='bar.png' height='10' width='294' title='885'>|
 |2020-04-17|+638|<img src='bar.png' height='10' width='212' title='638'>|
 |2020-04-16|+662|<img src='bar.png' height='10' width='220' title='662'>|
-|2020-04-15|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-14|N|<img src='bar.png' height='10' width='0' title='N'>|
+|2020-04-15|+625|<img src='bar.png' height='10' width='208' title='625'>|
+|2020-04-14|+478|<img src='bar.png' height='10' width='159' title='478'>|
 |2020-04-13|+528|<img src='bar.png' height='10' width='175' title='528'>|
 |2020-04-12|+828|<img src='bar.png' height='10' width='275' title='828'>|
 |2020-04-11|+814|<img src='bar.png' height='10' width='271' title='814'>|
