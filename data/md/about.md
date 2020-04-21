@@ -25,7 +25,8 @@ as do most jurisdictions. But they state that those numbers are attached to *peo
 This isn't logical, because the positive/negative state of a person can change over time. 
 Because of this, I overlooked another screen, in which they report the number of tests-performed.
 This mistake was made from 2020-03-31 until 2020-04-16 (inclusive).
-I have had to backfill this data for NB, using this [non-governmental data source](https://github.com/ishaberry/Covid19Canada).
+I have had to backfill this data for NB, using this [non-governmental data source](https://github.com/ishaberry/Covid19Canada) and 
+from [virihealth.com](https://virihealth.com/).
 The screenshots I have for NB, in this time period, do not support the stated test numbers, because the screenshots 
 don't show the proper statistic.
   
@@ -42,5 +43,4 @@ of the values from the provinces and territories.
 *Error*: the testing data for SK was mis-reported on 2020-04-14. An incorrect value appears in the expected place.
 The value of 20,282 completed tests appears near the top of the screenshot, however, and that value is used here.
 
-*Warning*: In BC, the total tests-completed *dropped* from 58,626 (on 2020-04-14) to 57,997 (on 2020-04-15), with no explanation that I can see.
-
+*Warning*: In BC, the total tests-completed *dropped* from 58,626 (on 2020-04-14) to 57,997 (on 2020-04-15), apparently due to an unspecified change in reporting.
