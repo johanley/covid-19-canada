@@ -14,8 +14,6 @@ The *table* form of the data links to supporting screen-shots (*csv* does not):
  
 If a jurisdiction hasn't updated that day, then it's recorded here as "N" (*not updated*).
 
-If an obvious error has been made in the reporting, then it's recorded here as "E".
-
 *Warning:* the *Completed Tests* data is not very consistent:
 
 - no testing data at all for the CA federal jurisdiction
