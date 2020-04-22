@@ -1,0 +1,228 @@
+body {
+   //background-color: rgb(80,80,80);
+   //color: rgb(255,255,255);
+}
+a {
+ //color: rgb(200,200,200); 
+}
+a:hover {
+  //background-color:rgb(125,125,125); 
+}
+a:visited {
+ //color: rgb(225,225,225); 
+}
+
+/* End of the color scheme. */
+
+
+body {
+  font: 1.0em Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 0.5em; 
+  margin-left: 0.5em; 
+  margin-right: 0.5em; 
+  padding: 0.5em;
+  text-align:center;
+}
+
+a {
+ font-weight: bold;
+ text-decoration: none;
+ //border-bottom: 1px dotted; 
+}
+
+h2{
+  border-bottom: 1px solid;
+}
+
+ul {
+ list-style-type: square;
+}
+
+tr { 
+  vertical-align: top 
+}
+
+canvas {
+  vertical-align: top;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* 
+Tables used for user input.
+*/
+form.user-input table {
+ background-color: rgb(25%, 25%, 25%);
+ border-style: solid;
+ border-width: 2px; 
+ border-color: rgb(45%,45%,45%); 
+ padding: 0.25em;
+}
+/* improves alignment of form controls */
+form.user-input input {
+ margin: 0;
+}
+
+form.user-input-small table {
+ background-color: rgb(25%, 25%, 25%);
+ border-style: solid;
+ border-width: 2px; 
+ border-color: rgb(45%,45%,45%); 
+ padding: 0.25em;
+}
+/* improves alignment of form controls */
+form.user-input-small input {
+ margin: 0;
+}
+
+canvas {
+ background-color: white;
+} 
+
+/* 
+ Imitates New Zealand: 
+   https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases 
+*/
+table.covid {
+ margin: 0;
+ margin: auto;
+ border-collapse: collapse;
+ border-spacing: 0;
+ font-size: 0.9em;
+}
+table.covid tr td:first-child, table.covid tr th:first-child {
+ border-left: none !important;
+}
+table.covid tr td:last-child, table.covid tr th:last-child {
+ border-right: none !important;
+}
+table.covid td, table.covid th {
+  border: 1px solid #CCC !important;
+  border-bottom: none;
+  padding: 2px 5px !important;
+}
+table.covid th {
+  background-color: #FFF1E2;
+  border-color: #FDD6AF !important;
+}
+
+table.menu {
+ margin: 0;
+ margin: auto;
+ border-collapse: collapse;
+ border-spacing: 0;
+ font-size: 1.0em;
+}
+.highlight {
+  background-color: rgb(225,225,225);
+}
+
+
+
+/* 
+REPORTS 
+Here, reports are implemented with tables, and refer to any kind of listing.
+*/
+table.report {
+ //background-color: rgb(72,72,72);
+ border-style: solid;
+ border-width: 1px;
+ //border-color: rgb(45%,45%,45%); 
+ border-collapse: collapse;
+ empty-cells: show; 
+ caption-side: top;
+ margin: 0.25em;
+}
+
+table.report td, th {
+ /*white-space: nowrap;*/
+ border: 1px ridge rgb(65%,65%,65%); 
+ padding: 0.30em;
+}
+
+/* no underline for sorting links */
+table.report th a {
+  text-decoration: none;
+}
+table.report th img {
+ padding: 0;
+ margin: 0;
+}
+
+table.report tbody {
+ border: 1px solid black;
+}
+/* 
+Highlighting the row when the cursor hovers above it 
+increases legibility. 
+*/
+table.report tr:hover {
+  //background-color: #FFFDE3;
+}
+table.report caption {
+ font-weight: bold;
+ text-align: center;
+ padding: 0.5em;
+}
+table.report caption:after {
+ content : " - ";
+}
+table.report caption:before {
+ content : " - ";
+}
+
+.home {
+  float:right;
+}
+
+/* Small screens */
+@media all and (max-width: 850px) {
+  /** Remove margin for small screens. */
+  body {
+    margin: 1.0em; 
+    padding: 0em;
+  }
+}
+
+/* Force landscape for small screens https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode */
+//@media screen and (min-width: 320px) and (max-width: 600px) and (orientation: portrait) {
+  //html {
+    //transform: rotate(-90deg);
+    //transform-origin: left top;
+    //width: 100vh;
+    //height: 100vw;
+    //overflow-x: hidden;
+    //position: absolute;
+    //top: 100%;
+    //left: 0;
+  //}
+//}
+
+/* Styles for print. */
+@media print {
+ * {
+  color: black !important;
+  background: white !important;
+ }
+ body {
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+ }
+ a {
+  text-decoration: none;
+ }
+ img.photo {
+  display: none;
+ }
+ div#nav-menu{
+  display: none;
+ }
+ div#header{
+  display: none;
+ }
+ .no-print {
+   display: none;
+ }
+}

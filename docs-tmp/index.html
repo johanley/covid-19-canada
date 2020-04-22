@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Summary: COVD-19 stats for Canada</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Per-jurisdiction COVID-19 stats reported by Canadian governments.">
+    <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=${VERSION}" /> 
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="js/plotly-latest.min.js"></script>
+    <script src="js/util.js?ver=${VERSION}"></script>
+    <script src="js/stats_raw_data.js?ver=${VERSION}"></script>
+    <script src="js/generate-chart-and-table.js?ver=${VERSION}"></script>
+    <script>
+      window.onload = function (){
+        GENERATE_CHART_AND_TABLE.summary();
+        UTIL.highlight_current_page();
+      };
+    </script>
+  </head>
+  <body>
+
+   <b>COVID-19 in Canada</b>
+
+   <div id='menu'>
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='index.html'>Home</a>
+      <td><a href='space.html?days_ago=0&view_across=space&submit=Show+Chart&series=deaths&rendering=pc' id='link_to_space'>Space</a>
+      <td><a href='time.html?juris=bc&rendering=pc&series=deaths&juris_compare=&view_across=time&submit=Show+Chart' id='link_to_time'>Time</a>
+      <td><a href='about.html'>About</a>
+    </tr>
+   </table>
+   
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='juris.html?juris=bc'>BC</a>
+      <td><a href='juris.html?juris=ab'>AB</a>
+      <td><a href='juris.html?juris=sk'>SK</a>
+      <td><a href='juris.html?juris=mb'>MB</a>
+      <td><a href='juris.html?juris=on'>ON</a>
+      <td><a href='juris.html?juris=qc'>QC</a>
+      <td><a href='juris.html?juris=nb'>NB</a>
+    </tr>
+    <tr>
+      <td><a href='juris.html?juris=ns'>NS</a>
+      <td><a href='juris.html?juris=pe'>PE</a>
+      <td><a href='juris.html?juris=nl'>NL</a>
+      <td><a href='juris.html?juris=nu'>NU</a>
+      <td><a href='juris.html?juris=nt'>NT</a>
+      <td><a href='juris.html?juris=yt'>YT</a>
+      <td><a href='juris.html?juris=ca'>CA</a>
+    </tr>
+   </table>
+   </div>
+
+
+   <P><table class='covid'>
+     <thead>
+      <tr><th id='summary_note' colspan='4'>
+      <tr><th> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c.
+     </thead>
+     <tbody id='summary_data_body'>
+       <!-- 
+       one row for each series; each series rendered in 3 ways
+       <tr><td>Deaths <td>77 <td>+22 <td>0.98  
+       -->
+     </tbody>
+   </table>
+
+   <P> 
+   <table class='covid'>
+     <thead>
+      <tr><th colspan='4'>Prov/Terr
+      <tr><th title='Jurisdiction'>&nbsp; <th valign="middle">Deaths <th valign="middle" title='Confirmed and probable cases'>Cases  <th valign="middle" title='Completed tests'>Tests
+     </thead>
+     <tbody id='summary_juris_body'></tbody>
+   </table>
+   
+    <P>    
+    <div id='daily-deaths'> </div>
+    <div id='daily-cases'> </div>
+    <div id='daily-tests'> </div>
+
+    
+    <P>    
+    <div id='deaths-vs-cases'> </div>
+    
+    <P><button id='animate'>Animate</button>
+
+  </body>
+</html>

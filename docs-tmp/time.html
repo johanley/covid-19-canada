@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Time series: COVD-19 stats for Canada</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Time series COVID-19 stats reported by Canadian governments.">
+    <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" /> 
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=${VERSION}" /> 
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="js/plotly-latest.min.js"></script>
+    <script src="js/util.js?ver=${VERSION}"></script>
+    <script src="js/stats_raw_data.js?ver=${VERSION}"></script>
+    <script src="js/generate-chart-and-table.js?ver=${VERSION}"></script>
+    <script>
+      window.onload = function (){
+        GENERATE_CHART_AND_TABLE.plot_chart_and_populate_table('chart', 'source_data');
+        UTIL.prepopulate_form_controls('juris', 'series', 'rendering', 'logarithmic', 'view_across');
+        UTIL.highlight_current_page();
+      };
+    </script>
+  </head>
+  <body>
+
+   <b>COVID-19 in Canada</b>
+
+   <div id='menu'>
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='index.html'>Home</a>
+      <td><a href='space.html?days_ago=0&view_across=space&submit=Show+Chart&series=deaths&rendering=pc' id='link_to_space'>Space</a>
+      <td><a href='time.html?juris=bc&rendering=pc&series=deaths&juris_compare=&view_across=time&submit=Show+Chart' id='link_to_time'>Time</a>
+      <td><a href='about.html'>About</a>
+    </tr>
+   </table>
+   
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='juris.html?juris=bc'>BC</a>
+      <td><a href='juris.html?juris=ab'>AB</a>
+      <td><a href='juris.html?juris=sk'>SK</a>
+      <td><a href='juris.html?juris=mb'>MB</a>
+      <td><a href='juris.html?juris=on'>ON</a>
+      <td><a href='juris.html?juris=qc'>QC</a>
+      <td><a href='juris.html?juris=nb'>NB</a>
+    </tr>
+    <tr>
+      <td><a href='juris.html?juris=ns'>NS</a>
+      <td><a href='juris.html?juris=pe'>PE</a>
+      <td><a href='juris.html?juris=nl'>NL</a>
+      <td><a href='juris.html?juris=nu'>NU</a>
+      <td><a href='juris.html?juris=nt'>NT</a>
+      <td><a href='juris.html?juris=yt'>YT</a>
+      <td><a href='juris.html?juris=ca'>CA</a>
+    </tr>
+   </table>
+   </div>
+
+   
+   <!-- wee summary table, force numeric to to get the most recent data -->
+   <P><table class='covid'>
+     <thead>
+      <tr><th id='summary_note' colspan='4'>
+      <tr><th> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c.
+     </thead>
+     <tbody id='summary_data_body'>
+       <!-- 
+       one row for each series; each series rendered in 3 ways
+       <tr><td>Deaths <td>77 <td>+22 <td>0.98  
+       -->
+     </tbody>
+   </table>
+
+    <P>    
+    <div id='chart'></div>
+    
+    <P>
+      <form style="display:inline-block">
+       <select name='juris' id='juris'>
+        <option value='bc'>BC
+        <option value='ab'>AB
+        <option value='sk'>SK
+        <option value='mb'>MB
+        <option value='on'>ON
+        <option value='qc'>QC
+        <option value='nb'>NB
+        <option value='ns'>NS
+        <option value='pe'>PE
+        <option value='nl'>NL
+        <option value='nu'>NU
+        <option value='nt'>NT
+        <option value='yt'>YT
+        <option value='ca'>CA
+      </select>
+
+      <select name='rendering' id='rendering'>
+        <option value='pc' title='Per 100,000 population'>Per capita
+        <option value='nominal' title='Cumulative'>Total
+        <option value='di' title='Daily increase'>Daily
+      </select>
+      
+      <select name='series' id='series'>
+        <option value='deaths' title='Reported deaths. Cumulative.'>Deaths
+        <option value='cases' title='Reported cases. Confirmed and probable. Cumulative'>Cases
+        <option value='tests' title='Completed tests (no data for CA)'>Tests
+      </select>
+
+      <select name='juris_compare' id='juris_compare'>
+        <option value=''>vs
+        <option value='bc'>vs BC
+        <option value='ab'>vs AB
+        <option value='sk'>vs SK
+        <option value='mb'>vs MB
+        <option value='on'>vs ON
+        <option value='qc'>vs QC
+        <option value='nb'>vs NB
+        <option value='ns'>vs NS
+        <option value='pe'>vs PE
+        <option value='nl'>vs NL
+        <option value='nu'>vs NU
+        <option value='nt'>vs NT
+        <option value='yt'>vs YT
+        <option value='ca'>vs CA
+      </select>
+      
+      <span title='Logarithmic y-axis'>
+        <input name='logarithmic' id='logarithmic' type='checkbox' value='yes'> Log
+      </span>
+      
+      <P><input name='view_across' id='view_across' type='hidden' value='time'>
+      <input name='submit' id='submit' type='submit' value='Show Chart'>
+    </form>
+
+   <P>    
+   <!-- 1 series only (the selected one) -->
+   <table class='covid' id='source_data'>
+     <thead>
+      <tr><th rowspan='2' valign="middle" title='Date reported'>Date <th id='series_name_col' colspan='3'>Deaths
+      <tr> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c. 
+     </thead>
+     <tbody id='source_data_body'></tbody>
+   </table>
+   
+   <!-- all 3 series -->
+   <!--
+   <table class='report'  style='margin: 0 auto;'>
+     <thead>
+      <tr><th rowspan='3'>Date <th colspan='3'>Deaths <th colspan='3'>Cases <th colspan='3'>Tests
+      <tr> <td>val <td>+ <td>p.c. <td>val <td>+ <td>p.c. <td>val <td>+ <td>p.c.
+     </thead>
+     <tbody id='source_data_body'></tbody>
+   </table>
+   -->
+
+  </body>
+</html>

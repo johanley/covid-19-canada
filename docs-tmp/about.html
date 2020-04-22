@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Data: COVD-19 stats for Canada</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Per-jurisdiction COVID-19 stats reported by Canadian governments.">
+    <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=${VERSION}" /> 
+    <script src="js/util.js?ver=${VERSION}"></script>
+    <script>
+      window.onload = function (){
+        UTIL.highlight_current_page();
+      };
+    </script>    
+  </head>
+  <body>
+
+   <b>COVID-19 in Canada</b>
+   
+   <div id='menu'>
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='index.html'>Home</a>
+      <td><a href='space.html?days_ago=0&view_across=space&submit=Show+Chart&series=deaths&rendering=pc' id='link_to_space'>Space</a>
+      <td><a href='time.html?juris=bc&rendering=pc&series=deaths&juris_compare=&view_across=time&submit=Show+Chart' id='link_to_time'>Time</a>
+      <td><a href='about.html'>About</a>
+    </tr>
+   </table>
+   
+   <P>
+   <table class='covid'>
+    <tr>
+      <td><a href='juris.html?juris=bc'>BC</a>
+      <td><a href='juris.html?juris=ab'>AB</a>
+      <td><a href='juris.html?juris=sk'>SK</a>
+      <td><a href='juris.html?juris=mb'>MB</a>
+      <td><a href='juris.html?juris=on'>ON</a>
+      <td><a href='juris.html?juris=qc'>QC</a>
+      <td><a href='juris.html?juris=nb'>NB</a>
+    </tr>
+    <tr>
+      <td><a href='juris.html?juris=ns'>NS</a>
+      <td><a href='juris.html?juris=pe'>PE</a>
+      <td><a href='juris.html?juris=nl'>NL</a>
+      <td><a href='juris.html?juris=nu'>NU</a>
+      <td><a href='juris.html?juris=nt'>NT</a>
+      <td><a href='juris.html?juris=yt'>YT</a>
+      <td><a href='juris.html?juris=ca'>CA</a>
+    </tr>
+   </table>
+   </div>
+ 
+   <div style='text-align:left;'>
+   <h2>Generalities about the data</h2>
+   
+   <ul>
+    <li>start-date is 2020-03-31
+    <li>compiled daily, at about 21h ADT
+    <li>resides on <a href='https://github.com/johanley/covid-19-canada'>this github repo</a>
+    <li>backed by <a href='https://github.com/johanley/covid-19-canada/tree/master/data/screenshots'>screenshots</a> of government webpages. This lets anyone verify the data.
+    <li>available as both <a href='https://github.com/johanley/covid-19-canada/tree/master/data/csv'>csv</a> and <a href='https://github.com/johanley/covid-19-canada/tree/master/data/json'>json</a> files
+    <li>compiled by a motivated citizen (John O'Hanley)
+   </ul>
+   
+   <P>There are 3 data sets, for each of the 14 jurisdictions (provinces, territories, and the federal government):
+   <ul>
+    <li>total reported <em>deaths</em> to date (cumulative).
+    <li>total reported <em>cases</em> to date (cumulative). <em>Confirmed</em> cases plus <em>probable/presumptive</em> cases. Only confirmed cases have a positive test result. 
+    <li>total completed <em>tests</em> (cumulative). Excludes <em>pending</em> tests. (Not reported by the federal government.)
+   </ul>
+
+   <h2>Defects in the data</h2>
+   
+   Not all jurisdictions update their stats every day: when that happens, it's recorded as <em>N</em>.
+   
+   <P>Not in sync: because of timing issues, it's common for the federal government's reporting of deaths and cases to <em>not
+   add up</em> to corresponding numbers from the provinces and territories. 
+   
+   <P>No test-data from the feds: the federal government reports on deaths and cases, but not on tests.
+   
+   <P>Reporting delays: sometimes the reporting isn't very timely. For example, if the ultimate source of the 
+   data is non-governmental (maybe a private long-term care home), it likely takes time for that data to get into government databases.
+   
+   <P>Reported cases versus actual cases: the number of cases reported should be treated with care. Not everyone is being tested, 
+   and all tests have false-negatives and false-positives. The number of actual cases is usually larger than the number reported.
+   
+   <P>In BC, the total tests-completed dropped from 58,626 (on <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png'>2020-04-14</a>) 
+   to 57,997 (on <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png'>2020-04-15</a>).
+   
+   <P>In YT, the total tests-completed dropped from 876 (on 2020-04-20) to 863 (on 2020-04-21).
+   
+   <P>In SK, for 2020-04-14, the testing data was misreported. 
+   An incorrect value appears in the expected place. The value of 20,282 completed tests appears near the 
+   top of the <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/sk.png'>screenshot</a>, however, 
+   and that value is used here.
+   
+   <P>Backfill for NB tests, 2020-03-31 to 2020-04-16 inclusive: an error was made in gathering this data. 
+   It has been back-filled using data from <a href='https://github.com/ishaberry/Covid19Canada'>this source</a>.
+   This is the only case in which the data is not backed up by a screenshot of a government website.
+   
+   <P>Tests-performed versus people-tested: people are often tested more than once.
+   Most jurisdictions report on the tests-performed, broken down into positive and negative results.
+   NL and NU report instead on the number of people tested, which is of course a different statistic.
+   In spite of this difference, the NL and NU data is here treated the same as the other jurisdictions.
+   
+  </div>
+    
+
+  </body>
+</html>
