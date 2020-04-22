@@ -687,7 +687,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
      var trace = summary_deaths_vs_cases_trace(date, jurisdictions);
      result.data = [trace];
      result.layout = {
-      title: "Deaths p.c. vs Cases p.c. " + date,
+      title: "Per Capita: Deaths vs Cases " + date,
       xaxis: {title: "Deaths per 100,000"},
       yaxis: {title: "Cases per 100,000"}
      };
