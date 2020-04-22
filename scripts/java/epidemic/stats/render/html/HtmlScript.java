@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+import epidemic.stats.Abort;
 import epidemic.stats.Util;
 
 /** 
@@ -53,6 +54,8 @@ public class HtmlScript {
   /** Run the script. */
   public void run() throws IOException {
     log("Generating html.");
+    
+    validateStatsRawData();
     Integer version = readVersion() + 1;
     log("Incrementing version to: " + version);
     
@@ -91,6 +94,14 @@ public class HtmlScript {
 
   private static final void log(String text) {
     System.out.println(text);
+  }
+  
+  /**
+    The goal is to avoid working with dev-only data, that's completely WRONG for deployment.
+    Make sure that the file has the expected placeholders (instead of real data being, being used in dev). 
+  */
+  private void validateStatsRawData() throws IOException {
+    Files.walkFileTree(Paths.get(fromDir), new MyValidator());
   }
   
   private Integer readVersion() throws IOException {
@@ -163,7 +174,7 @@ public class HtmlScript {
         log("Making replacements in: " + file);
         String text = read(file);
         for(String key : replacements.keySet()) {
-          text = text.replace("${" + key +"}", replacements.get(key));
+          text = text.replace(makeKey(key), replacements.get(key));
         }
         write(file, text);
       }
@@ -174,6 +185,26 @@ public class HtmlScript {
     private void write(Path file, String content) throws IOException {
       String[] lines = content.split(Pattern.quote(Util.NL));
       Files.write(file, Arrays.asList(lines), ENCODING);
+    }
+  }
+
+  private static String makeKey(String name) {
+    return "${" + name + "}";
+  }
+  
+  private static final class MyValidator extends SimpleFileVisitor<Path> {
+    @Override public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+      if (file.getFileName().toString().equals(STATS_RAW_DATA)){
+        log("Take a peek at " + file + ", to make sure it's a template file, and not real data.");
+        String text = read(file);
+        List<String> keys = Arrays.asList(JSON_DEATHS, JSON_KNOWN_CASES, JSON_TESTS, JSON_SCREENSHOT_DIRS);
+        for(String key : keys) {
+          if (!text.contains(makeKey(key))) {
+            throw new RuntimeException("The stats file doesn't contain the placeholder " + makeKey(key));
+          }
+        }
+      }
+      return FileVisitResult.CONTINUE;      
     }
   }
 }
