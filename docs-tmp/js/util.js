@@ -178,7 +178,14 @@ var UTIL = (function(){
     return result;
   };
   
-  var highlight_current_page = function(){
+  /* The home page has 2 variations: url = '/' or '/index.html' */
+  var is_home_page = function(href, url){
+    var url_is_home = (url === 'index.html' || url === '');
+    var result = (href==='index.html' && url_is_home);
+    return result;
+  };
+  
+  var highlight_current_page = function(){  
     var idx = document.location.href.lastIndexOf("/");
     var url = document.location.href.substring(idx+1); // example: 'juris.html?juris=bc'
 
@@ -186,7 +193,8 @@ var UTIL = (function(){
     var found = false;    
     var anchors = document.getElementById("menu").getElementsByTagName("a");
     for (var i=0; i < anchors.length; ++i){
-      if (anchors[i].getAttribute("href") === url){
+      var href = anchors[i].getAttribute("href");
+      if (href === url || is_home_page(href, url)){
         anchors[i].parentElement.classList.add("highlight");
         found = true;
         break;
