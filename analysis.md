@@ -440,6 +440,8 @@ changing environmental conditions, and social distancing behavior.*
 
 https://www.theglobeandmail.com/canada/article-coronavirus-cases-canada-world-map-explainer/ good charts  
 
+https://nationalpost.com/news/canadas-public-data-on-covid-19-is-mostly-a-mess-heres-how-to-find-the-useful-info 
+
 https://www.cbc.ca/news/canada/calgary/alberta-covid-19-data-statistics-numbers-cases-hospitalizations-1.5514947 alberta hospitalizations - cbc only?
 
 # Sources of screenshots
