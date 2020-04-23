@@ -46,3 +46,7 @@ The value of 20,282 completed tests appears near the top of the screenshot, howe
 *Warning*: In BC, the total tests-completed *dropped* from 58,626 (on 2020-04-14) to 57,997 (on 2020-04-15), apparently due to an unspecified change in reporting.
 
 *Warning*: In YT, the total tests-completed *dropped* from 876 (on 2020-04-20) to 863 (on 2020-04-21).
+
+*Warning*: in NL, the total number of cases *dropped* from 257 to 256 from 2020-04-21 to 2020-04-22.
+
+*Warning*: in YT, the total number of tests *dropped* from 863 to 862 from 2020-04-21 to 2020-04-22.

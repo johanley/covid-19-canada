@@ -58,14 +58,13 @@
    
    <ul>
     <li>start-date is 2020-03-31
-    <li>compiled daily, at about 21h ADT
+    <li>updated daily, at about 21h ADT (after BC updates)
     <li>resides on <a href='https://github.com/johanley/covid-19-canada'>this github repo</a>
     <li>backed by <a href='https://github.com/johanley/covid-19-canada/tree/master/data/screenshots'>screenshots</a> of government webpages. This lets anyone verify the data.
     <li>available as both <a href='https://github.com/johanley/covid-19-canada/tree/master/data/csv'>csv</a> and <a href='https://github.com/johanley/covid-19-canada/tree/master/data/json'>json</a> files
-    <li>compiled by a motivated citizen (John O'Hanley)
    </ul>
    
-   <P>There are 3 data sets, for each of the 14 jurisdictions (provinces, territories, and the federal government):
+   <P>There are 3 data sets, for each of the 14 jurisdictions (10 provinces, 3 territories, and the federal government):
    <ul>
     <li>total reported <em>deaths</em> to date (cumulative).
     <li>total reported <em>cases</em> to date (cumulative). <em>Confirmed</em> cases plus <em>probable/presumptive</em> cases. Only confirmed cases have a positive test result. 
@@ -74,12 +73,13 @@
 
    <h2>Defects in the data</h2>
    
-   Not all jurisdictions update their stats every day: when that happens, it's recorded as <em>N</em>.
+   Not all jurisdictions update their stats every day: when that happens, it's recorded as <em>N</em>. 
+   It will show up as an empty gap in time-series charts.
    
    <P>Not in sync: because of timing issues, it's common for the federal government's reporting of deaths and cases to <em>not
    add up</em> to corresponding numbers from the provinces and territories. 
    
-   <P>No test-data from the feds: the federal government reports on deaths and cases, but not on tests.
+   <P>No test-data from the CA jurisdiction: the federal government reports on deaths and cases, but not on tests.
    
    <P>Reporting delays: sometimes the reporting isn't very timely. For example, if the ultimate source of the 
    data is non-governmental (maybe a private long-term care home), it likely takes time for that data to get into government databases.
@@ -87,24 +87,19 @@
    <P>Reported cases versus actual cases: the number of cases reported should be treated with care. Not everyone is being tested, 
    and all tests have false-negatives and false-positives. The number of actual cases is usually larger than the number reported.
    
-   <P>In BC, the total tests-completed dropped from 58,626 (on <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png'>2020-04-14</a>) 
-   to 57,997 (on <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png'>2020-04-15</a>).
-   
-   <P>In YT, the total tests-completed dropped from 876 (on 2020-04-20) to 863 (on 2020-04-21).
-   
-   <P>In SK, for 2020-04-14, the testing data was misreported. 
-   An incorrect value appears in the expected place. The value of 20,282 completed tests appears near the 
-   top of the <a href='https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/sk.png'>screenshot</a>, however, 
-   and that value is used here.
-   
-   <P>Backfill for NB tests, 2020-03-31 to 2020-04-16 inclusive: an error was made in gathering this data. 
-   It has been back-filled using data from <a href='https://github.com/ishaberry/Covid19Canada'>this source</a>.
-   This is the only case in which the data is not backed up by a screenshot of a government website.
-   
    <P>Tests-performed versus people-tested: people are often tested more than once.
    Most jurisdictions report on the tests-performed, broken down into positive and negative results.
    NL and NU report instead on the number of people tested, which is of course a different statistic.
    In spite of this difference, the NL and NU data is here treated the same as the other jurisdictions.
+
+   
+   <P>Backfill for NB tests, 2020-03-31 to 2020-04-16 inclusive: an error was made in gathering this data. 
+   It has been back-filled using data from <a href='https://github.com/ishaberry/Covid19Canada'>this source</a>, and 
+   from <a href='https://virihealth.com/'>virihealth.com</a>.
+   This is the only case in which the data is not backed up by a screenshot of a government website.
+
+   <P>More details are <a href='https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md'>here</a>.
+
    
   </div>
     
