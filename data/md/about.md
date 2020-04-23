@@ -1,7 +1,7 @@
 # What's reported: daily screen-shots
 
 This is what the various jurisdictions are *reporting* at approximately 21:00 EDT each day.
-Data points are linked to a supporting screen-shot of a web page, as of that time (see exception noted below).
+Data points are linked to a supporting screen-shot of a web page, as of that time (see the exception noted below).
 
 The *table* form of the data links to supporting screen-shots (*csv* and *json* do not):
 
@@ -36,6 +36,9 @@ In most cases, the number of actual cases (the sum of both detected and undetect
 *Warning*: what a jurisdiction reports may not accurately reflect other sources.
 For example, on 2020-03-31 NL was not reporting any deaths, but other sources were reporting the first death in NL before that date.
 
+*Warning*: clerical errors can get corrected; this can cause cumulative totals to actually *drop* from 
+one day to the next (see below).
+
 
 ## Testing data
 The testing data is not very consistent across jurisdictions.
@@ -55,12 +58,12 @@ Here's exactly what this site is using for tests-completed:
 |SK|Total # tests performed|
 |MB|# Completed tests|
 |ON|Total tests completed|
-|QC|Cas négatifs, positifs|
+|QC|Cas négatifs + cas positifs|
 |NB|Total tests performed|
 |NS|Total positive tests + Total negative tests|
 |PE|Total cases + Negative results|
 |NL|Total # of people tested|
-|NU|PUI now no longer under investigation + Confirmed|
+|NU|PUI now no longer under investigation + Confirmed cases|
 |NT|Completed tests|
 |YT|Confirmed cases + Negative results|
 |CA|numtested (in their .csv file)|
@@ -81,9 +84,9 @@ Again, CA, QC, NL, and NU seem to be reporting only on persons-tested, so this d
 *Error*: the testing data for SK was mis-reported on 2020-04-14. An incorrect value appears in the expected place.
 The value of 20,282 completed tests appears near the top of the screenshot, however, and that value is used here.
 
-*Error*: This is my mistake. The completed-test reporting for NB is confusing. They give positive and negative test numbers, 
-as do most jurisdictions. But they state that those numbers are attached to *people*, not tests.
-This isn't logical, because the positive/negative state of a person can change over time. 
+*Error*: This is my mistake. The completed-test reporting for NB is confusing. 
+They give positive and negative test numbers, as do most jurisdictions. 
+But they state that those numbers are attached to *people*, not tests.
 Because of this, I overlooked another screen, in which they report the number of tests-performed.
 This mistake was made from 2020-03-31 until 2020-04-16 (inclusive).
 I have had to backfill this data for NB, using this [non-governmental data source](https://github.com/ishaberry/Covid19Canada) and 
