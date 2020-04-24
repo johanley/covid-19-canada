@@ -188,14 +188,18 @@ laboratory samples from every affected person, and only those with a positive la
 as true cases."*
 
 
-"A case definition is a tool for classifying someone as having or not having the disease 
+*"A case definition is a tool for classifying someone as having or not having the disease 
 of interest, but few case definitions are 100% accurate in their classifications. 
 Some persons with mild illness may be missed, and some persons with a similar but not 
 identical illness may be included. Generally, epidemiologists strive to ensure that a 
 case definition includes most if not all of the actual cases, but very few or no 
 false-positive cases. However, this ideal is not always met. For example, 
 case definitions often miss infected people who have mild or no symptoms, because 
-they have little reason to be tested."
+they have little reason to be tested."*
+
+In the case of COVID-19, a significant fraction of those infected have no or few symptoms. 
+It would seem very likely, therefore, that the reported number of cases is significantly smaller than the actual 
+number of cases.
 
 ### Examples of case definitions
 
