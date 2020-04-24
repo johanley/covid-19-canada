@@ -45,7 +45,7 @@ The testing data is not very consistent across jurisdictions.
 There are variations on:
 
 * the number of *people* tested
-* the number of *tests* performed
+* versus the number of *tests* performed
 
 It's important to note that **a person can have more than one test**. 
 
@@ -55,6 +55,7 @@ So, comparing test data between jurisdictions isn't always comparing apples to a
 (Since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples, but it's probably close enough.)
 
 Here's exactly what this site is using for tests-completed.
+(If you think this is stupid, please let me know why!)
 
 |Jurisdiction|Term(s) used by the jurisdiction|Completed tests?|
 |------------|---------|---------|
@@ -197,13 +198,13 @@ false-positive cases. However, this ideal is not always met. For example,
 case definitions often miss infected people who have mild or no symptoms, because 
 they have little reason to be tested."*
 
-In the case of COVID-19, a significant fraction of those infected have no or few symptoms. 
+In the case of COVID-19, a significant fraction of those infected have no symptoms, or very mild symptoms. 
 It would seem very likely, therefore, that the reported number of cases is significantly smaller than the actual 
 number of cases.
 
 ### Examples of case definitions
 
-Note that these sometimes don't match up 100%.
+These sometimes don't match up 100%.
 So, technically, when you compare such jurisdictions, you aren't comparing apples to apples.
 
 * [CDC](https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf)
