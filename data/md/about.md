@@ -1,4 +1,4 @@
-# What's reported: daily screen-shots
+# What's been reported (with daily screenshots)
 
 This is what the various jurisdictions are *reporting* at approximately 21:00 EDT each day.
 Data points are linked to a supporting screen-shot of a web page, as of that time (see the exception noted below).
@@ -73,7 +73,7 @@ Here's exactly what this site is using for tests-completed.
 |YT|Confirmed cases + Negative results|no, but close|
 |CA|numtested (in their .csv file)|no|
 
-The problem is *ambiguity* and *lack of clear definition* of what exactly is being reported. 
+The problem in some cases is *ambiguity* and *lack of clear definition* of what exactly is being reported.
 (Also, each jurisdictions has their own unique way of reporting.)
 
 QC: the term *cas négatifs* is not used by the CDC. It seems that they are reporting numbers of people, not tests.
