@@ -42,36 +42,47 @@ one day to the next (see below).
 
 ## Testing data
 The testing data is not very consistent across jurisdictions.
-There's the question of *the number of people tested* verses *the number of tests performed*.
-Those aren't the same statistic, because a person can have more than one test. 
+There are variations on:
 
-This site is trying to report tests-completed.
-But CA, NL, NU, and (I think) QC seem to be reporting only persons-tested.
-This means that comparisons between jurisdictions for that data can be "comparing apples to oranges".
+* the number of *people* tested
+* the number of *tests* performed
 
-Here's exactly what this site is using for tests-completed:
+It's important to note that a person can have more than one test. 
 
-|Jurisdiction|Term used by the jurisdiction|
-|------------|---------|
-|BC|Total tests|
-|AB|Completed tests|
-|SK|Total # tests performed|
-|MB|# Completed tests|
-|ON|Total tests completed|
-|QC|Cas négatifs + cas positifs|
-|NB|Total tests performed|
-|NS|Total positive tests + Total negative tests|
-|PE|Total cases + Negative results|
-|NL|Total # of people tested|
-|NU|PUI now no longer under investigation + Confirmed cases|
-|NT|Completed tests|
-|YT|Confirmed cases + Negative results|
-|CA|numtested (in their .csv file)|
+This site is trying to report *tests-completed across all jurisdictions*.
+But given the data, this isn't 100% possible.
+So, comparing test data between jurisdictions isn't always comparing apples to apples.
+(Since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples.)
 
-Again, CA, QC, NL, and NU seem to be reporting only on persons-tested, so this data is a mixed bag, unfortunately.
+Here's exactly what this site is using for tests-completed.
 
+|Jurisdiction|Term(s) used by the jurisdiction|Completed tests?|
+|------------|---------|---------|
+|BC|Total tests|yes|
+|AB|Completed tests|yes|
+|SK|Total # tests performed|yes|
+|MB|# Completed tests|yes|
+|ON|Total tests completed|yes|
+|QC|Cas négatifs + cas positifs|likely not|
+|NB|Total tests performed|yes|
+|NS|Total positive tests + Total negative tests|likely not|
+|PE|Total cases + Negative results|no, but close|
+|NL|Total # of people tested|no|
+|NU|PUI now no longer under investigation + Confirmed cases|no, but close|
+|NT|Completed tests|yes|
+|YT|Confirmed cases + Negative results|no, but close|
+|CA|numtested (in their .csv file)|no|
 
+The problem is *ambiguity* and *lack of clear definition* of what exactly is being reported. 
+(Also, each jurisdictions has their own unique way of reporting.)
 
+QC: the term *cas négatifs* is not used by the CDC. It seems that they are reporting numbers of people, not tests.
+In the terms used by the CDC, I think they mean *confirmed case* and *not a case* (or perhaps *persons under investigation*).
+
+NS: Their terms are ambiguous. I'm almost certain that, in this context, *test* is really *person/case*. 
+
+PE (and YT): *Total cases* is a count of people, while *Negative results* seems to be a count of test results.
+ 
 
 ## Miscellaneous oddities in the data: 
 
