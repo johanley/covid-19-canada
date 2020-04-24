@@ -52,7 +52,7 @@ It's important to note that a person can have more than one test.
 This site is trying to report *tests-completed across all jurisdictions*.
 But given the data, this isn't 100% possible.
 So, comparing test data between jurisdictions isn't always comparing apples to apples.
-(Since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples.)
+(Since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples, but it's probably close enough.)
 
 Here's exactly what this site is using for tests-completed.
 
@@ -78,6 +78,8 @@ The problem is *ambiguity* and *lack of clear definition* of what exactly is bei
 
 QC: the term *cas négatifs* is not used by the CDC. It seems that they are reporting numbers of people, not tests.
 In the terms used by the CDC, I think they mean *confirmed case* and *not a case* (or perhaps *persons under investigation*).
+Because of the large size of QC, and because per-capita they are having by far the most trouble with the virus, this 
+difference should be especially noted.
 
 NS: Their terms are ambiguous. I'm almost certain that, in this context, *test* is really *person/case*. 
 
