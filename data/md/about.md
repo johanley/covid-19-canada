@@ -47,7 +47,7 @@ There are variations on:
 * the number of *people* tested
 * the number of *tests* performed
 
-It's important to note that a person can have more than one test. 
+It's important to note that **a person can have more than one test**. 
 
 This site is trying to report *tests-completed across all jurisdictions*.
 But given the data, this isn't 100% possible.
@@ -66,11 +66,11 @@ Here's exactly what this site is using for tests-completed.
 |QC|Cas négatifs + cas positifs|likely not|
 |NB|Total tests performed|yes|
 |NS|Total positive tests + Total negative tests|likely not|
-|PE|Total cases + Negative results|no, but close|
+|PE|Total cases + Negative results|no, but close?|
 |NL|Total # of people tested|no|
-|NU|PUI now no longer under investigation + Confirmed cases|no, but close|
+|NU|PUI now no longer under investigation + Confirmed cases|no, but close?|
 |NT|Completed tests|yes|
-|YT|Confirmed cases + Negative results|no, but close|
+|YT|Confirmed cases + Negative results|no, but close?|
 |CA|numtested (in their .csv file)|no|
 
 The problem in some cases is *ambiguity* and *lack of clear definition* of what exactly is being reported.
