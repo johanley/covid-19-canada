@@ -72,6 +72,7 @@ Again, CA, QC, NL, and NU seem to be reporting only on persons-tested, so this d
 
 
 
+
 ## Miscellaneous oddities in the data: 
 
 |Jurisdiction|Date|Item|Comment|
@@ -93,3 +94,106 @@ I have had to backfill this data for NB, using this [non-governmental data sourc
 from [virihealth.com](https://virihealth.com/).
 The screenshots I have for NB, in this time period, do not support the stated test numbers, because the screenshots 
 don't show the proper statistic.
+
+
+
+
+## Understanding the terms used
+
+Like any subject, epidemiology has its own set of terms.
+You need to understand those terms in order to understand government websites.
+
+The [CDC in the US](https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section5.html) has 
+a simple introduction to the subject which can help you with this. 
+The quotes below are from that guide.
+
+
+### Case
+
+*"A case definition is a set of standard criteria for classifying whether a 
+person has a particular disease, syndrome, or other health condition."*
+
+A **case definition** has:
+* clinical criteria (always)
+* restrictions on person, place, time (sometimes)
+
+The definition of a case:
+* is specific to the target disease
+* can change over time (the checklist of symptoms, for example)
+* can differ between jurisdictions
+
+A *case definition* often has various categories. Common values are:
+* **Probable**: no test, but good clinical evidence of the illness
+* **Suspected**: not tested yet, but there's reason to investigate 
+* **Presumptive**: positive test at a non-reference lab, awaiting confirmation by a reference lab
+* **Confirmed**: confirmed by a test at a reference lab (see below)
+
+Note: **a person with no symptoms person who tests positive is considered a case**.
+You don't have to be sick in order to be considered a case.
+(That's important, because a significant number of people infected with COVID-19 show no symptoms.)
+
+Note that *probable cases* don't involve a test at all.
+It's not necessary that a *probable* case changes into a *confirmed* one.
+If a test is not necessary, then the case will never reach the *confirmed* status.
+(Do you really need a test if you have the same symptoms as three of your family members?)
+
+There's another common category called **Person under investigation (PUI)**.
+This is kind of a "pre-case". 
+The person has a test pending, or a test ordered for the future. 
+For example, this may be a health worker who shows no symptoms, and who's being tested for safety reasons.
+If such a person tests negative, the CDC would call that **Not a case**, because they aren't sick and have no apparent infection.
+If a health worker has many tests, all negative, then they remain a PUI the whole time.
+
+
+### Reference Labs
+
+A reference lab is an "official" lab whose test results are known to be of high quality.
+A non-reference lab is a lab whose expertise in a particular test has yet to be certified as robust.
+A non-reference lab can change quickly into a reference lab.
+
+It's a *specimen* that gets sent to a lab.
+One specimen can be used for more than one kind of test; and it may be sent to more than one lab.
+
+### Quotes from the CDC
+
+*"A case might be classified as suspected or probable while waiting for the laboratory results to become available. 
+Once the laboratory provides the report, the case can be reclassified as either confirmed or "not a case", depending 
+on the laboratory results. In the midst of a large outbreak of a disease caused by a known agent, some cases may be 
+permanently classified as suspected or probable because officials may feel that running laboratory tests on every 
+patient with a consistent clinical picture and a history of exposure (e.g., chickenpox) is unnecessary and even wasteful.
+Case definitions should not rely on laboratory culture results alone, since organisms are sometimes present without 
+causing disease."*
+
+
+*"Classifications such as confirmed-probable-possible are helpful because they provide 
+flexibility to the investigators. A case might be temporarily classified as probable or 
+possible while laboratory results are pending. Alternatively, a case may be permanently 
+classified as probable or possible if the patient’s physician decided not to order the 
+confirmatory laboratory test because the test is expensive, difficult to obtain, or unnecessary....
+Note that while this approach is typical in the United States, some countries prefer to acquire 
+laboratory samples from every affected person, and only those with a positive laboratory test are counted 
+as true cases."*
+
+
+"A case definition is a tool for classifying someone as having or not having the disease 
+of interest, but few case definitions are 100% accurate in their classifications. 
+Some persons with mild illness may be missed, and some persons with a similar but not 
+identical illness may be included. Generally, epidemiologists strive to ensure that a 
+case definition includes most if not all of the actual cases, but very few or no 
+false-positive cases. However, this ideal is not always met. For example, 
+case definitions often miss infected people who have mild or no symptoms, because 
+they have little reason to be tested."
+
+### Examples of case definitions
+
+Note that these sometimes don't match up 100%.
+So, technically, when you compare such jurisdictions, you aren't comparing apples to apples.
+
+* [CDC](https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf)
+* [Canada](https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/health-professionals/2019-nCoV-case-report-form-en.pdf)
+* [Canada](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/health-professionals/national-case-definition.html)
+* [AB](https://open.alberta.ca/dataset/a86d7a85-ce89-4e1c-9ec6-d1179674988f/resource/04d14c71-83a7-45bc-a2a7-c0dcff34ff34/download/covid-19-guideline-2020-04-11.pdf)
+* [ON](http://www.health.gov.on.ca/en/pro/programs/publichealth/coronavirus/docs/2019_case_definition.pdf)
+* [QC](https://msss.gouv.qc.ca/professionnels/documents/coronavirus-2019-ncov/definition-nosologique-COVID-19-020-04-08.pdf)
+* [NS](https://novascotia.ca/dhw/populationhealth/surveillanceguidelines/2019-Novel-Coronavirus-Surveillance-Guidelines.pdf)
+* [PE](https://www.princeedwardisland.ca/sites/default/files/publications/20200311_guideline_covid-19_final.pdf)
