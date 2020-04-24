@@ -13,22 +13,22 @@ The *table* form of the data links to supporting screen-shots (*csv* and *json* 
 
 ## Warnings about the data
  
-*Warning*: there are gaps in the data. 
+*Warning*: there are **gaps** in the data. 
 If a jurisdiction hasn't updated that day, then it's recorded here as "N" (*not updated*).
 The gaps are not filled, and no interpolation is performed.
 
-*Warning*: because of timing issues, the values for the federal jurisdiction often *don't add up* to the sum
+*Warning*: because of **timing issues**, the values for the federal jurisdiction often *don't add up* to the sum
 of the values from the provinces and territories.
 
-*Warning*: jurisdictions can report *as of* the previous day. ON does that at present. 
+*Warning*: jurisdictions can report **as of** the previous day. ON does that at present. 
 (That's likely the most logical way of reporting; otherwise, you are reporting on a day that hasn't completed yet.)
 The data presented here is by date-reported.
 
-*Warning*: the reporting may not be very timely. 
+*Warning*: the reporting **may not be very timely**. 
 For example, if the ultimate source of the data is non-governmental (maybe a private long-term care home), 
 it likely takes time for that data to get into government databases.
 
-*Warning*: reported-cases versus actual-cases.
+*Warning*: **reported-cases versus actual-cases**.
 The number of cases reported should be treated with care. 
 Not everyone is being tested, and all tests have false-negatives and false-positives. 
 In most cases, the number of actual cases (the sum of both detected and undetected cases) is very likely larger than the number reported.
@@ -36,7 +36,7 @@ In most cases, the number of actual cases (the sum of both detected and undetect
 *Warning*: what a jurisdiction reports may not accurately reflect other sources.
 For example, on 2020-03-31 NL was not reporting any deaths, but other sources were reporting the first death in NL before that date.
 
-*Warning*: clerical errors can get corrected; this can cause cumulative totals to actually *drop* from 
+*Warning*: **clerical errors** can get corrected; this can cause cumulative totals to actually *drop* from 
 one day to the next (see below).
 
 
