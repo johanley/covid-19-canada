@@ -128,14 +128,14 @@ A *case definition* often has various categories. Common values are:
 * **Presumptive**: positive test at a non-reference lab, awaiting confirmation by a reference lab
 * **Confirmed**: confirmed by a test at a reference lab (see below)
 
-Note: **a person with no symptoms person who tests positive is considered a case**.
+Note: **a person with no symptoms who tests positive is considered a case**.
 You don't have to be sick in order to be considered a case.
 (That's important, because a significant number of people infected with COVID-19 show no symptoms.)
 
 Note that *probable cases* don't involve a test at all.
 It's not necessary that a *probable* case changes into a *confirmed* one.
 If a test is not necessary, then the case will never reach the *confirmed* status.
-(Do you really need a test if you have the same symptoms as three of your family members?)
+(Do you really need a test if you have the same symptoms as three of your family members, who are already confirmed cases?)
 
 There's another common category called **Person under investigation (PUI)**.
 This is kind of a "pre-case". 
