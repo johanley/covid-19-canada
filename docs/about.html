@@ -7,8 +7,8 @@
     <meta name="description" content="Per-jurisdiction COVID-19 stats reported by Canadian governments.">
     <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=13" /> 
-    <script src="js/util.js?ver=13"></script>
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=14" /> 
+    <script src="js/util.js?ver=14"></script>
     <script>
       window.onload = function (){
         UTIL.highlight_current_page();
@@ -54,52 +54,29 @@
    </div>
  
    <div style='text-align:left;'>
-   <h2>Generalities about the data</h2>
+   <h3>About the data</h3>
    
    <ul>
-    <li>start-date is 2020-03-31
-    <li>updated daily, at about 21h ADT (after BC updates)
-    <li>resides on <a href='https://github.com/johanley/covid-19-canada'>this github repo</a>
-    <li>backed by <a href='https://github.com/johanley/covid-19-canada/tree/master/data/screenshots'>screenshots</a> of government webpages. This lets anyone verify the data.
-    <li>available as both <a href='https://github.com/johanley/covid-19-canada/tree/master/data/csv'>csv</a> and <a href='https://github.com/johanley/covid-19-canada/tree/master/data/json'>json</a> files
+    <li>the time series starts on 2020-03-31
+    <li>updates are made daily, at about 21h ADT (after BC and AB apply their updates)
+    <li>the source data resides on <a href='https://github.com/johanley/covid-19-canada'>this github repo</a>
+    <li>the data is backed by <a href='https://github.com/johanley/covid-19-canada/tree/master/data/screenshots'>screenshots</a> of government webpages, to let you verify the data
+    <li>for programmers, the data is available as both <a href='https://github.com/johanley/covid-19-canada/tree/master/data/csv'>csv</a> and <a href='https://github.com/johanley/covid-19-canada/tree/master/data/json'>json</a> files
    </ul>
    
    <P>There are 3 data sets, for each of the 14 jurisdictions (10 provinces, 3 territories, and the federal government):
    <ul>
-    <li>total reported <em>deaths</em> to date (cumulative).
-    <li>total reported <em>cases</em> to date (cumulative). <em>Confirmed</em> cases plus <em>probable/presumptive</em> cases. Only confirmed cases have a positive test result. 
-    <li>total completed <em>tests</em> (cumulative). Excludes <em>pending</em> tests. (Not reported by the federal government.)
+    <li>total reported <b>deaths</b> to date (cumulative).
+    <li>total reported <b>cases</b> to date (cumulative). <em>Confirmed</em> cases plus <em>probable/presumptive</em> cases. Only confirmed cases have a positive test result. 
+    <li>total completed <b>tests</b> (cumulative). Excludes <em>pending</em> tests. (Not reported by the federal government.)
    </ul>
 
-   <h2>Defects in the data</h2>
-   
-   Not all jurisdictions update their stats every day: when that happens, it's recorded as <em>N</em>. 
-   It will show up as an empty gap in time-series charts.
-   
-   <P>Not in sync: because of timing issues, it's common for the federal government's reporting of deaths and cases to <em>not
-   add up</em> to corresponding numbers from the provinces and territories. 
-   
-   <P>No test-data from the CA jurisdiction: the federal government reports on deaths and cases, but not on tests.
-   
-   <P>Reporting delays: sometimes the reporting isn't very timely. For example, if the ultimate source of the 
-   data is non-governmental (maybe a private long-term care home), it likely takes time for that data to get into government databases.
-   
-   <P>Reported cases versus actual cases: the number of cases reported should be treated with care. Not everyone is being tested, 
-   and all tests have false-negatives and false-positives. The number of actual cases is usually larger than the number reported.
-   
-   <P>Tests-performed versus people-tested: people are often tested more than once.
-   Most jurisdictions report on the tests-performed, broken down into positive and negative results.
-   NL and NU report instead on the number of people tested, which is of course a different statistic.
-   In spite of this difference, the NL and NU data is here treated the same as the other jurisdictions.
-
+   <P>Complete details and background information are <a href='https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md'>here</a>.
    
    <P>Backfill for NB tests, 2020-03-31 to 2020-04-16 inclusive: an error was made in gathering this data. 
    It has been back-filled using data from <a href='https://github.com/ishaberry/Covid19Canada'>this source</a>, and 
    from <a href='https://virihealth.com/'>virihealth.com</a>.
    This is the only case in which the data is not backed up by a screenshot of a government website.
-
-   <P>More details are <a href='https://github.com/johanley/covid-19-canada/blob/master/data/md/about.md'>here</a>.
-
    
   </div>
     
