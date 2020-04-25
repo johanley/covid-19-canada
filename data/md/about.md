@@ -66,7 +66,7 @@ Here's exactly what this site is collecting for tests.
 |QC|Cas négatifs + cas positifs|[people](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)|
 |NB|Total tests performed|[tests](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/maps_graphs.html)|
 |NS|Total positive tests + Total negative tests|[people](https://novascotia.ca/coronavirus/data/)|
-|PE|Total cases + Negative results|[people](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data)|
+|PE|Total cases (including recovered cases) + Negative results|[people](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data)|
 |NL|Total # of people tested|[people](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)|
 |NU|PUI now no longer under investigation + Confirmed cases|[people](https://www.gov.nu.ca/health/information/covid-19-novel-coronavirus)|
 |NT|Completed tests|[tests](https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19)|
@@ -77,7 +77,7 @@ I'm not 100% certain that the above is correct.
 If you have any insight into this, please let me know by raising an issue on this github project.
 
 The problem in some cases is *ambiguity* and *lack of clear definition* of what exactly is being reported.
-(Also, each jurisdictions has their own unique way of reporting.)
+(Also, each jurisdiction has their own unique way of reporting.)
 
 QC: the term *cas négatifs* is not used by the CDC. It seems that they are reporting numbers of people, not tests.
 In the terms used by the CDC, I think they mean *confirmed case* and *not a case* (or perhaps *persons under investigation*).
