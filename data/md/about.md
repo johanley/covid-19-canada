@@ -45,11 +45,10 @@ Unfortunately, **this data is a mixed bag**.
 There are 2 basic variations seen in the various jurisdictions:
 
 * the number of *people* tested
-* versus the number of *tests* performed
+* the number of *tests* performed
 
-It's important to note that **a person can have more than one test**. 
-
-I've tried to come up with a uniform data-set, from the given data, but it doesn't seem possible.
+Some jurisdictions report both of these stats. It's important to note that **a person can have more than one test**. 
+I've tried to come up with a uniform data-set from the given data, but it doesn't seem possible.
 
 The preferred data collected by this project is the number of *tests-completed*.
 **So, comparing test data *between* jurisdictions is definitely *not* always comparing apples to apples.**
@@ -59,20 +58,20 @@ Here's exactly what this site is collecting for tests.
 
 |Jurisdiction|Term(s) used by the jurisdiction|People or Tests|
 |------------|---------|---------|
-|BC|Total tests|tests|
-|AB|Completed tests|tests|
-|SK|Total # tests performed|tests|
-|MB|# Completed tests|tests|
-|ON|Total tests completed|tests|
-|QC|Cas négatifs + cas positifs|people|
-|NB|Total tests performed|tests|
-|NS|Total positive tests + Total negative tests|people|
-|PE|Total cases + Negative results|people|
-|NL|Total # of people tested|people|
-|NU|PUI now no longer under investigation + Confirmed cases|people|
-|NT|Completed tests|tests|
-|YT|Confirmed cases + Negative results|people|
-|CA|numtested (in their .csv file)|people|
+|BC|[Total tests](https://governmentofbc.maps.arcgis.com/home/item.html?id=5c4b4f315bbc4708880fa10153775c4d)|[tests](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)|
+|AB|Completed tests|[tests](https://www.alberta.ca/covid-19-alberta-data.aspx)|
+|SK|Total # tests performed|[tests](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)|
+|MB|Number of tests completed|[tests](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)|
+|ON|Total tests completed|[tests](https://www.ontario.ca/page/2019-novel-coronavirus#section-0)|
+|QC|Cas négatifs + cas positifs|[people](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)|
+|NB|Total tests performed|[tests](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/maps_graphs.html)|
+|NS|Total positive tests + Total negative tests|[people](https://novascotia.ca/coronavirus/data/)|
+|PE|Total cases + Negative results|[people](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data)|
+|NL|Total # of people tested|[people](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)|
+|NU|PUI now no longer under investigation + Confirmed cases|[people](https://www.gov.nu.ca/health/information/covid-19-novel-coronavirus)|
+|NT|Completed tests|[tests](https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19)|
+|YT|Confirmed cases + Negative results|[people](https://yukon.ca/covid-19)|
+|CA|numtested (in their .csv file)|[people](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)|
 
 I'm not 100% certain that the above is correct.
 If you have any insight into this, please let me know by raising an issue on this github project.
