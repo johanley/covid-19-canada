@@ -41,38 +41,41 @@ one day to the next (see below).
 
 
 ## Testing data
-The testing data is not very consistent across jurisdictions.
-There are variations on:
+Unfortunately, **this data is a mixed bag**.
+There are 2 basic variations seen in the various jurisdictions:
 
 * the number of *people* tested
 * versus the number of *tests* performed
 
 It's important to note that **a person can have more than one test**. 
 
-This site is trying to report *tests-completed across all jurisdictions*.
-But given the data, this isn't 100% possible.
-So, comparing test data between jurisdictions isn't always comparing apples to apples.
-(Since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples, but it's probably close enough.)
+I've tried to come up with a uniform data-set, from the given data, but it doesn't seem possible.
 
-Here's exactly what this site is using for tests-completed.
-(If you think this is stupid, please let me know why!)
+The preferred data collected by this project is the number of *tests-completed*.
+**So, comparing test data *between* jurisdictions is definitely *not* always comparing apples to apples.**
+(Technically, since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples, but it's probably close enough.)
 
-|Jurisdiction|Term(s) used by the jurisdiction|Completed tests?|
+Here's exactly what this site is collecting for tests.
+
+|Jurisdiction|Term(s) used by the jurisdiction|People or Tests|
 |------------|---------|---------|
-|BC|Total tests|yes|
-|AB|Completed tests|yes|
-|SK|Total # tests performed|yes|
-|MB|# Completed tests|yes|
-|ON|Total tests completed|yes|
-|QC|Cas négatifs + cas positifs|likely not|
-|NB|Total tests performed|yes|
-|NS|Total positive tests + Total negative tests|likely not|
-|PE|Total cases + Negative results|no, but close?|
-|NL|Total # of people tested|no|
-|NU|PUI now no longer under investigation + Confirmed cases|no, but close?|
-|NT|Completed tests|yes|
-|YT|Confirmed cases + Negative results|no, but close?|
-|CA|numtested (in their .csv file)|no|
+|BC|Total tests|tests|
+|AB|Completed tests|tests|
+|SK|Total # tests performed|tests|
+|MB|# Completed tests|tests|
+|ON|Total tests completed|tests|
+|QC|Cas négatifs + cas positifs|people|
+|NB|Total tests performed|tests|
+|NS|Total positive tests + Total negative tests|people|
+|PE|Total cases + Negative results|people|
+|NL|Total # of people tested|people|
+|NU|PUI now no longer under investigation + Confirmed cases|people|
+|NT|Completed tests|tests|
+|YT|Confirmed cases + Negative results|people|
+|CA|numtested (in their .csv file)|people|
+
+I'm not 100% certain that the above is correct.
+If you have any insight into this, please let me know by raising an issue on this github project.
 
 The problem in some cases is *ambiguity* and *lack of clear definition* of what exactly is being reported.
 (Also, each jurisdictions has their own unique way of reporting.)
@@ -84,7 +87,7 @@ difference should be especially noted.
 
 NS: Their terms are ambiguous. I'm almost certain that, in this context, *test* is really *person/case*. 
 
-PE (and YT): *Total cases* is a count of people, while *Negative results* seems to be a count of test results.
+PE (and YT): *Total cases* is a count of people, while *Negative results* seems to be a count of people, not test results.
  
 
 ## Miscellaneous oddities in the data: 
