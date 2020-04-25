@@ -61,7 +61,7 @@ Here's exactly what this site is collecting for tests.
 |BC|[Total tests](https://governmentofbc.maps.arcgis.com/home/item.html?id=5c4b4f315bbc4708880fa10153775c4d)|[tests](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)|
 |AB|Completed tests|[tests](https://www.alberta.ca/covid-19-alberta-data.aspx)|
 |SK|Total # tests performed|[tests](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)|
-|MB|Number of tests completed|[tests](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)|
+|MB|Number of tests completed|[tests](https://www.gov.mb.ca/covid19/updates/index.html)|
 |ON|Total tests completed|[tests](https://www.ontario.ca/page/2019-novel-coronavirus#section-0)|
 |QC|Cas négatifs + cas positifs|[people](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)|
 |NB|Total tests performed|[tests](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/maps_graphs.html)|
