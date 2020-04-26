@@ -39,6 +39,12 @@ For example, on 2020-03-31 NL was not reporting any deaths, but other sources we
 *Warning*: **clerical errors** can get corrected; this can cause cumulative totals to actually *drop* from 
 one day to the next (see below).
 
+*Warning*: **reporting artifacts** seem to be showing up when calculating daily changes with CA data.
+The daily-change data for CA is very spiky.
+There are two large jurisdictions, ON and QC. 
+If the reporting schedule is a bit irregular, then this is exactly the kind of behaviour you would see.
+See [this issue](https://github.com/johanley/covid-19-canada/issues/4) for more info.
+
 
 ## Testing data
 Unfortunately, **this data is a mixed bag**.
