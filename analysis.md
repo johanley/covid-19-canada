@@ -438,7 +438,21 @@ changing environmental conditions, and social distancing behavior.*
 
 [NZ dashboard](https://covid19map.nz/)
 
-https://www.theglobeandmail.com/canada/article-coronavirus-cases-canada-world-map-explainer/ good charts  
+https://www.theglobeandmail.com/canada/article-coronavirus-cases-canada-world-map-explainer/ good charts  bad testing stats?
+https://www.cbc.ca/news/health/covid-19-testing-variations-1.5520812  bad testing stats?
+https://www.inspq.qc.ca/covid-19/donnees quebec is reporting on people, not tests
+https://www.inspq.qc.ca/covid-19/donnees quebec: chart for per cap tests; the PE number is people, treated as tests; SK seems to people not tests too.
+
+
+Download time series data
+https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario - ON
+https://www.inspq.qc.ca/covid-19/donnees - QC
+http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data - BC 2/3: tests; minimal case line listing; no deaths
+https://catalogue.data.gov.bc.ca/dataset/b-c-covid-19-lab-information - BC
+https://covid19stats.alberta.ca/ - AB; case line listing only?
+https://open.canada.ca/data/en/dataset/1a75d374-2c4c-4616-aaf0-122d6e810432 - CA
+https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink - CA 
+All others: no
 
 https://nationalpost.com/news/canadas-public-data-on-covid-19-is-mostly-a-mess-heres-how-to-find-the-useful-info 
 

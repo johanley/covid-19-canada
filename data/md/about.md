@@ -83,6 +83,7 @@ QC: the term *cas négatifs* is not used by the CDC. It seems that they are repo
 In the terms used by the CDC, I think they mean *confirmed case* and *not a case* (or perhaps *persons under investigation*).
 Because of the large size of QC, and because per-capita they are having by far the most trouble with the virus, this 
 difference should be especially noted.
+[This link](https://www.inspq.qc.ca/covid-19/donnees) demonstrates that they are reporting number of *people*, not numbers of *tests*.
 
 NS: Their terms are ambiguous. I'm almost certain that, in this context, *test* is really *person/case*. 
 
