@@ -5,7 +5,7 @@ As of: **2020-04-25**
 ||Total|+|p.c.|
 |--|---:|---:|---:|
 |Deaths|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|0|0.58|
-|Known cases|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|-253|1|
+|Known cases|[257](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|+1|49|
 |Tests completed|[7332](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|+198|1406|
 
 \+ = daily increase.
@@ -93,7 +93,7 @@ N means no daily increase can be calculated for that day.
 **Total cumulative known cases** reported on the given date.
 |Date|Known Cases|Known Cases|
 |:--|---:|---|
-|2020-04-25|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|<img src='bar.png' height='10' width='4' title='3'>|
+|2020-04-25|[257](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/nl.png)|<img src='bar.png' height='10' width='350' title='257'>|
 |2020-04-24|[256](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/nl.png)|<img src='bar.png' height='10' width='348' title='256'>|
 |2020-04-23|[256](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/nl.png)|<img src='bar.png' height='10' width='348' title='256'>|
 |2020-04-22|[256](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-22_21h30mADT/nl.png)|<img src='bar.png' height='10' width='348' title='256'>|
@@ -128,7 +128,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Known cases daily increase** reported on the given date.
 |Date|+Cases|Known cases daily increase|
 |:--|---:|---|
-|2020-04-25|-253|<img src='bar.png' height='10' width='-3850' title='-253'>|
+|2020-04-25|+1|<img src='bar.png' height='10' width='15' title='1'>|
 |2020-04-24|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-23|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-22|-1|<img src='bar.png' height='10' width='-15' title='-1'>|
