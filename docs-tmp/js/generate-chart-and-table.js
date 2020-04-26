@@ -46,6 +46,8 @@ var GENERATE_CHART_AND_TABLE = (function(){
   
   /* The top-level federal jurisdiction. */
   var FEDERAL = 'ca'; 
+  
+  var RUNNING_AVG_NUM_DAYS = 7;
 
   /** Hard-coded values for per capita calculations. */  
   var PER_SO_MANY_PEOPLE = 100000;
@@ -82,6 +84,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
     'tests': 'Tests',
     'nominal': 'Total',
     'di': 'Daily',
+    'avg_di': '(7d Average) Daily',
     'pc': 'Per Capita'
   };
   
@@ -391,6 +394,64 @@ var GENERATE_CHART_AND_TABLE = (function(){
     return result;
   };
   
+  /** Index of a date in the dates-array. The dates in ALL_DATES have most-recent-first! */
+  var date_idx_of = function(date){
+    var result = -1;
+    for(var i = 0; i < ALL_DATES.length; ++i){
+      if (date === ALL_DATES[i]){
+        result = i;
+        break;
+      }
+    }
+    return result;
+  };
+  
+  /** 
+    Return numbers only.
+    Usually returns num_days - 1 numbers; will return num_days - 3 if there's one N value!.
+    It will still work if there's 1 N, but there shouldn't be 2 N's.
+  */
+  var previous_increases = function(juris, date, series, num_days){
+    var result = [];
+    var vals = []; //nominal values
+    //the dates needed (as indexes into the ALL_DATES array)
+    var end_date = date_idx_of(date);
+    var start_date = end_date + (num_days-1); // ALL_DATES has the most-recent date first
+    if (start_date >= ALL_DATES.length){ //don't go beyond the start of the time series
+      start = ALL_DATES.length - 1; //truncated
+    }
+    //use the dates to look up the nominal vals 
+    for(var i = start_date; i >= end_date; --i){ //again, the array is 'backwards'
+      var val = nominal_val_for(series, ALL_DATES[i], juris);
+      vals.push(val); //might be 'N'
+    }
+    //finally, form the differences between the nominal vals (where possible)
+    for(var j = 0; j < vals.length; ++j){
+      var a = vals[j];
+      var b = vals[j+1];
+      if (is_num(a) && is_num(b)){ //an 'N' results in two missing deltas!
+        result.push(b - a);
+      }
+    }
+    return result;
+  }
+
+  /** 
+   Won't work well if there are a lot of gaps in the data, but can handle the occasional gap 'N'.
+   The num-days is not parameterized here. 
+   At the beginning of the time series, it will be a bit jagged, since it gets truncated to fewer vals.
+   Always returns a number! 
+  */
+  var render_avg_daily_increase = function(val, juris, date, series){
+    var prev_increases = previous_increases(juris, date, series, RUNNING_AVG_NUM_DAYS); 
+    var sum = 0;
+    for(var i=0; i < prev_increases.length; ++i){
+      sum = sum + prev_increases[i];
+    }
+    var result = sum / prev_increases.length;
+    return result;
+  };
+  
   /** Rendering-pipeline for the summary-data table. */  
   var pipeline_summary_table = function(series, rendering) {
     var table = {
@@ -407,9 +468,9 @@ var GENERATE_CHART_AND_TABLE = (function(){
   */  
   var pipeline_time_chart = function(series, rendering) {
     var table = {
-      "deaths": {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_two_decimals]},
-      "cases":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round]},
-      "tests":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round]},
+      "deaths": {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_two_decimals], "avg_di": [render_avg_daily_increase, render_round]},
+      "cases":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round], "avg_di": [render_avg_daily_increase, render_round]},
+      "tests":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round], "avg_di": [render_avg_daily_increase, render_round]},
     };
     return table[series][rendering];
   };
@@ -789,6 +850,16 @@ var GENERATE_CHART_AND_TABLE = (function(){
     }
   };
   
+  var plot_juris_avg_daily = function(juris){
+    for(var i=0; i < ALL_SERIES.length; ++i){
+      var no_juris_compare = '';
+      if (has_total(ALL_SERIES[i], juris)){ //skip if the total is 0; there's no data, so don't show any chart
+        var plot = plot_details_time(juris, ALL_SERIES[i], 'avg_di', no_juris_compare);
+        Plotly.newPlot('daily-' + ALL_SERIES[i], plot); 
+      }
+    }
+  };
+  
   /* Summary table. 3 charts with daily change. Chart not shown if there's no data. */
   var plot_juris = function(){
     var juris = PARAMS.juris;
@@ -798,7 +869,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
   
   var summary = function(){
     populate_summary_table(FEDERAL);
-    plot_juris_daily(FEDERAL);
+    plot_juris_avg_daily(FEDERAL);
     
     populate_summary_juris_table();
     
