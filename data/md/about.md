@@ -72,11 +72,11 @@ Here's exactly what this site is collecting for tests.
 |QC|Cas négatifs + cas positifs|[people](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)|
 |NB|Total tests performed|[tests](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/maps_graphs.html)|
 |NS|Total positive tests + Total negative tests|[people](https://novascotia.ca/coronavirus/data/)|
-|PE|Total cases (including recovered cases) + Negative results|[people](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data)|
+|PE|Total cases (including recovered cases) + Negative results|[people + tests](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data)|
 |NL|Total # of people tested|[people](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)|
 |NU|PUI now no longer under investigation + Confirmed cases|[people](https://www.gov.nu.ca/health/information/covid-19-novel-coronavirus)|
 |NT|Completed tests|[tests](https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19)|
-|YT|Confirmed cases + Negative results|[people](https://yukon.ca/covid-19)|
+|YT|Confirmed cases + Negative results|[people + tests](https://yukon.ca/covid-19)|
 |CA|numtested (in their .csv file)|[people](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)|
 
 I'm not 100% certain that the above is correct.
@@ -93,7 +93,9 @@ difference should be especially noted.
 
 NS: Their terms are ambiguous. I'm almost certain that, in this context, *test* is really *person/case*. 
 
-PE (and YT): *Total cases* is a count of people, while *Negative results* seems to be a count of people, not test results.
+PE: *Total cases* is a count of people, while *Negative results* is a count of negative test results (email from the Office of the Chief Public Health Officer). So in this case it's a mixture.
+
+YT: appears to be the same as PE.
  
 
 ## Miscellaneous oddities in the data: 
