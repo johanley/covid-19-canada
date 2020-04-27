@@ -63,7 +63,7 @@ But comparing test data *between* jurisdictions is definitely *not* always compa
 
 Here's exactly what this site is collecting for tests.
 
-|Jurisdiction|Term(s) used by the jurisdiction|People or Tests|
+|Jurisdiction|Term(s) used by the jurisdiction|# of People or # of Tests?|
 |------------|---------|---------|
 |BC|[Total tests](https://governmentofbc.maps.arcgis.com/home/item.html?id=5c4b4f315bbc4708880fa10153775c4d)|[tests](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)|
 |AB|Completed tests|[tests](https://www.alberta.ca/covid-19-alberta-data.aspx)|
