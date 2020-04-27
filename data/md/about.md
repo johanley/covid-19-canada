@@ -97,7 +97,20 @@ and *case*. Their term *negative test result* can be taken as exactly that, as a
 PE: *Total cases* is a count of people, while *Negative results* is a count of negative test results (confirmed by an email from the Office of the Chief Public Health Officer). So in this case it's a mixture.
 
 YT: appears to be the same as PE.
- 
+
+
+### In summary
+
+NS, PE, and YT: because there are much fewer positive results, the jurisdictions for which the reported-stat is:
+
+* count-positive-people + count-negative-tests
+
+are actually *not too far off* a pure count of tests:
+
+* count-positive-tests + count-negative-tests
+
+QC and NL: these two report purely on numbers of people, not numbers of tests. 
+When comparing to other jurisdictions, they are the most problematic.
 
 ## Miscellaneous oddities in the data: 
 
