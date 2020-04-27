@@ -91,12 +91,12 @@ Because of the large size of QC, and because per-capita they are having by far t
 difference should be especially noted.
 [This link](https://www.inspq.qc.ca/covid-19/donnees) demonstrates that they are reporting number of *people*, not numbers of *tests*.
 
-NS: Their terms are ambiguous. The NS press releases refer to the same number as being BOTH *positive test result* 
-and *case*. Their term *negative test result* can be taken as exactly that, as a count of tests.
-
 PE: *Total cases* is a count of people, while *Negative results* is a count of negative test results (confirmed by an email from the Office of the Chief Public Health Officer). So in this case it's a mixture.
 
 YT: appears to be the same as PE.
+
+NS: Their terms are ambiguous. The NS press releases refer to the same number as being BOTH *positive test results* 
+and *cases*. Their term *negative test results* can be taken as exactly that, as a count of tests.
 
 
 ### In summary
