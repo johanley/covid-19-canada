@@ -78,7 +78,7 @@ Here's exactly what this site is collecting for tests.
 |NU|PUI now no longer under investigation + Confirmed cases|[people](https://www.gov.nu.ca/health/information/covid-19-novel-coronavirus)|
 |NT|Completed tests|[tests](https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19)|
 |YT|Confirmed cases + Negative results|[people + tests](https://yukon.ca/covid-19)|
-|CA|numtested (in their .csv file)|[people](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)|
+|CA|numtested (in their .csv file, but not collected here)|[people](https://health-infobase.canada.ca/src/data/covidLive/covid19.csv)|
 
 I'm not 100% certain that the above is correct.
 If you have any insight into this, please let me know by raising an issue on this github project.
