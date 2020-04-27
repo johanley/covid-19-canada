@@ -1,12 +1,12 @@
 # BC
 
-As of: **2020-04-25**
+As of: **2020-04-26**
 
 ||Total|+|p.c.|
 |--|---:|---:|---:|
-|Deaths|[100](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|+2|1.96|
-|Known cases|[1948](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|+95|38|
-|Tests completed|[71415](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|N|1397|
+|Deaths|[100](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|N|1.96|
+|Known cases|[1948](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|N|38|
+|Tests completed|[71415](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|N|1397|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -19,6 +19,7 @@ N = not reported.
 **Total cumulative deaths** reported on the given date.
 |Date|Deaths|Deaths|
 |:--|---:|---|
+|2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|[100](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='100'>|
 |2020-04-24|[98](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='343' title='98'>|
 |2020-04-23|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='329' title='94'>|
@@ -55,6 +56,7 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|+Deaths|Deaths daily increase|
 |:--|---:|---|
+|2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|+2|<img src='bar.png' height='10' width='116' title='2'>|
 |2020-04-24|+4|<img src='bar.png' height='10' width='233' title='4'>|
 |2020-04-23|+4|<img src='bar.png' height='10' width='233' title='4'>|
@@ -93,6 +95,7 @@ N means no daily increase can be calculated for that day.
 **Total cumulative known cases** reported on the given date.
 |Date|Known Cases|Known Cases|
 |:--|---:|---|
+|2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|[1948](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='1948'>|
 |2020-04-24|[1853](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='332' title='1853'>|
 |2020-04-23|[1824](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='327' title='1824'>|
@@ -128,6 +131,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Known cases daily increase** reported on the given date.
 |Date|+Cases|Known cases daily increase|
 |:--|---:|---|
+|2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|+95|<img src='bar.png' height='10' width='350' title='95'>|
 |2020-04-24|+29|<img src='bar.png' height='10' width='106' title='29'>|
 |2020-04-23|+29|<img src='bar.png' height='10' width='106' title='29'>|
@@ -167,6 +171,7 @@ N means no daily increase can be calculated for that day.
 **Total completed tests** reported on the given date.
 |Date|Tests|Tests completed|
 |:--|---:|---|
+|2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-24|[71415](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='350' title='71415'>|
 |2020-04-23|[68553](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='335' title='68553'>|
@@ -202,6 +207,7 @@ N means no update occurred that day. Links to screen-shots.
 **Completed tests daily increase** reported on the given date.
 |Date|+Tests|Tests daily increase|
 |:--|---:|---|
+|2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-24|+2862|<img src='bar.png' height='10' width='350' title='2862'>|
 |2020-04-23|+1576|<img src='bar.png' height='10' width='192' title='1576'>|
