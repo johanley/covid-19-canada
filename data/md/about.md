@@ -56,8 +56,9 @@ There are 2 basic variations seen in the various jurisdictions:
 Some jurisdictions report both of these stats. It's important to note that **a person can have more than one test**. 
 I've tried to come up with a uniform data-set from the given data, but it doesn't seem possible.
 
-The preferred data collected by this project is the number of *tests-completed*.
-**So, comparing test data *between* jurisdictions is definitely *not* always comparing apples to apples.**
+**The preferred data collected by this project is the number of *tests-completed*.**
+
+But comparing test data *between* jurisdictions is definitely *not* always comparing apples to apples.
 (Technically, since case definitions aren't 100% universal, even comparing case numbers isn't always comparing apples to apples, but it's probably close enough.)
 
 Here's exactly what this site is collecting for tests.
@@ -101,7 +102,7 @@ and *cases*. Their term *negative test results* can be taken as exactly that, as
 
 ### In summary
 
-NS, PE, and YT: because there are much fewer positive results, the jurisdictions for which the reported-stat is:
+NS, PE, and YT: because there are much fewer positive results, the jurisdictions for which the stat reported here is:
 
 * count-positive-people + count-negative-tests
 
