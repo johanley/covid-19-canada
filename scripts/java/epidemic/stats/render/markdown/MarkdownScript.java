@@ -203,7 +203,7 @@ public class MarkdownScript extends ScriptTemplate {
     for (Jurisdiction juris : Jurisdiction.values()) {
       String templateName = "jurisdiction";
       if (Jurisdiction.ca == juris) {
-        //because CA has no testing stats!
+        //because CA doesn't report tests-completed
         templateName = templateName + "_ca";
       }
       else if (Jurisdiction.qc == juris || Jurisdiction.nl == juris || Jurisdiction.nu == juris) {

@@ -74,7 +74,7 @@
       <select name='series' id='series'>
         <option value='deaths' title='Reported deaths. Cumulative.'>Deaths
         <option value='cases' title='Reported cases. Confirmed and probable. Cumulative'>Cases
-        <option value='tests' title='Completed tests (no data for CA)'>Tests
+        <option value='tests' title='Completed tests. (For QC, NL, and NU, the num of people tested)'>Testing
       </select>
       
       <select name='days_ago' id='days_ago'>
@@ -101,6 +101,11 @@
      </thead>
      <tbody id='source_data_body'></tbody>
    </table>
+   
+   <div style='font-size:50%'>
+    <P><em>Testing</em>: usually the number of tests completed.
+    For QC, NL, and NU, it's the number of people tested.
+   </div>
    
 
   </body>

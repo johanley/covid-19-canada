@@ -81,7 +81,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
   var CODE_TO_TEXT = {
     'deaths' : 'Deaths',
     'cases': 'Cases',
-    'tests': 'Tests',
+    'tests': 'Testing',
     'nominal': 'Total',
     'di': 'Daily',
     'avg_di': '(7d Average) Daily',
