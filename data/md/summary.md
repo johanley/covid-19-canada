@@ -37,7 +37,9 @@ As of: **2020-04-27**
 |Tests p.c.|1539|3069|2395|1709|1646|2345|1692|2776|1753|1462|826|3748|2157|0|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
-N = not reported. The CA jurisdiction is not yet reporting test numbers.
+N = not reported. 
+The CA jurisdiction doesn't report on tests completed.
+*QC, NL, and NU report numbers of people tested, not on numbers of tests.*
 
 
 
@@ -247,4 +249,4 @@ N = not reported. The CA jurisdiction is not yet reporting test numbers.
 |CA|0|<img src='bar.png' height='10' width='0' title='0'>|
 
 
-CA is not yet reporting test data.
+CA is not reporting numbers of tests completed.

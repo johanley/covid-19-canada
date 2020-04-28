@@ -6,7 +6,7 @@ As of: **2020-04-27**
 |--|---:|---:|---:|
 |Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/nu.png)|N|0.0|
 |Known cases|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/nu.png)|N|0|
-|Tests completed|[323](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/nu.png)|N|826|
+|People tested|[323](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/nu.png)|N|826|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -172,8 +172,8 @@ N means no daily increase can be calculated for that day.
 
 
 
-**Total completed tests** reported on the given date.
-|Date|Tests|Tests completed|
+**Total people tested** reported on the given date.
+|Date|People tested|People tested|
 |:--|---:|---|
 |2020-04-27|[323](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/nu.png)|<img src='bar.png' height='10' width='350' title='323'>|
 |2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/nu.png)|<img src='bar.png' height='10' width='0' title='N'>|
@@ -209,8 +209,8 @@ N means no update occurred that day. Links to screen-shots.
 
 ***
 
-**Completed tests daily increase** reported on the given date.
-|Date|+Tests|Tests daily increase|
+**People tested daily increase** reported on the given date.
+|Date|+People tested|People tested daily increase|
 |:--|---:|---|
 |2020-04-27|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|

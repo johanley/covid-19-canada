@@ -206,6 +206,10 @@ public class MarkdownScript extends ScriptTemplate {
         //because CA has no testing stats!
         templateName = templateName + "_ca";
       }
+      else if (Jurisdiction.qc == juris || Jurisdiction.nl == juris || Jurisdiction.nu == juris) {
+        //because these places report on people-tested, not tests completed
+        templateName = templateName + "_people_tested";
+      }
       String template = templateFor(templateName);
       
       Map<String, String /*replacement*/> replacements = new LinkedHashMap<>();

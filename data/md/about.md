@@ -110,7 +110,7 @@ are actually *not too far off* a pure count of tests:
 
 * count-positive-tests + count-negative-tests
 
-QC and NL: these two report **purely on numbers of people, not numbers of tests**. 
+QC, NL, and NU: these report **purely on numbers of people, not numbers of tests**. 
 When comparing to other jurisdictions, they are the most problematic.
 
 ## Miscellaneous oddities in the data: 

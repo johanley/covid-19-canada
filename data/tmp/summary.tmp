@@ -37,7 +37,9 @@ As of: **${dateOfMostRecentScreenshots}**
 |Tests p.c.|${summaryTableTestsPerCapita}
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
-N = not reported. The CA jurisdiction is not yet reporting test numbers.
+N = not reported. 
+The CA jurisdiction doesn't report on tests completed.
+*QC, NL, and NU report numbers of people tested, not on numbers of tests.*
 
 
 
@@ -127,6 +129,6 @@ ${summaryHistoTestsDailyIncrease}
 |---|---:|---|
 ${summaryHistoTestsPerCapita}
 
-CA is not yet reporting test data.
+CA is not reporting numbers of tests completed.
 
 
