@@ -1,0 +1,6 @@
+Current **number of people in hospital** as of the given date, with **links to screen-shots**. 
+N means no update occurred that day.
+|Date|${tableHeaderJurisdictions}
+|:---|${tableHeaderSeparator}
+${tableRowsWithLinks}
+

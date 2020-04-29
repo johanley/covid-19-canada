@@ -9,8 +9,11 @@ public enum Series {
   
   known_cases("Known cases reported. Cumulative total. Includes both confirmed and probable/presumptive cases"),
   
-  /**  Different: the federal jurisdiction doesn't track tests. */
-  tests("Total completed tests. Cumulative. Excludes pending tests");
+  /**  Different: the federal jurisdiction doesn't track tests. QC, NL, NU report on people-tested, not tests.*/
+  tests("Total completed tests. Cumulative. Excludes pending tests"),
+
+  /** Not reported by the federal jurisdiction. */
+  hosp("Current number of people in hospital");
   
   public String getDescription() {
     return descr;

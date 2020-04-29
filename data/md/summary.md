@@ -42,6 +42,20 @@ The CA jurisdiction doesn't report on tests completed.
 *QC, NL, and NU report numbers of people tested, not on numbers of tests.*
 
 
+**Hospitalizations** 
+
+||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|Hospitalizations|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|[82](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ab.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/sk.png)|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/mb.png)|[957](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/on.png)|[1625](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/qc.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nb.png)|[12](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/pe.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ca.png)|
+|+Hospitalizations|-3|-5|+1|0|+12|+84|-2|0|0|-1|N|0|0|N|
+|Hospitalizations p.c.|2|2|1|1|7|19|0|1|0|1|0|0|0|0|
+
+\+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
+N = not reported. 
+The CA jurisdiction doesn't report on hospitalizations.
+
+
+
 
 ***
 
@@ -250,3 +264,75 @@ The CA jurisdiction doesn't report on tests completed.
 
 
 CA is not reporting numbers of tests completed.
+
+
+
+
+
+***
+
+**Hospitalizations** 
+
+||Hospitalized|Hospitalized|
+|---|---:|---|
+|BC|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='20' title='94'>|
+|AB|[82](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ab.png)|<img src='bar.png' height='10' width='17' title='82'>|
+|SK|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/sk.png)|<img src='bar.png' height='10' width='1' title='8'>|
+|MB|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/mb.png)|<img src='bar.png' height='10' width='1' title='7'>|
+|ON|[957](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/on.png)|<img src='bar.png' height='10' width='206' title='957'>|
+|QC|[1625](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/qc.png)|<img src='bar.png' height='10' width='350' title='1625'>|
+|NB|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nb.png)|<img src='bar.png' height='10' width='0' title='1'>|
+|NS|[12](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ns.png)|<img src='bar.png' height='10' width='2' title='12'>|
+|PE|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|NL|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nl.png)|<img src='bar.png' height='10' width='0' title='4'>|
+|NU|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nu.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nt.png)|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/yt.png)|<img src='bar.png' height='10' width='0' title='0'>|
+
+
+
+***
+
+**Hospitalizations daily increase** 
+
+||+Hospitalized|Hospitalized daily increase|
+|---|---:|---|
+|BC|-3|<img src='bar.png' height='10' width='-12' title='-3'>|
+|AB|-5|<img src='bar.png' height='10' width='-20' title='-5'>|
+|SK|+1|<img src='bar.png' height='10' width='4' title='+1'>|
+|MB|0|<img src='bar.png' height='10' width='0' title='0'>|
+|ON|+12|<img src='bar.png' height='10' width='50' title='+12'>|
+|QC|+84|<img src='bar.png' height='10' width='350' title='+84'>|
+|NB|-2|<img src='bar.png' height='10' width='-8' title='-2'>|
+|NS|0|<img src='bar.png' height='10' width='0' title='0'>|
+|PE|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NL|-1|<img src='bar.png' height='10' width='-4' title='-1'>|
+|NU|N|<img src='bar.png' height='10' width='0' title='N'>|
+|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|0|<img src='bar.png' height='10' width='0' title='0'>|
+
+
+
+***
+
+**Hospitalizations per capita** (100,000 population)
+
+||Hospitalized p.c.|Hospitalized per 100,000 pop.|
+|---|---:|---|
+|BC|2|<img src='bar.png' height='10' width='36' title='2'>|
+|AB|2|<img src='bar.png' height='10' width='36' title='2'>|
+|SK|1|<img src='bar.png' height='10' width='18' title='1'>|
+|MB|1|<img src='bar.png' height='10' width='18' title='1'>|
+|ON|7|<img src='bar.png' height='10' width='128' title='7'>|
+|QC|19|<img src='bar.png' height='10' width='350' title='19'>|
+|NB|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NS|1|<img src='bar.png' height='10' width='18' title='1'>|
+|PE|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NL|1|<img src='bar.png' height='10' width='18' title='1'>|
+|NU|0|<img src='bar.png' height='10' width='0' title='0'>|
+|NT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|YT|0|<img src='bar.png' height='10' width='0' title='0'>|
+|CA|0|<img src='bar.png' height='10' width='0' title='0'>|
+
+
+CA is not reporting on hospitalizations.

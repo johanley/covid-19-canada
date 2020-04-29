@@ -102,9 +102,10 @@ public class MarkdownScript extends ScriptTemplate {
     SourceData deaths = parseCsv(Series.deaths);
     SourceData knownCases = parseCsv(Series.known_cases);
     SourceData tests = parseCsv(Series.tests);
+    SourceData hosp = parseCsv(Series.hosp);
     //since validations are done above, they aren't repeated again here, before generating this piece
-    perJurisdictionStats(dateOfMostRecentScreenshots, deaths, knownCases, tests);
-    summaryStats(dateOfMostRecentScreenshots, deaths, knownCases, tests);
+    perJurisdictionStats(dateOfMostRecentScreenshots, deaths, knownCases, tests, hosp);
+    summaryStats(dateOfMostRecentScreenshots, deaths, knownCases, tests, hosp);
   }
 
   // PRIVATE
@@ -176,6 +177,10 @@ public class MarkdownScript extends ScriptTemplate {
     }
   }
 
+  private Boolean caLacks(Series series) {
+     return Series.hosp == series || Series.tests == series;
+  }
+  
   /** 
    Table only, no graphs.
    The core, nominal data, with links to screenshots of the underlying government web page. 
@@ -190,7 +195,7 @@ public class MarkdownScript extends ScriptTemplate {
       Map<String, String/*replacement*/> replacements = new LinkedHashMap<>();
       MarkdownBuilder builder = new MarkdownBuilder();
       
-      Jurisdiction[] juriss = (Series.tests == series) ? Jurisdiction.valuesWithoutCA() : Jurisdiction.values();
+      Jurisdiction[] juriss = caLacks(series) ? Jurisdiction.valuesWithoutCA() : Jurisdiction.values();
       replacements.put(Key.tableHeaderJurisdictions.name(), builder.tableHeaderFor(juriss));
       replacements.put(Key.tableHeaderSeparator.name(), builder.tableHeaderSeparator(juriss));
       replacements.put(Key.tableRowsWithLinks.name(), builder.tableRows(data, linkToScreenshot(fileSys())));
@@ -199,11 +204,11 @@ public class MarkdownScript extends ScriptTemplate {
   }
   
   /** Both tables and charts. The tables come first. Time series in the charts. */
-  private void perJurisdictionStats(String dateOfMostRecentScreenshots, SourceData deaths, SourceData knownCases, SourceData tests) throws IOException, Abort {
+  private void perJurisdictionStats(String dateOfMostRecentScreenshots, SourceData deaths, SourceData knownCases, SourceData tests, SourceData hosp) throws IOException, Abort {
     for (Jurisdiction juris : Jurisdiction.values()) {
-      String templateName = "jurisdiction";
+      String templateName = "jurisdiction"; //3 variations: see below
       if (Jurisdiction.ca == juris) {
-        //because CA doesn't report tests-completed
+        //because CA doesn't report tests-completed or hospitalizations
         templateName = templateName + "_ca";
       }
       else if (Jurisdiction.qc == juris || Jurisdiction.nl == juris || Jurisdiction.nu == juris) {
@@ -231,6 +236,12 @@ public class MarkdownScript extends ScriptTemplate {
       injectValueFor(Key.totalTests, tests, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys()));
       injectValueFor(Key.totalTestsDailyIncrease, tests, dateOfMostRecentScreenshots, juris, replacements, change(1, diff()), sign());
       injectValueFor(Key.totalTestsPerCapita, tests, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), perCapita(HUNDRED_THOU), round());
+
+      //hospitalization data is also ignored by the CA template
+      injectValueFor(Key.totalHosp, hosp, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), linkToScreenshot(fileSys()));
+      injectValueFor(Key.totalHospDailyIncrease, hosp, dateOfMostRecentScreenshots, juris, replacements, change(1, diff()), sign());
+      injectValueFor(Key.totalHospPerCapita, hosp, dateOfMostRecentScreenshots, juris, replacements, forceNumeric(), perCapita(HUNDRED_THOU), round());
+      
       
       //bar graphs (per capita not shown here, because there's only 1 jurisdiction present) 
       jurisdictionTimeSeries(Key.deathsGraph, juris, replacements, deaths, builder);
@@ -242,6 +253,10 @@ public class MarkdownScript extends ScriptTemplate {
       //tests data is simply ignored by the CA template (see above)
       jurisdictionTimeSeries(Key.testsGraph, juris, replacements, tests, builder);
       jurisdictionTimeSeriesDailyChange(Key.testsDailyIncreaseGraph, juris, replacements, tests, builder);
+
+      //hospitalization data is also ignored by the CA template
+      jurisdictionTimeSeries(Key.hospGraph, juris, replacements, hosp, builder);
+      jurisdictionTimeSeriesDailyChange(Key.hospDailyIncreaseGraph, juris, replacements, hosp, builder);
       
       output(juris, template, replacements);
     }
@@ -272,7 +287,7 @@ public class MarkdownScript extends ScriptTemplate {
   }
   
   /** Top level summary for all jurisdictions. Compares jurisdictions. */
-  private void summaryStats(String dateOfMostRecentScreenshots, SourceData deaths, SourceData knownCases, SourceData tests) throws IOException, Abort {
+  private void summaryStats(String dateOfMostRecentScreenshots, SourceData deaths, SourceData knownCases, SourceData tests, SourceData hosp) throws IOException, Abort {
     String SUMMARY = "summary";
     String template = templateFor(SUMMARY);
     Map<String, String /*replacement*/> replacements = new LinkedHashMap<>();
@@ -295,10 +310,16 @@ public class MarkdownScript extends ScriptTemplate {
     replacements.put(Key.summaryTableTestsDaily.name(), builder.summaryRowFor(tests, dateOfMostRecentScreenshots, change(1, diff()), sign()));
     replacements.put(Key.summaryTableTestsPerCapita.name(), builder.summaryRowFor(tests, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
     
+    replacements.put(Key.summaryTableHosp.name(), builder.summaryRowFor(hosp, dateOfMostRecentScreenshots, forceNumeric(), linkToScreenshot(fileSys())));
+    replacements.put(Key.summaryTableHospDaily.name(), builder.summaryRowFor(hosp, dateOfMostRecentScreenshots, change(1, diff()), sign()));
+    replacements.put(Key.summaryTableHospPerCapita.name(), builder.summaryRowFor(hosp, dateOfMostRecentScreenshots, forceNumeric(), perCapita(HUNDRED_THOU), round()));
+    
+    
     //histograms by jurisdiction: nominal, daily change, per capita
     summaryHistograms(Key.summaryHistoDeaths, Key.summaryHistoDeathsPerCapita, Key.summaryHistoDeathsDailyIncrease, replacements, deaths, dateOfMostRecentScreenshots, builder);
     summaryHistograms(Key.summaryHistoCases, Key.summaryHistoCasesPerCapita, Key.summaryHistoCasesDailyIncrease, replacements, knownCases, dateOfMostRecentScreenshots, builder);
     summaryHistograms(Key.summaryHistoTests, Key.summaryHistoTestsPerCapita, Key.summaryHistoTestsDailyIncrease, replacements, tests, dateOfMostRecentScreenshots, builder);
+    summaryHistograms(Key.summaryHistoHosp, Key.summaryHistoHospPerCapita, Key.summaryHistoHospDailyIncrease, replacements, hosp, dateOfMostRecentScreenshots, builder);
 
     output(SUMMARY, template, replacements);
   }

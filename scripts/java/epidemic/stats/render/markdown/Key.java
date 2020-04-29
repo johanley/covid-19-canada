@@ -21,6 +21,8 @@ enum Key {
  deathsDailyIncreaseGraph,
  testsGraph,
  testsDailyIncreaseGraph,
+ hospGraph,
+ hospDailyIncreaseGraph,
  
  dateOfMostRecentScreenshots,
  totalDeaths,
@@ -32,6 +34,9 @@ enum Key {
  totalTests,
  totalTestsPerCapita,
  totalTestsDailyIncrease,
+ totalHosp,
+ totalHospPerCapita,
+ totalHospDailyIncrease,
  
  summaryTableRows, 
  
@@ -44,6 +49,9 @@ enum Key {
  summaryTableTests,
  summaryTableTestsDaily,
  summaryTableTestsPerCapita,
+ summaryTableHosp,
+ summaryTableHospDaily,
+ summaryTableHospPerCapita,
  
  
  summaryHistoDeaths,
@@ -55,6 +63,9 @@ enum Key {
  summaryHistoTests,
  summaryHistoTestsDailyIncrease,
  summaryHistoTestsPerCapita,
+ summaryHistoHosp,
+ summaryHistoHospDailyIncrease,
+ summaryHistoHospPerCapita,
  
  
  ;

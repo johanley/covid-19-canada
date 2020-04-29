@@ -7,6 +7,7 @@ As of: **${dateOfMostRecentScreenshots}**
 |Deaths|${totalDeaths}|${totalDeathsDailyIncrease}|${totalDeathsPerCapita}|
 |Known cases|${totalCases}|${totalCasesDailyIncrease}|${totalCasesPerCapita}|
 |Tests completed|${totalTests}|${totalTestsDailyIncrease}|${totalTestsPerCapita}|
+|Currently hospitalized|${totalHosp}|${totalHospDailyIncrease}|${totalHospPerCapita}|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -76,4 +77,21 @@ ${testsDailyIncreaseGraph}
 
 N means no daily increase can be calculated for that day.
 
+***
 
+
+**Current hospitalizations** reported on the given date.
+|Date|Hospitalized|Hospitalized|
+|:--|---:|---|
+${hospGraph}
+
+N means no update occurred that day. Links to screen-shots.
+
+***
+
+**Current hospitalizations daily increase** reported on the given date.
+|Date|+Hospitalized|Hospitalized daily increase|
+|:--|---:|---|
+${hospDailyIncreaseGraph}
+
+N means no daily increase can be calculated for that day.
