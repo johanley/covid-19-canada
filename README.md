@@ -5,6 +5,7 @@ Three data sets, all starting as of 2020-03-31:
 * deaths (cumulative)
 * known cases, both confirmed and probable/presumptive (cumulative)
 * tests completed (cumulative)
+* hospitalized patients (*not* cumulative, current day only)
 
 For QC, NL, and NU the number of *tests completed* is not available. 
 Instead, those jurisdictions report the number of *people tested*.

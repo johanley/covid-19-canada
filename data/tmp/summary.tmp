@@ -39,20 +39,21 @@ As of: **${dateOfMostRecentScreenshots}**
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 N = not reported. 
 The CA jurisdiction doesn't report on tests completed.
-*QC, NL, and NU report numbers of people tested, not on numbers of tests.*
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 
 **Hospitalizations** 
 
 ||${tableHeaderJurisdictions}
 |:---|${tableHeaderSeparator}
-|Hospitalizations|${summaryTableHosp}
-|+Hospitalizations|${summaryTableHospDaily}
-|Hospitalizations p.c.|${summaryTableHospPerCapita}
+|Hospitalized|${summaryTableHosp}
+|+Hospitalized|${summaryTableHospDaily}
+|Hospitalized p.c.|${summaryTableHospPerCapita}
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 N = not reported. 
 The CA jurisdiction doesn't report on hospitalizations.
+This stat is *not cumulative*.
 
 
 
@@ -125,6 +126,7 @@ ${summaryHistoCasesPerCapita}
 |---|---:|---|
 ${summaryHistoTests}
 
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 ***
 
@@ -134,6 +136,7 @@ ${summaryHistoTests}
 |---|---:|---|
 ${summaryHistoTestsDailyIncrease}
 
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 ***
 
@@ -142,6 +145,8 @@ ${summaryHistoTestsDailyIncrease}
 ||Tests p.c.|Completed tests per 100,000 pop.|
 |---|---:|---|
 ${summaryHistoTestsPerCapita}
+
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 CA is not reporting numbers of tests completed.
 

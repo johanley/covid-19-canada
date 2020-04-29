@@ -39,20 +39,21 @@ As of: **2020-04-28**
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 N = not reported. 
 The CA jurisdiction doesn't report on tests completed.
-*QC, NL, and NU report numbers of people tested, not on numbers of tests.*
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 
 **Hospitalizations** 
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Hospitalizations|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|[82](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ab.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/sk.png)|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/mb.png)|[957](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/on.png)|[1625](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/qc.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nb.png)|[12](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/pe.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ca.png)|
-|+Hospitalizations|-3|-5|+1|0|+12|+84|-2|0|0|-1|N|0|0|N|
-|Hospitalizations p.c.|2|2|1|1|7|19|0|1|0|1|0|0|0|0|
+|Hospitalized|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|[82](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ab.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/sk.png)|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/mb.png)|[957](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/on.png)|[1625](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/qc.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nb.png)|[12](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/pe.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/ca.png)|
+|+Hospitalized|-3|-5|+1|0|+12|+84|-2|0|0|-1|N|0|0|N|
+|Hospitalized p.c.|2|2|1|1|7|19|0|1|0|1|0|0|0|0|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 N = not reported. 
 The CA jurisdiction doesn't report on hospitalizations.
+This stat is *not cumulative*.
 
 
 
@@ -218,6 +219,7 @@ The CA jurisdiction doesn't report on hospitalizations.
 |YT|[913](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/yt.png)|<img src='bar.png' height='10' width='1' title='913'>|
 
 
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 ***
 
@@ -240,6 +242,7 @@ The CA jurisdiction doesn't report on hospitalizations.
 |YT|+27|<img src='bar.png' height='10' width='0' title='+27'>|
 
 
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 ***
 
@@ -262,6 +265,8 @@ The CA jurisdiction doesn't report on hospitalizations.
 |YT|2223|<img src='bar.png' height='10' width='207' title='2223'>|
 |CA|0|<img src='bar.png' height='10' width='0' title='0'>|
 
+
+**QC, NL, and NU report numbers of people tested, not on numbers of tests.**
 
 CA is not reporting numbers of tests completed.
 
