@@ -36,7 +36,8 @@ class MarkdownRendering {
     Rendering result = (v,juris,date,sourceData) -> {
       String s = v;
       if (hasContent(v)) {
-        s = "<img src='bar.png' height='10' width='" + graphWidth(v, sourceData, juris, range) +"' title='" + v + "'>";
+        String image = imageFor(v);
+        s = "<img src='" + image + "' height='10' width='" + graphWidth(v, sourceData, juris, range) +"' title='" + v + "'>";
       }
       return s;
     };
@@ -61,5 +62,14 @@ class MarkdownRendering {
       result = (IMAGE_MAX_WIDTH * numericVal.get().doubleValue()) / range.MAX; //integer division: truncates, doesn't round
     }
     return result.intValue(); //rounding vs truncation really doesn't matter here
+  }
+  
+  private static String imageFor(String val) {
+    String result = "bar.png";
+    Optional<BigDecimal> numericVal = asNum(val);
+    if(numericVal.isPresent() && numericVal.get().compareTo(BigDecimal.ZERO) < 0) {
+      result = "negative.png";
+    }
+    return result;
   }
 }

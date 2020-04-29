@@ -295,27 +295,27 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
-|2020-04-28|-2|<img src='bar.png' height='10' width='-233' title='-2'>|
-|2020-04-27|-1|<img src='bar.png' height='10' width='-116' title='-1'>|
+|2020-04-28|-2|<img src='negative.png' height='10' width='-233' title='-2'>|
+|2020-04-27|-1|<img src='negative.png' height='10' width='-116' title='-1'>|
 |2020-04-26|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-25|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-24|-1|<img src='bar.png' height='10' width='-116' title='-1'>|
+|2020-04-24|-1|<img src='negative.png' height='10' width='-116' title='-1'>|
 |2020-04-23|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-22|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-21|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-20|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-19|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-18|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-17|-1|<img src='bar.png' height='10' width='-116' title='-1'>|
+|2020-04-17|-1|<img src='negative.png' height='10' width='-116' title='-1'>|
 |2020-04-16|+1|<img src='bar.png' height='10' width='116' title='1'>|
 |2020-04-15|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-14|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-13|-2|<img src='bar.png' height='10' width='-233' title='-2'>|
+|2020-04-13|-2|<img src='negative.png' height='10' width='-233' title='-2'>|
 |2020-04-12|+2|<img src='bar.png' height='10' width='233' title='2'>|
 |2020-04-11|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-10|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-09|-1|<img src='bar.png' height='10' width='-116' title='-1'>|
-|2020-04-08|-1|<img src='bar.png' height='10' width='-116' title='-1'>|
+|2020-04-09|-1|<img src='negative.png' height='10' width='-116' title='-1'>|
+|2020-04-08|-1|<img src='negative.png' height='10' width='-116' title='-1'>|
 |2020-04-07|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-06|+3|<img src='bar.png' height='10' width='350' title='3'>|
 |2020-04-05|0|<img src='bar.png' height='10' width='0' title='0'>|

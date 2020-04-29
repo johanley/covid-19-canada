@@ -69,7 +69,7 @@ class MarkdownBuilder {
   }
   
   /**
-   |2020-04-03|[346](url of screenshot)|<img src='bar.gif' height='10' width='346' title='346'>| 
+   |2020-04-03|[346](url of screenshot)|<img src='bar.png' height='10' width='346' title='346'>| 
   */
   String jurisdictionHistogramRows(SourceData data, Jurisdiction juris, Rendering[] first, Rendering[] second) {
     StringBuilder result = new StringBuilder();

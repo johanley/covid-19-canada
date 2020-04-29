@@ -305,7 +305,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-22|+54|<img src='bar.png' height='10' width='142' title='54'>|
 |2020-04-21|+55|<img src='bar.png' height='10' width='144' title='55'>|
 |2020-04-20|+67|<img src='bar.png' height='10' width='176' title='67'>|
-|2020-04-19|-28|<img src='bar.png' height='10' width='-73' title='-28'>|
+|2020-04-19|-28|<img src='negative.png' height='10' width='-73' title='-28'>|
 |2020-04-18|+54|<img src='bar.png' height='10' width='142' title='54'>|
 |2020-04-17|+58|<img src='bar.png' height='10' width='152' title='58'>|
 |2020-04-16|+34|<img src='bar.png' height='10' width='89' title='34'>|
