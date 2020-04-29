@@ -303,9 +303,9 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-23|+9|<img src='bar.png' height='10' width='43' title='9'>|
 |2020-04-22|+19|<img src='bar.png' height='10' width='91' title='19'>|
 |2020-04-21|+57|<img src='bar.png' height='10' width='273' title='57'>|
-|2020-04-20|-7|<img src='negative.png' height='10' width='-33' title='-7'>|
-|2020-04-19|-19|<img src='negative.png' height='10' width='-91' title='-19'>|
-|2020-04-18|-1|<img src='negative.png' height='10' width='-4' title='-1'>|
+|2020-04-20|-7|<img src='negative.png' height='10' width='33' title='-7'>|
+|2020-04-19|-19|<img src='negative.png' height='10' width='91' title='-19'>|
+|2020-04-18|-1|<img src='negative.png' height='10' width='4' title='-1'>|
 |2020-04-17|+22|<img src='bar.png' height='10' width='105' title='22'>|
 |2020-04-16|+12|<img src='bar.png' height='10' width='57' title='12'>|
 |2020-04-15|+26|<img src='bar.png' height='10' width='124' title='26'>|
@@ -315,7 +315,7 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-11|+18|<img src='bar.png' height='10' width='86' title='18'>|
 |2020-04-10|+41|<img src='bar.png' height='10' width='196' title='41'>|
 |2020-04-09|+27|<img src='bar.png' height='10' width='129' title='27'>|
-|2020-04-08|-9|<img src='negative.png' height='10' width='-43' title='-9'>|
+|2020-04-08|-9|<img src='negative.png' height='10' width='43' title='-9'>|
 |2020-04-07|+25|<img src='bar.png' height='10' width='119' title='25'>|
 |2020-04-06|+66|<img src='bar.png' height='10' width='316' title='66'>|
 |2020-04-05|+17|<img src='bar.png' height='10' width='81' title='17'>|

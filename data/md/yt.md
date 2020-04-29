@@ -222,10 +222,10 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-27|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|+3|<img src='bar.png' height='10' width='10' title='3'>|
-|2020-04-24|-2|<img src='negative.png' height='10' width='-7' title='-2'>|
+|2020-04-24|-2|<img src='negative.png' height='10' width='7' title='-2'>|
 |2020-04-23|+11|<img src='bar.png' height='10' width='39' title='11'>|
-|2020-04-22|-1|<img src='negative.png' height='10' width='-3' title='-1'>|
-|2020-04-21|-13|<img src='negative.png' height='10' width='-46' title='-13'>|
+|2020-04-22|-1|<img src='negative.png' height='10' width='3' title='-1'>|
+|2020-04-21|-13|<img src='negative.png' height='10' width='46' title='-13'>|
 |2020-04-20|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-19|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-18|+4|<img src='bar.png' height='10' width='14' title='4'>|

@@ -144,7 +144,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 |2020-04-25|+1|<img src='bar.png' height='10' width='15' title='1'>|
 |2020-04-24|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-23|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-22|-1|<img src='negative.png' height='10' width='-15' title='-1'>|
+|2020-04-22|-1|<img src='negative.png' height='10' width='15' title='-1'>|
 |2020-04-21|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-20|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-19|0|<img src='bar.png' height='10' width='0' title='0'>|
@@ -296,33 +296,33 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
-|2020-04-28|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-28|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-27|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-26|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-25|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-24|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-23|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-23|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-22|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-21|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-20|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-19|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-18|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-18|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-17|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-16|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-16|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-15|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-14|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-13|+1|<img src='bar.png' height='10' width='87' title='1'>|
 |2020-04-12|+1|<img src='bar.png' height='10' width='87' title='1'>|
-|2020-04-11|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-11|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-10|+1|<img src='bar.png' height='10' width='87' title='1'>|
 |2020-04-09|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-08|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
-|2020-04-07|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
-|2020-04-06|-2|<img src='negative.png' height='10' width='-175' title='-2'>|
-|2020-04-05|-1|<img src='negative.png' height='10' width='-87' title='-1'>|
+|2020-04-08|-1|<img src='negative.png' height='10' width='87' title='-1'>|
+|2020-04-07|-1|<img src='negative.png' height='10' width='87' title='-1'>|
+|2020-04-06|-2|<img src='negative.png' height='10' width='175' title='-2'>|
+|2020-04-05|-1|<img src='negative.png' height='10' width='87' title='-1'>|
 |2020-04-04|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-04-03|0|<img src='bar.png' height='10' width='0' title='0'>|
-|2020-04-02|-4|<img src='negative.png' height='10' width='-350' title='-4'>|
+|2020-04-02|-4|<img src='negative.png' height='10' width='350' title='-4'>|
 |2020-04-01|+4|<img src='bar.png' height='10' width='350' title='4'>|
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 

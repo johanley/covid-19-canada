@@ -302,16 +302,16 @@ CA is not reporting numbers of tests completed.
 
 ||+Hospitalized|Hospitalized daily increase|
 |---|---:|---|
-|BC|-3|<img src='negative.png' height='10' width='-12' title='-3'>|
-|AB|-5|<img src='negative.png' height='10' width='-20' title='-5'>|
+|BC|-3|<img src='negative.png' height='10' width='12' title='-3'>|
+|AB|-5|<img src='negative.png' height='10' width='20' title='-5'>|
 |SK|+1|<img src='bar.png' height='10' width='4' title='+1'>|
 |MB|0|<img src='bar.png' height='10' width='0' title='0'>|
 |ON|+12|<img src='bar.png' height='10' width='50' title='+12'>|
 |QC|+84|<img src='bar.png' height='10' width='350' title='+84'>|
-|NB|-2|<img src='negative.png' height='10' width='-8' title='-2'>|
+|NB|-2|<img src='negative.png' height='10' width='8' title='-2'>|
 |NS|0|<img src='bar.png' height='10' width='0' title='0'>|
 |PE|0|<img src='bar.png' height='10' width='0' title='0'>|
-|NL|-1|<img src='negative.png' height='10' width='-4' title='-1'>|
+|NL|-1|<img src='negative.png' height='10' width='4' title='-1'>|
 |NU|N|<img src='bar.png' height='10' width='0' title='N'>|
 |NT|0|<img src='bar.png' height='10' width='0' title='0'>|
 |YT|0|<img src='bar.png' height='10' width='0' title='0'>|

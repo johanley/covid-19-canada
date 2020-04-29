@@ -59,7 +59,7 @@ class MarkdownRendering {
     Double result = 0D; //for cases where there is no number
     Optional<BigDecimal> numericVal = asNum(v);
     if(numericVal.isPresent() && range.MAX > 0) {
-      result = (IMAGE_MAX_WIDTH * numericVal.get().doubleValue()) / range.MAX; //integer division: truncates, doesn't round
+      result = (IMAGE_MAX_WIDTH * Math.abs(numericVal.get().doubleValue())) / range.MAX; //integer division: truncates, doesn't round
     }
     return result.intValue(); //rounding vs truncation really doesn't matter here
   }

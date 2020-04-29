@@ -295,7 +295,7 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
-|2020-04-28|-5|<img src='negative.png' height='10' width='-218' title='-5'>|
+|2020-04-28|-5|<img src='negative.png' height='10' width='218' title='-5'>|
 |2020-04-27|+4|<img src='bar.png' height='10' width='175' title='4'>|
 |2020-04-26|+6|<img src='bar.png' height='10' width='262' title='6'>|
 |2020-04-25|+1|<img src='bar.png' height='10' width='43' title='1'>|
@@ -303,21 +303,21 @@ N means no update occurred that day. Links to screen-shots.
 |2020-04-23|+2|<img src='bar.png' height='10' width='87' title='2'>|
 |2020-04-22|+6|<img src='bar.png' height='10' width='262' title='6'>|
 |2020-04-21|+1|<img src='bar.png' height='10' width='43' title='1'>|
-|2020-04-20|-2|<img src='negative.png' height='10' width='-87' title='-2'>|
+|2020-04-20|-2|<img src='negative.png' height='10' width='87' title='-2'>|
 |2020-04-19|+8|<img src='bar.png' height='10' width='350' title='8'>|
-|2020-04-18|-3|<img src='negative.png' height='10' width='-131' title='-3'>|
+|2020-04-18|-3|<img src='negative.png' height='10' width='131' title='-3'>|
 |2020-04-17|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-16|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-15|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-14|-3|<img src='negative.png' height='10' width='-131' title='-3'>|
+|2020-04-14|-3|<img src='negative.png' height='10' width='131' title='-3'>|
 |2020-04-13|+3|<img src='bar.png' height='10' width='131' title='3'>|
-|2020-04-12|-3|<img src='negative.png' height='10' width='-131' title='-3'>|
-|2020-04-11|-1|<img src='negative.png' height='10' width='-43' title='-1'>|
+|2020-04-12|-3|<img src='negative.png' height='10' width='131' title='-3'>|
+|2020-04-11|-1|<img src='negative.png' height='10' width='43' title='-1'>|
 |2020-04-10|+1|<img src='bar.png' height='10' width='43' title='1'>|
 |2020-04-09|+3|<img src='bar.png' height='10' width='131' title='3'>|
 |2020-04-08|+2|<img src='bar.png' height='10' width='87' title='2'>|
 |2020-04-07|+2|<img src='bar.png' height='10' width='87' title='2'>|
-|2020-04-06|-8|<img src='negative.png' height='10' width='-350' title='-8'>|
+|2020-04-06|-8|<img src='negative.png' height='10' width='350' title='-8'>|
 |2020-04-05|+6|<img src='bar.png' height='10' width='262' title='6'>|
 |2020-04-04|+3|<img src='bar.png' height='10' width='131' title='3'>|
 |2020-04-03|+7|<img src='bar.png' height='10' width='306' title='7'>|
