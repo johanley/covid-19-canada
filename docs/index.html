@@ -7,12 +7,12 @@
     <meta name="description" content="Per-jurisdiction COVID-19 stats reported by Canadian governments.">
     <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=21" /> 
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=23" /> 
     <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
     <script src="js/plotly-latest.min.js"></script>
-    <script src="js/util.js?ver=21"></script>
-    <script src="js/stats_raw_data.js?ver=21"></script>
-    <script src="js/generate-chart-and-table.js?ver=21"></script>
+    <script src="js/util.js?ver=23"></script>
+    <script src="js/stats_raw_data.js?ver=23"></script>
+    <script src="js/generate-chart-and-table.js?ver=23"></script>
     <script>
       window.onload = function (){
         GENERATE_CHART_AND_TABLE.summary();
@@ -62,7 +62,11 @@
    <P><table class='covid'>
      <thead>
       <tr><th id='summary_note' colspan='4'>
-      <tr><th> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c.
+      <tr>
+        <th> 
+        <th title='Cumulative total' align='right'>total 
+        <th title='Daily increase' align='right'>+ 
+        <th title='Per 100,000 population' align='right'>p.c.
      </thead>
      <tbody id='summary_data_body'>
        <!-- 
@@ -75,8 +79,13 @@
    <P> 
    <table class='covid'>
      <thead>
-      <tr><th colspan='4'>Prov/Terr
-      <tr><th title='Jurisdiction'>&nbsp; <th valign="middle">Deaths <th valign="middle" title='Confirmed and probable cases'>Cases  <th valign="middle" title='Completed tests. QC, NL, and NU: persons tested'>Testing
+      <tr><th colspan='5'>Prov/Terr
+      <tr>
+        <th title='Jurisdiction'>&nbsp; 
+        <th valign="middle">Deaths 
+        <th valign="middle" title='Confirmed and probable cases'>Cases  
+        <th valign="middle" title='Completed tests. QC, NL, and NU: persons tested'>Testing
+        <th valign="middle" title='Current, not cumulative'>In Hospital 
      </thead>
      <tbody id='summary_juris_body'></tbody>
    </table>

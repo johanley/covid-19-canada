@@ -67,7 +67,7 @@
     <form style="display:inline-block">
       <select name='rendering' id='rendering'>
         <option value='pc' title='Per 100,000 population'>Per capita
-        <option value='nominal' title='Cumulative'>Total
+        <option value='nominal' title='Cumulative (or current for hospitalizations)'>Total
         <option value='di' title='Daily increase'>Daily
       </select>
       
@@ -75,6 +75,7 @@
         <option value='deaths' title='Reported deaths. Cumulative.'>Deaths
         <option value='cases' title='Reported cases. Confirmed and probable. Cumulative'>Cases
         <option value='tests' title='Completed tests. (For QC, NL, and NU, the num of people tested)'>Testing
+        <option value='hosp' title='Reported current hospitalizations.'>In Hospital
       </select>
       
       <select name='days_ago' id='days_ago'>
@@ -96,15 +97,21 @@
    <!-- 1 series only (the selected one), across all jurisdictions -->
    <table class='covid' id='source_data'>
      <thead>
-      <tr><th rowspan='2' valign="middle" title='Jurisdiction'>&nbsp; <th id='series_name_col' colspan='3'>Deaths
-      <tr> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c. 
+      <tr>
+        <th rowspan='2' valign="middle" title='Jurisdiction'>&nbsp; 
+        <th id='series_name_col' colspan='3'>Deaths
+      <tr> 
+        <th title='Cumulative (current for hospitalizations)' align='right'>total 
+        <th title='Daily increase' align='right'>+ 
+        <th title='Per 100,000 population' align='right'>p.c. 
      </thead>
      <tbody id='source_data_body'></tbody>
    </table>
    
-   <div style='font-size:50%'>
-    <P><em>Testing</em>: usually the number of tests completed.
-    For QC, NL, and NU, it's the number of people tested.
+   <div style='font-size:70%'>
+    <P><em>Testing</em>: tests-completed.
+    For QC, NL, and NU it's people-tested.
+    <P>Totals are cumulative, except for Hospitalizations (which are daily).
    </div>
    
 

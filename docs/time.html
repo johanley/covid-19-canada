@@ -7,12 +7,12 @@
     <meta name="description" content="Time series COVID-19 stats reported by Canadian governments.">
     <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" /> 
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=21" /> 
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=23" /> 
     <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
     <script src="js/plotly-latest.min.js"></script>
-    <script src="js/util.js?ver=21"></script>
-    <script src="js/stats_raw_data.js?ver=21"></script>
-    <script src="js/generate-chart-and-table.js?ver=21"></script>
+    <script src="js/util.js?ver=23"></script>
+    <script src="js/stats_raw_data.js?ver=23"></script>
+    <script src="js/generate-chart-and-table.js?ver=23"></script>
     <script>
       window.onload = function (){
         GENERATE_CHART_AND_TABLE.plot_chart_and_populate_table('chart', 'source_data');
@@ -64,7 +64,11 @@
    <P><table class='covid'>
      <thead>
       <tr><th id='summary_note' colspan='4'>
-      <tr><th> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c.
+      <tr>
+       <th> 
+       <th title='Cumulative total (current for hospitalizations)' align='right'>total 
+       <th title='Daily increase' align='right'>+ 
+       <th title='Per 100,000 population' align='right'>p.c.
      </thead>
      <tbody id='summary_data_body'>
        <!-- 
@@ -106,6 +110,7 @@
         <option value='deaths' title='Reported deaths. Cumulative.'>Deaths
         <option value='cases' title='Reported cases. Confirmed and probable. Cumulative'>Cases
         <option value='tests' title='Completed tests. (For QC, NL, and NU, the num of people tested)'>Testing
+        <option value='hosp' title='Current hospitalizations. Non-cumulative.'>In Hospital
       </select>
 
       <select name='juris_compare' id='juris_compare'>
@@ -138,8 +143,13 @@
    <!-- 1 series only (the selected one) -->
    <table class='covid' id='source_data'>
      <thead>
-      <tr><th rowspan='2' valign="middle" title='Date reported'>Date <th id='series_name_col' colspan='3'>Deaths
-      <tr> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c. 
+      <tr>
+       <th rowspan='2' valign="middle" title='Date reported'>Date 
+       <th id='series_name_col' colspan='3'>Deaths
+      <tr> 
+       <th title='Cumulative total (current for hospitalizations)' align='right'>total 
+       <th title='Daily increase' align='right'>+ 
+       <th title='Per 100,000 population' align='right'>p.c. 
      </thead>
      <tbody id='source_data_body'></tbody>
    </table>
@@ -155,9 +165,10 @@
    </table>
    -->
 
-   <div style='font-size:50%'>
-    <P><em>Testing</em>: usually the number of tests completed.
-    For QC, NL, and NU, it's the number of people tested.
+   <div style='font-size:70%'>
+    <P><em>Testing</em>: tests-completed.
+    For QC, NL, and NU it's people-tested.
+    <P>Totals are cumulative, except for Hospitalizations (which are daily).
    </div>
 
   </body>

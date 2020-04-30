@@ -64,7 +64,11 @@
    <P><table class='covid'>
      <thead>
       <tr><th id='summary_note' colspan='4'>
-      <tr><th> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c.
+      <tr>
+       <th> 
+       <th title='Cumulative total (current for hospitalizations)' align='right'>total 
+       <th title='Daily increase' align='right'>+ 
+       <th title='Per 100,000 population' align='right'>p.c.
      </thead>
      <tbody id='summary_data_body'>
        <!-- 
@@ -106,6 +110,7 @@
         <option value='deaths' title='Reported deaths. Cumulative.'>Deaths
         <option value='cases' title='Reported cases. Confirmed and probable. Cumulative'>Cases
         <option value='tests' title='Completed tests. (For QC, NL, and NU, the num of people tested)'>Testing
+        <option value='hosp' title='Current hospitalizations. Non-cumulative.'>In Hospital
       </select>
 
       <select name='juris_compare' id='juris_compare'>
@@ -138,8 +143,13 @@
    <!-- 1 series only (the selected one) -->
    <table class='covid' id='source_data'>
      <thead>
-      <tr><th rowspan='2' valign="middle" title='Date reported'>Date <th id='series_name_col' colspan='3'>Deaths
-      <tr> <th title='Cumulative total' align='right'>total <th title='Daily increase' align='right'>+ <th title='Per 100,000 population' align='right'>p.c. 
+      <tr>
+       <th rowspan='2' valign="middle" title='Date reported'>Date 
+       <th id='series_name_col' colspan='3'>Deaths
+      <tr> 
+       <th title='Cumulative total (current for hospitalizations)' align='right'>total 
+       <th title='Daily increase' align='right'>+ 
+       <th title='Per 100,000 population' align='right'>p.c. 
      </thead>
      <tbody id='source_data_body'></tbody>
    </table>
@@ -155,9 +165,10 @@
    </table>
    -->
 
-   <div style='font-size:50%'>
-    <P><em>Testing</em>: usually the number of tests completed.
-    For QC, NL, and NU, it's the number of people tested.
+   <div style='font-size:70%'>
+    <P><em>Testing</em>: tests-completed.
+    For QC, NL, and NU it's people-tested.
+    <P>Totals are cumulative, except for Hospitalizations (which are daily).
    </div>
 
   </body>

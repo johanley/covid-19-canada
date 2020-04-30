@@ -88,6 +88,7 @@ public class HtmlScript {
   private static final String JSON_DEATHS = "json_deaths";
   private static final String JSON_KNOWN_CASES = "json_known_cases";
   private static final String JSON_TESTS = "json_tests";
+  private static final String JSON_HOSP = "json_hosp";
   private static final String JSON_SCREENSHOT_DIRS = "json_screenshot_dirs";
   private static final String SEP = "_";
 
@@ -123,6 +124,7 @@ public class HtmlScript {
     result.put(JSON_DEATHS, jsonFor(JSON_DEATHS));
     result.put(JSON_KNOWN_CASES, jsonFor(JSON_KNOWN_CASES));
     result.put(JSON_TESTS, jsonFor(JSON_TESTS));
+    result.put(JSON_HOSP, jsonFor(JSON_HOSP));
     result.put(JSON_SCREENSHOT_DIRS, jsonForScreenshotDirs());
     return result;
   }

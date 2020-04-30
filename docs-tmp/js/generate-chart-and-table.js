@@ -5,11 +5,6 @@
 */
 var GENERATE_CHART_AND_TABLE = (function(){
 
-  /*
-   - flesh out the menu; put it on every page
-   - jquery?
-  */
-  
   //var's that aren't local to a function are in CAPS here
 
   /* 
@@ -42,7 +37,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
   };
   var ALL_DATES = all_dates_array();
   
-  var ALL_SERIES = ['deaths', 'cases', 'tests'];
+  var ALL_SERIES = ['deaths', 'cases', 'tests', 'hosp'];
   
   /* The top-level federal jurisdiction. */
   var FEDERAL = 'ca'; 
@@ -82,6 +77,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
     'deaths' : 'Deaths',
     'cases': 'Cases',
     'tests': 'Testing',
+    'hosp': 'In Hospital',
     'nominal': 'Total',
     'di': 'Daily',
     'avg_di': '(7d Average) Daily',
@@ -458,6 +454,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
       "deaths": {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
       "cases":  {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round, render_with_commas]},
       "tests":  {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round, render_with_commas]},
+      "hosp":   {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
     };
     return table[series][rendering];
   };
@@ -471,6 +468,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
       "deaths": {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_two_decimals], "avg_di": [render_avg_daily_increase, render_round]},
       "cases":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round], "avg_di": [render_avg_daily_increase, render_round]},
       "tests":  {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_round], "avg_di": [render_avg_daily_increase, render_round]},
+      "hosp":   {"nominal":[], "di": [render_change_for(1)], "pc": [render_per_capita, render_two_decimals], "avg_di": [render_avg_daily_increase, render_round]},
     };
     return table[series][rendering];
   };
@@ -481,6 +479,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
       "deaths": {"nominal":[render_force_numeric], "di":[render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
       "cases":  {"nominal":[render_force_numeric], "di":[render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round]},
       "tests":  {"nominal":[render_force_numeric], "di":[render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round]},
+      "hosp": {"nominal":[render_force_numeric], "di":[render_force_numeric, render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
     };
     return table[series][rendering];
   };
@@ -491,6 +490,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
       "deaths": {"nominal":[render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_per_capita, render_two_decimals]},
       "cases":  {"nominal":[render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_per_capita, render_round, render_with_commas]},
       "tests":  {"nominal":[render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_per_capita, render_round, render_with_commas]},
+      "hosp":   {"nominal":[render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_per_capita, render_two_decimals]},
     };
     return table[series][rendering];
   };
@@ -501,6 +501,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
       "deaths": {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
       "cases":  {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round, render_with_commas]},
       "tests":  {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_round, render_with_commas]},
+      "hosp":   {"nominal":[render_force_numeric, render_with_commas, render_link_to_screenshot], "di": [render_change_for(1), render_sign, render_with_commas], "pc": [render_force_numeric, render_per_capita, render_two_decimals]},
     };
     return table[series][rendering];
   };
@@ -574,7 +575,7 @@ var GENERATE_CHART_AND_TABLE = (function(){
   };
 
   var series_for = function(juris){
-    return juris === FEDERAL ? ['deaths', 'cases'] : ALL_SERIES; //CA doesn't report tests!
+    return juris === FEDERAL ? ['deaths', 'cases'] : ALL_SERIES; //CA doesn't report tests or hospitalizations
   };
   
   var populate_summary_table = function(juris){
@@ -844,7 +845,8 @@ var GENERATE_CHART_AND_TABLE = (function(){
     for(var i=0; i < ALL_SERIES.length; ++i){
       var no_juris_compare = '';
       if (has_total(ALL_SERIES[i], juris)){ //skip if the total is 0; there's no data, so don't show any chart
-        var plot = plot_details_time(juris, ALL_SERIES[i], 'di', no_juris_compare);
+        var rendering = ALL_SERIES[i] === 'hosp' ? 'nominal' : 'di';  
+        var plot = plot_details_time(juris, ALL_SERIES[i], rendering, no_juris_compare);
         Plotly.newPlot('daily-' + ALL_SERIES[i], plot); 
       }
     }
