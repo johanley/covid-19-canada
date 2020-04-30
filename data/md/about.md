@@ -9,7 +9,7 @@ The *table* form of the data links to supporting screen-shots (*csv* and *json* 
  |----|-----|---|---|
  |Known Cases (confirmed and probable/presumptive)|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/known_cases.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/known_cases.csv) | [json](https://github.com/johanley/covid-19-canada/blob/master/data/json/known_cases.json) |
  |Deaths|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/deaths.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/deaths.csv)|[json](https://github.com/johanley/covid-19-canada/blob/master/data/json/deaths.json) |
- |Completed Tests|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/tests.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/tests.csv)|[json](https://github.com/johanley/covid-19-canada/blob/master/data/json/tests.json) |
+ |Completed Tests (see below!)|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/tests.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/tests.csv)|[json](https://github.com/johanley/covid-19-canada/blob/master/data/json/tests.json) |
  |Hospitalizations|[table](https://github.com/johanley/covid-19-canada/blob/master/data/md/hosp.md)|[csv](https://github.com/johanley/covid-19-canada/blob/master/data/csv/hosp.csv)|[json](https://github.com/johanley/covid-19-canada/blob/master/data/json/hosp.json) |
 
 ## Warnings about the data
@@ -122,6 +122,7 @@ When comparing to other jurisdictions, they are the most problematic.
 |YT|2020-04-21|tests completed|dropped in value|
 |NL|2020-04-22|tests completed|dropped in value|
 |YT|2020-04-22|tests completed|dropped in value|
+|YT|2020-04-29|tests completed|dropped in value|
 
 *Error*: the testing data for SK was mis-reported on 2020-04-14. An incorrect value appears in the expected place.
 The value of 20,282 completed tests appears near the top of the screenshot, however, and that value is used here.
