@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2633428-10"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-2633428-10');
+    </script>
     <meta charset="utf-8">
     <title>Summary: COVID-19 stats for Canada</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Per-jurisdiction COVID-19 stats reported by Canadian governments.">
     <meta name="keywords" content="COVID-19, stats, statistics, time series, data-set, charts, tables, Canada, provinces, territories">
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/normalize.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=23" /> 
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="css/styles.css?ver=24" /> 
     <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
     <script src="js/plotly-latest.min.js"></script>
-    <script src="js/util.js?ver=23"></script>
-    <script src="js/stats_raw_data.js?ver=23"></script>
-    <script src="js/generate-chart-and-table.js?ver=23"></script>
+    <script src="js/util.js?ver=24"></script>
+    <script src="js/stats_raw_data.js?ver=24"></script>
+    <script src="js/generate-chart-and-table.js?ver=24"></script>
     <script>
       window.onload = function (){
         GENERATE_CHART_AND_TABLE.summary();
