@@ -1,7 +1,7 @@
 # What's been reported (with daily screenshots)
 
 This is what the various jurisdictions are *reporting* at approximately 21:00 EDT each day.
-Data points are linked to a supporting screen-shot of a web page, as of that time (see the exception noted below).
+Data points are linked to a supporting screen-shot of a web page, as of that time (with some [exceptions](https://github.com/johanley/covid-19-canada/issues/5)).
 
 The *table* form of the data links to supporting screen-shots (*csv* and *json* do not):
 

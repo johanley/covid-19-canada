@@ -23,6 +23,7 @@ using [this github-pages site](https://johanley.github.io/covid-19-canada/index.
 ## Basic tables and charts 
 
 In these basic tables and charts for the various jurisdictions, the nominal values always **link directly to the screenshot** from which the data-point originates.
+In [a few cases](https://github.com/johanley/covid-19-canada/issues/5) the link is missing.
 
 * [Summary](https://github.com/johanley/covid-19-canada/blob/master/data/md/summary.md)
 * [BC](https://github.com/johanley/covid-19-canada/blob/master/data/md/bc.md)
