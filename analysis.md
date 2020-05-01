@@ -462,10 +462,11 @@ https://www.cbc.ca/news/canada/calgary/alberta-covid-19-data-statistics-numbers-
 
 https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink
 
+http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data
 http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
 
 https://www.alberta.ca/covid-19-alberta-data.aspx
-
+https://www.alberta.ca/news.aspx
 https://www.albertahealthservices.ca/topics/Page16944.aspx
 
 https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -473,15 +474,16 @@ https://www.saskatchewan.ca/government/health-care-administration-and-provider-r
 https://www.gov.mb.ca/covid19/updates/index.html
 
 https://www.ontario.ca/page/2019-novel-coronavirus#section-0
+https://www.ontario.ca/page/how-ontario-is-responding-covid-19#section-0
 
 https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
-
 https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020
+https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/
 
+https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/maps_graphs.html
 https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
 
 https://novascotia.ca/coronavirus/#cases
-
 https://novascotia.ca/coronavirus/data/
 
 https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-testing-data/
