@@ -298,8 +298,8 @@ N means no daily increase can be calculated for that day.
 |2020-04-04|[506](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/on.png)|<img src='bar.png' height='10' width='177' title='506'>|
 |2020-04-03|[462](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/on.png)|<img src='bar.png' height='10' width='161' title='462'>|
 |2020-04-02|[405](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/on.png)|<img src='bar.png' height='10' width='141' title='405'>|
-|2020-04-01|[332](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/on.png)|<img src='bar.png' height='10' width='116' title='332'>|
-|2020-03-31|[291](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/on.png)|<img src='bar.png' height='10' width='101' title='291'>|
+|2020-04-01|332|<img src='bar.png' height='10' width='116' title='332'>|
+|2020-03-31|291|<img src='bar.png' height='10' width='101' title='291'>|
 
 
 N means no update occurred that day. Links to screen-shots.

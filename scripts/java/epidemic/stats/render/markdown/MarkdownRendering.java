@@ -1,15 +1,20 @@
 package epidemic.stats.render.markdown;
 
-import static epidemic.stats.Util.*;
+import static epidemic.stats.Util.DOT;
+import static epidemic.stats.Util.SCREENSHOT_FILE_EXTENSION;
+import static epidemic.stats.Util.asNum;
+import static epidemic.stats.Util.hasContent;
 
 import java.math.BigDecimal;
 import java.util.Optional;
 
 import epidemic.stats.datastore.FileSys;
 import epidemic.stats.model.Jurisdiction;
+import epidemic.stats.model.Series;
 import epidemic.stats.model.SourceData;
 import epidemic.stats.render.Range;
 import epidemic.stats.render.Rendering;
+import epidemic.stats.render.SupportedByScreenshot;
 
 /** Renderings that are specific to Markdown. */
 class MarkdownRendering {
@@ -18,8 +23,10 @@ class MarkdownRendering {
     Rendering result = (v,juris,date,sourceData) -> {
       String s = v;
       if (hasContent(v)) {
-        String screenshotDir = fileSys.screenshotDirNameForDate().get(date);
-        s = "[" + v + "](" + SCREENSHOT_BASE_URL + screenshotDir + SLASH + juris + DOT + SCREENSHOT_FILE_EXTENSION + ")";
+        if (isSupportedByScreenshot(juris, date, sourceData.getSeries())) {
+          String screenshotDir = fileSys.screenshotDirNameForDate().get(date);
+          s = "[" + v + "](" + SCREENSHOT_BASE_URL + screenshotDir + SLASH + juris + DOT + SCREENSHOT_FILE_EXTENSION + ")";
+        }
       }
       return s;
     };
@@ -71,5 +78,10 @@ class MarkdownRendering {
       result = "negative.png";
     }
     return result;
+  }
+  
+  private static boolean isSupportedByScreenshot(Jurisdiction juris, String date, Series series) {
+    SupportedByScreenshot supported = new SupportedByScreenshot();
+    return supported.hasScreenshot(series, juris, date);
   }
 }

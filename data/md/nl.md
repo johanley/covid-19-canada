@@ -297,10 +297,10 @@ N means no daily increase can be calculated for that day.
 |2020-04-06|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/nl.png)|<img src='bar.png' height='10' width='186' title='8'>|
 |2020-04-05|[10](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/nl.png)|<img src='bar.png' height='10' width='233' title='10'>|
 |2020-04-04|[11](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/nl.png)|<img src='bar.png' height='10' width='256' title='11'>|
-|2020-04-03|[11](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/nl.png)|<img src='bar.png' height='10' width='256' title='11'>|
-|2020-04-02|[11](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/nl.png)|<img src='bar.png' height='10' width='256' title='11'>|
-|2020-04-01|[15](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/nl.png)|<img src='bar.png' height='10' width='350' title='15'>|
-|2020-03-31|[11](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/nl.png)|<img src='bar.png' height='10' width='256' title='11'>|
+|2020-04-03|11|<img src='bar.png' height='10' width='256' title='11'>|
+|2020-04-02|11|<img src='bar.png' height='10' width='256' title='11'>|
+|2020-04-01|15|<img src='bar.png' height='10' width='350' title='15'>|
+|2020-03-31|11|<img src='bar.png' height='10' width='256' title='11'>|
 
 
 N means no update occurred that day. Links to screen-shots.

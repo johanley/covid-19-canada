@@ -294,13 +294,13 @@ N means no daily increase can be calculated for that day.
 |2020-04-09|[679](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/qc.png)|<img src='bar.png' height='10' width='141' title='679'>|
 |2020-04-08|[632](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/qc.png)|<img src='bar.png' height='10' width='131' title='632'>|
 |2020-04-07|[583](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-07_21h45mADT/qc.png)|<img src='bar.png' height='10' width='121' title='583'>|
-|2020-04-06|[533](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/qc.png)|<img src='bar.png' height='10' width='110' title='533'>|
-|2020-04-05|[525](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/qc.png)|<img src='bar.png' height='10' width='109' title='525'>|
-|2020-04-04|[478](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/qc.png)|<img src='bar.png' height='10' width='99' title='478'>|
-|2020-04-03|[441](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/qc.png)|<img src='bar.png' height='10' width='91' title='441'>|
-|2020-04-02|[365](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/qc.png)|<img src='bar.png' height='10' width='75' title='365'>|
-|2020-04-01|[307](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/qc.png)|<img src='bar.png' height='10' width='63' title='307'>|
-|2020-03-31|[286](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/qc.png)|<img src='bar.png' height='10' width='59' title='286'>|
+|2020-04-06|533|<img src='bar.png' height='10' width='110' title='533'>|
+|2020-04-05|525|<img src='bar.png' height='10' width='109' title='525'>|
+|2020-04-04|478|<img src='bar.png' height='10' width='99' title='478'>|
+|2020-04-03|441|<img src='bar.png' height='10' width='91' title='441'>|
+|2020-04-02|365|<img src='bar.png' height='10' width='75' title='365'>|
+|2020-04-01|307|<img src='bar.png' height='10' width='63' title='307'>|
+|2020-03-31|286|<img src='bar.png' height='10' width='59' title='286'>|
 
 
 N means no update occurred that day. Links to screen-shots.
