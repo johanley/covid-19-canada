@@ -338,12 +338,44 @@ var GENERATE_CHART_AND_TABLE = (function(){
     }
     return result;
   };
+
+  /** Gaps in the screenshots. */
+  var has_screenshot = function(juris, date, series){
+	var result = true;
+	if ('tests' === series){
+	  if ('nb' === juris && date <= "2020-04-16"){
+		result = false;
+	  }
+	}
+	else if ('hosp' === series){
+		if ('on' === juris && date <= "2020-04-01"){
+			result = false;
+		}
+		if ('qc' === juris && date <= "2020-04-06"){
+			result = false;
+		}
+		if ('nb' === juris && date <= "2020-04-05"){
+			result = false;
+		}
+		if ('ns' === juris && date <= "2020-04-06"){
+			result = false;
+		}
+		if ('nl' === juris && date <= "2020-04-03"){
+			result = false;
+		}
+	}
+	return result;
+  };
   
+  /** Gaps in the data: if the screenshot doesn't actually support the data-point, then don't have a link at all: return the raw val. */
   var render_link_to_screenshot = function(val, juris, date, series){
-    var SCREENSHOT_BASE_URL = "https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/";
-    var SLASH = "/";
-    var url = SCREENSHOT_BASE_URL + screenshot_dir_for(date)+ SLASH + juris + ".png";
-    var result = "<a href='" + url + "'>" + val + "</a>";
+	var result = val;
+	if (has_screenshot(juris, date, series)){
+	    var SCREENSHOT_BASE_URL = "https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/";
+	    var SLASH = "/";
+	    var url = SCREENSHOT_BASE_URL + screenshot_dir_for(date)+ SLASH + juris + ".png";
+	    result = "<a href='" + url + "'>" + val + "</a>";
+	}
     return result;
   };
   
