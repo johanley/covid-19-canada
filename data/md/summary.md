@@ -6,9 +6,9 @@ As of: **2020-05-05**
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Deaths|[121](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|[160](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ab.png)|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/sk.png)|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/mb.png)|[1361](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/on.png)|[2398](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nb.png)|[41](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/pe.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/yt.png)|[3915](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ca.png)|
-|+Deaths|+4|+56|0|+1|+61|+118|0|+3|N|0|N|0|0|+61|
-|Deaths p.c.|2.37|3.63|0.51|0.51|9.25|28.09|0.0|4.19|0.0|0.58|0.0|0.0|0.0|10.33|
+|Deaths|[121](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|[106](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ab.png)|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/sk.png)|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/mb.png)|[1361](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/on.png)|[2398](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/qc.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nb.png)|[41](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/pe.png)|[3](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/yt.png)|[3915](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ca.png)|
+|+Deaths|+4|+2|0|+1|+61|+118|0|+3|N|0|N|0|0|+61|
+|Deaths p.c.|2.37|2.4|0.51|0.51|9.25|28.09|0.0|4.19|0.0|0.58|0.0|0.0|0.0|10.33|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 
@@ -65,7 +65,7 @@ This stat is *not cumulative*.
 ||Deaths|Deaths|
 |---|---:|---|
 |BC|[121](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|<img src='bar.png' height='10' width='17' title='121'>|
-|AB|[160](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ab.png)|<img src='bar.png' height='10' width='23' title='160'>|
+|AB|[106](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/ab.png)|<img src='bar.png' height='10' width='15' title='106'>|
 |SK|[6](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/sk.png)|<img src='bar.png' height='10' width='0' title='6'>|
 |MB|[7](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/mb.png)|<img src='bar.png' height='10' width='1' title='7'>|
 |ON|[1361](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/on.png)|<img src='bar.png' height='10' width='198' title='1361'>|
@@ -87,7 +87,7 @@ This stat is *not cumulative*.
 ||+Deaths|Deaths daily increase|
 |---|---:|---|
 |BC|+4|<img src='bar.png' height='10' width='11' title='+4'>|
-|AB|+56|<img src='bar.png' height='10' width='166' title='+56'>|
+|AB|+2|<img src='bar.png' height='10' width='5' title='+2'>|
 |SK|0|<img src='bar.png' height='10' width='0' title='0'>|
 |MB|+1|<img src='bar.png' height='10' width='2' title='+1'>|
 |ON|+61|<img src='bar.png' height='10' width='180' title='+61'>|
@@ -109,7 +109,7 @@ This stat is *not cumulative*.
 ||Deaths p.c.|Deaths per 100,000 pop.|
 |---|---:|---|
 |BC|2.37|<img src='bar.png' height='10' width='29' title='2.37'>|
-|AB|3.63|<img src='bar.png' height='10' width='45' title='3.63'>|
+|AB|2.4|<img src='bar.png' height='10' width='29' title='2.4'>|
 |SK|0.51|<img src='bar.png' height='10' width='6' title='0.51'>|
 |MB|0.51|<img src='bar.png' height='10' width='6' title='0.51'>|
 |ON|9.25|<img src='bar.png' height='10' width='115' title='9.25'>|
