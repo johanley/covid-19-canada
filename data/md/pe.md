@@ -1,13 +1,13 @@
 # PE
 
-As of: **2020-05-08**
+As of: **2020-05-09**
 
 ||Total|+|p.c.|
 |--|---:|---:|---:|
-|Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|N|0.0|
-|Known cases|[27](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|N|17|
-|Tests completed|[3782](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|N|2391|
-|Currently hospitalized|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|N|0|
+|Deaths|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|N|0.0|
+|Known cases|[27](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|N|17|
+|Tests completed|[3782](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|N|2391|
+|Currently hospitalized|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|N|0|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -20,6 +20,7 @@ N = not reported.
 **Total cumulative deaths** reported on the given date.
 |Date|Deaths|Deaths|
 |:--|---:|---|
+|2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-05-07|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
@@ -69,6 +70,7 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|+Deaths|Deaths daily increase|
 |:--|---:|---|
+|2020-05-09|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-07|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|N|<img src='bar.png' height='10' width='0' title='N'>|
@@ -120,6 +122,7 @@ N means no daily increase can be calculated for that day.
 **Total cumulative known cases** reported on the given date.
 |Date|Known Cases|Known Cases|
 |:--|---:|---|
+|2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|[27](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|<img src='bar.png' height='10' width='350' title='27'>|
 |2020-05-07|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|[27](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/pe.png)|<img src='bar.png' height='10' width='350' title='27'>|
@@ -168,6 +171,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Known cases daily increase** reported on the given date.
 |Date|+Cases|Known cases daily increase|
 |:--|---:|---|
+|2020-05-09|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-07|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|N|<img src='bar.png' height='10' width='0' title='N'>|
@@ -220,6 +224,7 @@ N means no daily increase can be calculated for that day.
 **Total completed tests** reported on the given date.
 |Date|Tests|Tests completed|
 |:--|---:|---|
+|2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|[3782](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|<img src='bar.png' height='10' width='350' title='3782'>|
 |2020-05-07|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|[3583](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/pe.png)|<img src='bar.png' height='10' width='331' title='3583'>|
@@ -268,6 +273,7 @@ N means no update occurred that day. Links to screen-shots.
 **Completed tests daily increase** reported on the given date.
 |Date|+Tests|Tests daily increase|
 |:--|---:|---|
+|2020-05-09|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-07|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|N|<img src='bar.png' height='10' width='0' title='N'>|
@@ -317,6 +323,7 @@ N means no daily increase can be calculated for that day.
 **Current hospitalizations** reported on the given date.
 |Date|Hospitalized|Hospitalized|
 |:--|---:|---|
+|2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-05-07|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
@@ -365,6 +372,7 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
+|2020-05-09|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-08|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-07|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-06|N|<img src='bar.png' height='10' width='0' title='N'>|
