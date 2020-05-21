@@ -32,9 +32,9 @@ As of: **2020-05-20**
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Tests|[126236](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|[221571](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ab.png)|[41951](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/sk.png)|[38820](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/mb.png)|[567176](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/on.png)|[352212](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/qc.png)|[21144](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nb.png)|[37701](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ns.png)|[4556](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/pe.png)|[10841](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nl.png)|[687](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nu.png)|[2034](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nt.png)|[1131](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ca.png)|
-|+Tests|+1192|+2607|+345|+3242|+7382|+5657|+353|+219|N|+94|N|0|+3|N|
-|Tests p.c.|2470|5021|3550|2818|3855|4125|2711|3857|2881|2079|1757|4530|2753|0|
+|Tests|[126236](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|[221571](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ab.png)|[41951](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/sk.png)|[35820](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/mb.png)|[567176](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/on.png)|[352212](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/qc.png)|[21144](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nb.png)|[37701](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ns.png)|[4556](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/pe.png)|[10841](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nl.png)|[687](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nu.png)|[2034](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nt.png)|[1131](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ca.png)|
+|+Tests|+1192|+2607|+345|+242|+7382|+5657|+353|+219|N|+94|N|0|+3|N|
+|Tests p.c.|2470|5021|3550|2600|3855|4125|2711|3857|2881|2079|1757|4530|2753|0|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
 N = not reported. 
@@ -207,7 +207,7 @@ This stat is *not cumulative*.
 |BC|[126236](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='77' title='126236'>|
 |AB|[221571](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/ab.png)|<img src='bar.png' height='10' width='136' title='221571'>|
 |SK|[41951](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/sk.png)|<img src='bar.png' height='10' width='25' title='41951'>|
-|MB|[38820](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/mb.png)|<img src='bar.png' height='10' width='23' title='38820'>|
+|MB|[35820](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/mb.png)|<img src='bar.png' height='10' width='22' title='35820'>|
 |ON|[567176](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/on.png)|<img src='bar.png' height='10' width='350' title='567176'>|
 |QC|[352212](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/qc.png)|<img src='bar.png' height='10' width='217' title='352212'>|
 |NB|[21144](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/nb.png)|<img src='bar.png' height='10' width='13' title='21144'>|
@@ -230,7 +230,7 @@ This stat is *not cumulative*.
 |BC|+1192|<img src='bar.png' height='10' width='56' title='+1192'>|
 |AB|+2607|<img src='bar.png' height='10' width='123' title='+2607'>|
 |SK|+345|<img src='bar.png' height='10' width='16' title='+345'>|
-|MB|+3242|<img src='bar.png' height='10' width='153' title='+3242'>|
+|MB|+242|<img src='bar.png' height='10' width='11' title='+242'>|
 |ON|+7382|<img src='bar.png' height='10' width='350' title='+7382'>|
 |QC|+5657|<img src='bar.png' height='10' width='268' title='+5657'>|
 |NB|+353|<img src='bar.png' height='10' width='16' title='+353'>|
@@ -253,7 +253,7 @@ This stat is *not cumulative*.
 |BC|2470|<img src='bar.png' height='10' width='172' title='2470'>|
 |AB|5021|<img src='bar.png' height='10' width='350' title='5021'>|
 |SK|3550|<img src='bar.png' height='10' width='247' title='3550'>|
-|MB|2818|<img src='bar.png' height='10' width='196' title='2818'>|
+|MB|2600|<img src='bar.png' height='10' width='181' title='2600'>|
 |ON|3855|<img src='bar.png' height='10' width='268' title='3855'>|
 |QC|4125|<img src='bar.png' height='10' width='287' title='4125'>|
 |NB|2711|<img src='bar.png' height='10' width='188' title='2711'>|
