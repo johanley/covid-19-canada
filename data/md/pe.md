@@ -20,7 +20,7 @@ N = not reported.
 **Total cumulative deaths** reported on the given date.
 |Date|Deaths|Deaths|
 |:--|---:|---|
-|2020-05-25|[R](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='R'>|
+|2020-05-25|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-24|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-24_20h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-23|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-23_20h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-22|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-22_22h15mADT/pe.png)|<img src='bar.png' height='10' width='0' title='0'>|
