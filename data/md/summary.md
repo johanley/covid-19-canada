@@ -46,8 +46,8 @@ The CA jurisdiction doesn't report on tests completed.
 
 ||BC|AB|SK|MB|ON|QC|NB|NS|PE|NL|NU|NT|YT|CA|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|Hospitalized|[33](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|[50](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ab.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/sk.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/mb.png)|[826](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/on.png)|[1265](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/qc.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nb.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/pe.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ca.png)|
-|+Hospitalized|N|N|0|0|-7|-66|+2|0|0|0|N|0|0|N|
+|Hospitalized|[34](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ab.png)|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/sk.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/mb.png)|[826](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/on.png)|[1265](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/qc.png)|[2](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nb.png)|[8](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ns.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/pe.png)|[1](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nl.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nu.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/nt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/yt.png)|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ca.png)|
+|+Hospitalized|+1|+5|0|0|-7|-66|+2|0|0|0|N|0|0|N|
 |Hospitalized p.c.|1|1|0|0|6|15|0|1|0|0|0|0|0|0|
 
 \+ = daily increase. p.c. = per capita, per 100,000 population. Nominal values link to screenshots.
@@ -280,8 +280,8 @@ CA is not reporting numbers of tests completed.
 
 ||Hospitalized|Hospitalized|
 |---|---:|---|
-|BC|[33](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='9' title='33'>|
-|AB|[50](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ab.png)|<img src='bar.png' height='10' width='13' title='50'>|
+|BC|[34](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='9' title='34'>|
+|AB|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/ab.png)|<img src='bar.png' height='10' width='15' title='55'>|
 |SK|[4](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/sk.png)|<img src='bar.png' height='10' width='1' title='4'>|
 |MB|[0](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/mb.png)|<img src='bar.png' height='10' width='0' title='0'>|
 |ON|[826](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/on.png)|<img src='bar.png' height='10' width='228' title='826'>|
@@ -302,13 +302,13 @@ CA is not reporting numbers of tests completed.
 
 ||+Hospitalized|Hospitalized daily increase|
 |---|---:|---|
-|BC|N|<img src='bar.png' height='10' width='0' title='N'>|
-|AB|N|<img src='bar.png' height='10' width='0' title='N'>|
+|BC|+1|<img src='bar.png' height='10' width='70' title='+1'>|
+|AB|+5|<img src='bar.png' height='10' width='350' title='+5'>|
 |SK|0|<img src='bar.png' height='10' width='0' title='0'>|
 |MB|0|<img src='bar.png' height='10' width='0' title='0'>|
-|ON|-7|<img src='negative.png' height='10' width='1225' title='-7'>|
-|QC|-66|<img src='negative.png' height='10' width='11550' title='-66'>|
-|NB|+2|<img src='bar.png' height='10' width='350' title='+2'>|
+|ON|-7|<img src='negative.png' height='10' width='490' title='-7'>|
+|QC|-66|<img src='negative.png' height='10' width='4620' title='-66'>|
+|NB|+2|<img src='bar.png' height='10' width='140' title='+2'>|
 |NS|0|<img src='bar.png' height='10' width='0' title='0'>|
 |PE|0|<img src='bar.png' height='10' width='0' title='0'>|
 |NL|0|<img src='bar.png' height='10' width='0' title='0'>|

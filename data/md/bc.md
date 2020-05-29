@@ -7,7 +7,7 @@ As of: **2020-05-29**
 |Deaths|[164](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|0|3.21|
 |Known cases|[2562](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|+4|50|
 |Tests completed|[141392](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|+1256|2766|
-|Currently hospitalized|[33](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|N|1|
+|Currently hospitalized|[34](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|+1|1|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -443,7 +443,7 @@ N means no daily increase can be calculated for that day.
 **Current hospitalizations** reported on the given date.
 |Date|Hospitalized|Hospitalized|
 |:--|---:|---|
-|2020-05-29|[_](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='_'>|
+|2020-05-29|[34](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='79' title='34'>|
 |2020-05-28|[33](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='77' title='33'>|
 |2020-05-27|[37](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-27_22h15mADT/bc.png)|<img src='bar.png' height='10' width='86' title='37'>|
 |2020-05-26|[37](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-26_21m15ADT/bc.png)|<img src='bar.png' height='10' width='86' title='37'>|
@@ -512,7 +512,7 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
-|2020-05-29|N|<img src='bar.png' height='10' width='0' title='N'>|
+|2020-05-29|+1|<img src='bar.png' height='10' width='25' title='1'>|
 |2020-05-28|-4|<img src='negative.png' height='10' width='100' title='-4'>|
 |2020-05-27|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-05-26|0|<img src='bar.png' height='10' width='0' title='0'>|
