@@ -1,13 +1,13 @@
 # BC
 
-As of: **2020-06-04**
+As of: **2020-06-05**
 
 ||Total|+|p.c.|
 |--|---:|---:|---:|
-|Deaths|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|0|3.25|
-|Known cases|[2632](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|+9|51|
-|Tests completed|[146970](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|-2507|2876|
-|Currently hospitalized|[26](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|-6|1|
+|Deaths|[167](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|+1|3.27|
+|Known cases|[2632](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|0|51|
+|Tests completed|[153359](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|+6389|3001|
+|Currently hospitalized|[21](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|-5|0|
 
 \+ = daily increase.
 p.c. = per capita (per 100,000 population).
@@ -20,70 +20,71 @@ N = not reported.
 **Total cumulative deaths** reported on the given date.
 |Date|Deaths|Deaths|
 |:--|---:|---|
-|2020-06-04|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='166'>|
-|2020-06-03|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='350' title='166'>|
-|2020-06-02|[165](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='347' title='165'>|
-|2020-06-01|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-01_21h15mADT/bc.png)|<img src='bar.png' height='10' width='350' title='166'>|
+|2020-06-05|[167](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='167'>|
+|2020-06-04|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='347' title='166'>|
+|2020-06-03|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='347' title='166'>|
+|2020-06-02|[165](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='345' title='165'>|
+|2020-06-01|[166](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-01_21h15mADT/bc.png)|<img src='bar.png' height='10' width='347' title='166'>|
 |2020-05-31|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-31_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-30|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-30_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-29|[164](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='345' title='164'>|
-|2020-05-28|[164](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='345' title='164'>|
-|2020-05-27|[162](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-27_22h15mADT/bc.png)|<img src='bar.png' height='10' width='341' title='162'>|
-|2020-05-26|[161](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-26_21m15ADT/bc.png)|<img src='bar.png' height='10' width='339' title='161'>|
-|2020-05-25|[161](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/bc.png)|<img src='bar.png' height='10' width='339' title='161'>|
+|2020-05-29|[164](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='343' title='164'>|
+|2020-05-28|[164](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='343' title='164'>|
+|2020-05-27|[162](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-27_22h15mADT/bc.png)|<img src='bar.png' height='10' width='339' title='162'>|
+|2020-05-26|[161](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-26_21m15ADT/bc.png)|<img src='bar.png' height='10' width='337' title='161'>|
+|2020-05-25|[161](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/bc.png)|<img src='bar.png' height='10' width='337' title='161'>|
 |2020-05-24|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-24_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-23|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-23_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-22|[155](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-22_22h15mADT/bc.png)|<img src='bar.png' height='10' width='326' title='155'>|
-|2020-05-21|[152](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-21_21h15mADT/bc.png)|<img src='bar.png' height='10' width='320' title='152'>|
-|2020-05-20|[149](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='314' title='149'>|
-|2020-05-19|[146](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-19_21h15mADT/bc.png)|<img src='bar.png' height='10' width='307' title='146'>|
+|2020-05-22|[155](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-22_22h15mADT/bc.png)|<img src='bar.png' height='10' width='324' title='155'>|
+|2020-05-21|[152](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-21_21h15mADT/bc.png)|<img src='bar.png' height='10' width='318' title='152'>|
+|2020-05-20|[149](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='312' title='149'>|
+|2020-05-19|[146](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-19_21h15mADT/bc.png)|<img src='bar.png' height='10' width='305' title='146'>|
 |2020-05-18|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-18_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-17|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-17_20h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-16|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-16_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-15|[140](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-15_21h15mADT/bc.png)|<img src='bar.png' height='10' width='295' title='140'>|
-|2020-05-14|[135](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-14_21h15mADT/bc.png)|<img src='bar.png' height='10' width='284' title='135'>|
-|2020-05-13|[132](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-13_22h00mADT/bc.png)|<img src='bar.png' height='10' width='278' title='132'>|
-|2020-05-12|[131](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-12_21h15mADT/bc.png)|<img src='bar.png' height='10' width='276' title='131'>|
-|2020-05-11|[130](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-11_21h15mADT/bc.png)|<img src='bar.png' height='10' width='274' title='130'>|
+|2020-05-15|[140](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-15_21h15mADT/bc.png)|<img src='bar.png' height='10' width='293' title='140'>|
+|2020-05-14|[135](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-14_21h15mADT/bc.png)|<img src='bar.png' height='10' width='282' title='135'>|
+|2020-05-13|[132](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-13_22h00mADT/bc.png)|<img src='bar.png' height='10' width='276' title='132'>|
+|2020-05-12|[131](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-12_21h15mADT/bc.png)|<img src='bar.png' height='10' width='274' title='131'>|
+|2020-05-11|[130](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-11_21h15mADT/bc.png)|<img src='bar.png' height='10' width='272' title='130'>|
 |2020-05-10|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-10_20h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-08|[127](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/bc.png)|<img src='bar.png' height='10' width='267' title='127'>|
-|2020-05-07|[126](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/bc.png)|<img src='bar.png' height='10' width='265' title='126'>|
-|2020-05-06|[124](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/bc.png)|<img src='bar.png' height='10' width='261' title='124'>|
-|2020-05-05|[121](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|<img src='bar.png' height='10' width='255' title='121'>|
-|2020-05-04|[117](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-04_23h00mADT/bc.png)|<img src='bar.png' height='10' width='246' title='117'>|
+|2020-05-08|[127](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/bc.png)|<img src='bar.png' height='10' width='266' title='127'>|
+|2020-05-07|[126](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/bc.png)|<img src='bar.png' height='10' width='264' title='126'>|
+|2020-05-06|[124](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/bc.png)|<img src='bar.png' height='10' width='259' title='124'>|
+|2020-05-05|[121](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|<img src='bar.png' height='10' width='253' title='121'>|
+|2020-05-04|[117](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-04_23h00mADT/bc.png)|<img src='bar.png' height='10' width='245' title='117'>|
 |2020-05-03|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-03_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-02|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-02_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-01|[112](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-01_21h30mADT/bc.png)|<img src='bar.png' height='10' width='236' title='112'>|
-|2020-04-30|[111](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-30_21h15mADT/bc.png)|<img src='bar.png' height='10' width='234' title='111'>|
-|2020-04-29|[109](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='229' title='109'>|
-|2020-04-28|[105](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='221' title='105'>|
-|2020-04-27|[103](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/bc.png)|<img src='bar.png' height='10' width='217' title='103'>|
+|2020-05-01|[112](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-01_21h30mADT/bc.png)|<img src='bar.png' height='10' width='234' title='112'>|
+|2020-04-30|[111](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-30_21h15mADT/bc.png)|<img src='bar.png' height='10' width='232' title='111'>|
+|2020-04-29|[109](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='228' title='109'>|
+|2020-04-28|[105](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='220' title='105'>|
+|2020-04-27|[103](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/bc.png)|<img src='bar.png' height='10' width='215' title='103'>|
 |2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-25|[100](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='210' title='100'>|
-|2020-04-24|[98](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='206' title='98'>|
-|2020-04-23|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='198' title='94'>|
-|2020-04-22|[90](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-22_21h30mADT/bc.png)|<img src='bar.png' height='10' width='189' title='90'>|
-|2020-04-21|[87](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-21_21h30mADT/bc.png)|<img src='bar.png' height='10' width='183' title='87'>|
-|2020-04-20|[86](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='181' title='86'>|
+|2020-04-25|[100](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='209' title='100'>|
+|2020-04-24|[98](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='205' title='98'>|
+|2020-04-23|[94](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='197' title='94'>|
+|2020-04-22|[90](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-22_21h30mADT/bc.png)|<img src='bar.png' height='10' width='188' title='90'>|
+|2020-04-21|[87](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-21_21h30mADT/bc.png)|<img src='bar.png' height='10' width='182' title='87'>|
+|2020-04-20|[86](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='180' title='86'>|
 |2020-04-19|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-19_19h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-18|[81](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-18_21h30mADT/bc.png)|<img src='bar.png' height='10' width='170' title='81'>|
-|2020-04-17|[78](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/bc.png)|<img src='bar.png' height='10' width='164' title='78'>|
-|2020-04-16|[77](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/bc.png)|<img src='bar.png' height='10' width='162' title='77'>|
-|2020-04-15|[75](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png)|<img src='bar.png' height='10' width='158' title='75'>|
-|2020-04-14|[72](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png)|<img src='bar.png' height='10' width='151' title='72'>|
-|2020-04-13|[69](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/bc.png)|<img src='bar.png' height='10' width='145' title='69'>|
+|2020-04-18|[81](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-18_21h30mADT/bc.png)|<img src='bar.png' height='10' width='169' title='81'>|
+|2020-04-17|[78](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/bc.png)|<img src='bar.png' height='10' width='163' title='78'>|
+|2020-04-16|[77](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/bc.png)|<img src='bar.png' height='10' width='161' title='77'>|
+|2020-04-15|[75](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png)|<img src='bar.png' height='10' width='157' title='75'>|
+|2020-04-14|[72](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png)|<img src='bar.png' height='10' width='150' title='72'>|
+|2020-04-13|[69](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/bc.png)|<img src='bar.png' height='10' width='144' title='69'>|
 |2020-04-12|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-12_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-11|[58](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/bc.png)|<img src='bar.png' height='10' width='122' title='58'>|
+|2020-04-11|[58](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/bc.png)|<img src='bar.png' height='10' width='121' title='58'>|
 |2020-04-10|[55](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|<img src='bar.png' height='10' width='115' title='55'>|
-|2020-04-09|[50](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='105' title='50'>|
-|2020-04-08|[48](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|<img src='bar.png' height='10' width='101' title='48'>|
+|2020-04-09|[50](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='104' title='50'>|
+|2020-04-08|[48](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|<img src='bar.png' height='10' width='100' title='48'>|
 |2020-04-07|[43](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-07_21h45mADT/bc.png)|<img src='bar.png' height='10' width='90' title='43'>|
-|2020-04-06|[39](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/bc.png)|<img src='bar.png' height='10' width='82' title='39'>|
+|2020-04-06|[39](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/bc.png)|<img src='bar.png' height='10' width='81' title='39'>|
 |2020-04-05|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-04|[38](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|<img src='bar.png' height='10' width='80' title='38'>|
+|2020-04-04|[38](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|<img src='bar.png' height='10' width='79' title='38'>|
 |2020-04-03|[35](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/bc.png)|<img src='bar.png' height='10' width='73' title='35'>|
-|2020-04-02|[31](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/bc.png)|<img src='bar.png' height='10' width='65' title='31'>|
+|2020-04-02|[31](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/bc.png)|<img src='bar.png' height='10' width='64' title='31'>|
 |2020-04-01|[25](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/bc.png)|<img src='bar.png' height='10' width='52' title='25'>|
 |2020-03-31|[24](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/bc.png)|<img src='bar.png' height='10' width='50' title='24'>|
 
@@ -96,6 +97,7 @@ N means no update occurred that day. Links to screen-shots.
 **Deaths daily increase** reported on the given date.
 |Date|+Deaths|Deaths daily increase|
 |:--|---:|---|
+|2020-06-05|+1|<img src='bar.png' height='10' width='58' title='1'>|
 |2020-06-04|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-06-03|+1|<img src='bar.png' height='10' width='58' title='1'>|
 |2020-06-02|-1|<img src='negative.png' height='10' width='58' title='-1'>|
@@ -174,6 +176,7 @@ N means no daily increase can be calculated for that day.
 **Total cumulative known cases** reported on the given date.
 |Date|Known Cases|Known Cases|
 |:--|---:|---|
+|2020-06-05|[2632](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='2632'>|
 |2020-06-04|[2632](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='2632'>|
 |2020-06-03|[2623](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='348' title='2623'>|
 |2020-06-02|[2601](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='345' title='2601'>|
@@ -249,6 +252,7 @@ Confirmed cases plus presumptive/probable cases. N means no update occurred that
 **Known cases daily increase** reported on the given date.
 |Date|+Cases|Known cases daily increase|
 |:--|---:|---|
+|2020-06-05|0|<img src='bar.png' height='10' width='0' title='0'>|
 |2020-06-04|+9|<img src='bar.png' height='10' width='33' title='9'>|
 |2020-06-03|+22|<img src='bar.png' height='10' width='81' title='22'>|
 |2020-06-02|+4|<img src='bar.png' height='10' width='14' title='4'>|
@@ -328,72 +332,73 @@ N means no daily increase can be calculated for that day.
 **Total completed tests** reported on the given date.
 |Date|Tests|Tests completed|
 |:--|---:|---|
-|2020-06-04|[146970](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='344' title='146970'>|
-|2020-06-03|[149477](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='350' title='149477'>|
-|2020-06-02|[147757](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='345' title='147757'>|
-|2020-06-01|[146432](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-01_21h15mADT/bc.png)|<img src='bar.png' height='10' width='342' title='146432'>|
+|2020-06-05|[153359](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='350' title='153359'>|
+|2020-06-04|[146970](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='335' title='146970'>|
+|2020-06-03|[149477](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='341' title='149477'>|
+|2020-06-02|[147757](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='337' title='147757'>|
+|2020-06-01|[146432](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-01_21h15mADT/bc.png)|<img src='bar.png' height='10' width='334' title='146432'>|
 |2020-05-31|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-31_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-30|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-30_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-29|[141392](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='331' title='141392'>|
-|2020-05-28|[140136](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='328' title='140136'>|
-|2020-05-27|[138043](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-27_22h15mADT/bc.png)|<img src='bar.png' height='10' width='323' title='138043'>|
-|2020-05-26|[136321](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-26_21m15ADT/bc.png)|<img src='bar.png' height='10' width='319' title='136321'>|
-|2020-05-25|[135190](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/bc.png)|<img src='bar.png' height='10' width='316' title='135190'>|
+|2020-05-29|[141392](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='322' title='141392'>|
+|2020-05-28|[140136](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='319' title='140136'>|
+|2020-05-27|[138043](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-27_22h15mADT/bc.png)|<img src='bar.png' height='10' width='315' title='138043'>|
+|2020-05-26|[136321](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-26_21m15ADT/bc.png)|<img src='bar.png' height='10' width='311' title='136321'>|
+|2020-05-25|[135190](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-25_21h15mADT/bc.png)|<img src='bar.png' height='10' width='308' title='135190'>|
 |2020-05-24|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-24_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-23|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-23_20h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-22|[129942](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-22_22h15mADT/bc.png)|<img src='bar.png' height='10' width='304' title='129942'>|
-|2020-05-21|[127786](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-21_21h15mADT/bc.png)|<img src='bar.png' height='10' width='299' title='127786'>|
-|2020-05-20|[126236](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='295' title='126236'>|
-|2020-05-19|[125044](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-19_21h15mADT/bc.png)|<img src='bar.png' height='10' width='292' title='125044'>|
+|2020-05-22|[129942](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-22_22h15mADT/bc.png)|<img src='bar.png' height='10' width='296' title='129942'>|
+|2020-05-21|[127786](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-21_21h15mADT/bc.png)|<img src='bar.png' height='10' width='291' title='127786'>|
+|2020-05-20|[126236](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='288' title='126236'>|
+|2020-05-19|[125044](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-19_21h15mADT/bc.png)|<img src='bar.png' height='10' width='285' title='125044'>|
 |2020-05-18|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-18_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-17|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-17_20h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-16|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-16_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-15|[118335](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-15_21h15mADT/bc.png)|<img src='bar.png' height='10' width='277' title='118335'>|
-|2020-05-14|[116764](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-14_21h15mADT/bc.png)|<img src='bar.png' height='10' width='273' title='116764'>|
-|2020-05-13|[114761](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-13_22h00mADT/bc.png)|<img src='bar.png' height='10' width='268' title='114761'>|
-|2020-05-12|[112994](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-12_21h15mADT/bc.png)|<img src='bar.png' height='10' width='264' title='112994'>|
-|2020-05-11|[111498](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-11_21h15mADT/bc.png)|<img src='bar.png' height='10' width='261' title='111498'>|
+|2020-05-15|[118335](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-15_21h15mADT/bc.png)|<img src='bar.png' height='10' width='270' title='118335'>|
+|2020-05-14|[116764](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-14_21h15mADT/bc.png)|<img src='bar.png' height='10' width='266' title='116764'>|
+|2020-05-13|[114761](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-13_22h00mADT/bc.png)|<img src='bar.png' height='10' width='261' title='114761'>|
+|2020-05-12|[112994](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-12_21h15mADT/bc.png)|<img src='bar.png' height='10' width='257' title='112994'>|
+|2020-05-11|[111498](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-11_21h15mADT/bc.png)|<img src='bar.png' height='10' width='254' title='111498'>|
 |2020-05-10|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-10_20h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-09|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-08|[104994](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/bc.png)|<img src='bar.png' height='10' width='245' title='104994'>|
-|2020-05-07|[102710](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/bc.png)|<img src='bar.png' height='10' width='240' title='102710'>|
-|2020-05-06|[100093](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/bc.png)|<img src='bar.png' height='10' width='234' title='100093'>|
-|2020-05-05|[98199](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|<img src='bar.png' height='10' width='229' title='98199'>|
-|2020-05-04|[96517](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-04_23h00mADT/bc.png)|<img src='bar.png' height='10' width='225' title='96517'>|
+|2020-05-08|[104994](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-08_21h15mADT/bc.png)|<img src='bar.png' height='10' width='239' title='104994'>|
+|2020-05-07|[102710](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-07_21h15mADT/bc.png)|<img src='bar.png' height='10' width='234' title='102710'>|
+|2020-05-06|[100093](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-06_21h15mADT/bc.png)|<img src='bar.png' height='10' width='228' title='100093'>|
+|2020-05-05|[98199](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-05_21h15mADT/bc.png)|<img src='bar.png' height='10' width='224' title='98199'>|
+|2020-05-04|[96517](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-04_23h00mADT/bc.png)|<img src='bar.png' height='10' width='220' title='96517'>|
 |2020-05-03|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-03_21h15mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-02|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-02_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-01|[88670](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-01_21h30mADT/bc.png)|<img src='bar.png' height='10' width='207' title='88670'>|
-|2020-04-30|[86030](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-30_21h15mADT/bc.png)|<img src='bar.png' height='10' width='201' title='86030'>|
-|2020-04-29|[83425](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='195' title='83425'>|
-|2020-04-28|[80888](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='189' title='80888'>|
-|2020-04-27|[78665](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/bc.png)|<img src='bar.png' height='10' width='184' title='78665'>|
+|2020-05-01|[88670](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-05-01_21h30mADT/bc.png)|<img src='bar.png' height='10' width='202' title='88670'>|
+|2020-04-30|[86030](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-30_21h15mADT/bc.png)|<img src='bar.png' height='10' width='196' title='86030'>|
+|2020-04-29|[83425](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-29_21h15mADT/bc.png)|<img src='bar.png' height='10' width='190' title='83425'>|
+|2020-04-28|[80888](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-28_21h15mADT/bc.png)|<img src='bar.png' height='10' width='184' title='80888'>|
+|2020-04-27|[78665](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-27_21h15mADT/bc.png)|<img src='bar.png' height='10' width='179' title='78665'>|
 |2020-04-26|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-26_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-25_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-24|[71415](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='167' title='71415'>|
-|2020-04-23|[68553](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='160' title='68553'>|
-|2020-04-22|[66977](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-22_21h30mADT/bc.png)|<img src='bar.png' height='10' width='156' title='66977'>|
-|2020-04-21|[65545](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-21_21h30mADT/bc.png)|<img src='bar.png' height='10' width='153' title='65545'>|
-|2020-04-20|[64375](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='150' title='64375'>|
+|2020-04-24|[71415](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-24_21h15mADT/bc.png)|<img src='bar.png' height='10' width='162' title='71415'>|
+|2020-04-23|[68553](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-23_21h30mADT/bc.png)|<img src='bar.png' height='10' width='156' title='68553'>|
+|2020-04-22|[66977](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-22_21h30mADT/bc.png)|<img src='bar.png' height='10' width='152' title='66977'>|
+|2020-04-21|[65545](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-21_21h30mADT/bc.png)|<img src='bar.png' height='10' width='149' title='65545'>|
+|2020-04-20|[64375](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-20_21h15mADT/bc.png)|<img src='bar.png' height='10' width='146' title='64375'>|
 |2020-04-19|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-19_19h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-18|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-18_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-17|[60668](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/bc.png)|<img src='bar.png' height='10' width='142' title='60668'>|
-|2020-04-16|[59185](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/bc.png)|<img src='bar.png' height='10' width='138' title='59185'>|
-|2020-04-15|[57997](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png)|<img src='bar.png' height='10' width='135' title='57997'>|
-|2020-04-14|[58626](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png)|<img src='bar.png' height='10' width='137' title='58626'>|
-|2020-04-13|[56142](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/bc.png)|<img src='bar.png' height='10' width='131' title='56142'>|
+|2020-04-17|[60668](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-17_21h00mADT/bc.png)|<img src='bar.png' height='10' width='138' title='60668'>|
+|2020-04-16|[59185](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-16_21h00mADT/bc.png)|<img src='bar.png' height='10' width='135' title='59185'>|
+|2020-04-15|[57997](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-15_21h00mADT/bc.png)|<img src='bar.png' height='10' width='132' title='57997'>|
+|2020-04-14|[58626](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-14_21h00mADT/bc.png)|<img src='bar.png' height='10' width='133' title='58626'>|
+|2020-04-13|[56142](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-13_21h00mADT/bc.png)|<img src='bar.png' height='10' width='128' title='56142'>|
 |2020-04-12|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-12_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-11|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-11_21h00mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-10|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-10_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-09|[53505](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='125' title='53505'>|
-|2020-04-08|[52412](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|<img src='bar.png' height='10' width='122' title='52412'>|
-|2020-04-07|[51423](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-07_21h45mADT/bc.png)|<img src='bar.png' height='10' width='120' title='51423'>|
-|2020-04-06|[50350](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/bc.png)|<img src='bar.png' height='10' width='117' title='50350'>|
+|2020-04-09|[53505](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-09_22h00mADT/bc.png)|<img src='bar.png' height='10' width='122' title='53505'>|
+|2020-04-08|[52412](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-08_21h30mADT/bc.png)|<img src='bar.png' height='10' width='119' title='52412'>|
+|2020-04-07|[51423](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-07_21h45mADT/bc.png)|<img src='bar.png' height='10' width='117' title='51423'>|
+|2020-04-06|[50350](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-06_21h45mADT/bc.png)|<img src='bar.png' height='10' width='114' title='50350'>|
 |2020-04-05|[N](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-04|[48508](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|<img src='bar.png' height='10' width='113' title='48508'>|
-|2020-04-03|[47352](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/bc.png)|<img src='bar.png' height='10' width='110' title='47352'>|
-|2020-04-02|[45966](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/bc.png)|<img src='bar.png' height='10' width='107' title='45966'>|
-|2020-04-01|[44639](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/bc.png)|<img src='bar.png' height='10' width='104' title='44639'>|
-|2020-03-31|[43229](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/bc.png)|<img src='bar.png' height='10' width='101' title='43229'>|
+|2020-04-04|[48508](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-04_21h00mADT/bc.png)|<img src='bar.png' height='10' width='110' title='48508'>|
+|2020-04-03|[47352](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-03_21h30mADT/bc.png)|<img src='bar.png' height='10' width='108' title='47352'>|
+|2020-04-02|[45966](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-02_22h00mADT/bc.png)|<img src='bar.png' height='10' width='104' title='45966'>|
+|2020-04-01|[44639](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-04-01_22h00mADT/bc.png)|<img src='bar.png' height='10' width='101' title='44639'>|
+|2020-03-31|[43229](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-03-31_22h00mADT/bc.png)|<img src='bar.png' height='10' width='98' title='43229'>|
 
 
 N means no update occurred that day. Links to screen-shots.
@@ -403,71 +408,72 @@ N means no update occurred that day. Links to screen-shots.
 **Completed tests daily increase** reported on the given date.
 |Date|+Tests|Tests daily increase|
 |:--|---:|---|
-|2020-06-04|-2507|<img src='negative.png' height='10' width='306' title='-2507'>|
-|2020-06-03|+1720|<img src='bar.png' height='10' width='210' title='1720'>|
-|2020-06-02|+1325|<img src='bar.png' height='10' width='162' title='1325'>|
+|2020-06-05|+6389|<img src='bar.png' height='10' width='350' title='6389'>|
+|2020-06-04|-2507|<img src='negative.png' height='10' width='137' title='-2507'>|
+|2020-06-03|+1720|<img src='bar.png' height='10' width='94' title='1720'>|
+|2020-06-02|+1325|<img src='bar.png' height='10' width='72' title='1325'>|
 |2020-06-01|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-30|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-29|+1256|<img src='bar.png' height='10' width='153' title='1256'>|
-|2020-05-28|+2093|<img src='bar.png' height='10' width='255' title='2093'>|
-|2020-05-27|+1722|<img src='bar.png' height='10' width='210' title='1722'>|
-|2020-05-26|+1131|<img src='bar.png' height='10' width='138' title='1131'>|
+|2020-05-29|+1256|<img src='bar.png' height='10' width='68' title='1256'>|
+|2020-05-28|+2093|<img src='bar.png' height='10' width='114' title='2093'>|
+|2020-05-27|+1722|<img src='bar.png' height='10' width='94' title='1722'>|
+|2020-05-26|+1131|<img src='bar.png' height='10' width='61' title='1131'>|
 |2020-05-25|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-24|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-23|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-22|+2156|<img src='bar.png' height='10' width='263' title='2156'>|
-|2020-05-21|+1550|<img src='bar.png' height='10' width='189' title='1550'>|
-|2020-05-20|+1192|<img src='bar.png' height='10' width='145' title='1192'>|
+|2020-05-22|+2156|<img src='bar.png' height='10' width='118' title='2156'>|
+|2020-05-21|+1550|<img src='bar.png' height='10' width='84' title='1550'>|
+|2020-05-20|+1192|<img src='bar.png' height='10' width='65' title='1192'>|
 |2020-05-19|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-18|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-17|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-16|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-15|+1571|<img src='bar.png' height='10' width='192' title='1571'>|
-|2020-05-14|+2003|<img src='bar.png' height='10' width='244' title='2003'>|
-|2020-05-13|+1767|<img src='bar.png' height='10' width='216' title='1767'>|
-|2020-05-12|+1496|<img src='bar.png' height='10' width='182' title='1496'>|
+|2020-05-15|+1571|<img src='bar.png' height='10' width='86' title='1571'>|
+|2020-05-14|+2003|<img src='bar.png' height='10' width='109' title='2003'>|
+|2020-05-13|+1767|<img src='bar.png' height='10' width='96' title='1767'>|
+|2020-05-12|+1496|<img src='bar.png' height='10' width='81' title='1496'>|
 |2020-05-11|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-10|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-09|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-08|+2284|<img src='bar.png' height='10' width='279' title='2284'>|
-|2020-05-07|+2617|<img src='bar.png' height='10' width='320' title='2617'>|
-|2020-05-06|+1894|<img src='bar.png' height='10' width='231' title='1894'>|
-|2020-05-05|+1682|<img src='bar.png' height='10' width='205' title='1682'>|
+|2020-05-08|+2284|<img src='bar.png' height='10' width='125' title='2284'>|
+|2020-05-07|+2617|<img src='bar.png' height='10' width='143' title='2617'>|
+|2020-05-06|+1894|<img src='bar.png' height='10' width='103' title='1894'>|
+|2020-05-05|+1682|<img src='bar.png' height='10' width='92' title='1682'>|
 |2020-05-04|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-03|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-05-02|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-05-01|+2640|<img src='bar.png' height='10' width='322' title='2640'>|
-|2020-04-30|+2605|<img src='bar.png' height='10' width='318' title='2605'>|
-|2020-04-29|+2537|<img src='bar.png' height='10' width='310' title='2537'>|
-|2020-04-28|+2223|<img src='bar.png' height='10' width='271' title='2223'>|
+|2020-05-01|+2640|<img src='bar.png' height='10' width='144' title='2640'>|
+|2020-04-30|+2605|<img src='bar.png' height='10' width='142' title='2605'>|
+|2020-04-29|+2537|<img src='bar.png' height='10' width='138' title='2537'>|
+|2020-04-28|+2223|<img src='bar.png' height='10' width='121' title='2223'>|
 |2020-04-27|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-26|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-25|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-24|+2862|<img src='bar.png' height='10' width='350' title='2862'>|
-|2020-04-23|+1576|<img src='bar.png' height='10' width='192' title='1576'>|
-|2020-04-22|+1432|<img src='bar.png' height='10' width='175' title='1432'>|
-|2020-04-21|+1170|<img src='bar.png' height='10' width='143' title='1170'>|
+|2020-04-24|+2862|<img src='bar.png' height='10' width='156' title='2862'>|
+|2020-04-23|+1576|<img src='bar.png' height='10' width='86' title='1576'>|
+|2020-04-22|+1432|<img src='bar.png' height='10' width='78' title='1432'>|
+|2020-04-21|+1170|<img src='bar.png' height='10' width='64' title='1170'>|
 |2020-04-20|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-19|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-18|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-17|+1483|<img src='bar.png' height='10' width='181' title='1483'>|
-|2020-04-16|+1188|<img src='bar.png' height='10' width='145' title='1188'>|
-|2020-04-15|-629|<img src='negative.png' height='10' width='76' title='-629'>|
-|2020-04-14|+2484|<img src='bar.png' height='10' width='303' title='2484'>|
+|2020-04-17|+1483|<img src='bar.png' height='10' width='81' title='1483'>|
+|2020-04-16|+1188|<img src='bar.png' height='10' width='65' title='1188'>|
+|2020-04-15|-629|<img src='negative.png' height='10' width='34' title='-629'>|
+|2020-04-14|+2484|<img src='bar.png' height='10' width='136' title='2484'>|
 |2020-04-13|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-12|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-11|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-10|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-09|+1093|<img src='bar.png' height='10' width='133' title='1093'>|
-|2020-04-08|+989|<img src='bar.png' height='10' width='120' title='989'>|
-|2020-04-07|+1073|<img src='bar.png' height='10' width='131' title='1073'>|
+|2020-04-09|+1093|<img src='bar.png' height='10' width='59' title='1093'>|
+|2020-04-08|+989|<img src='bar.png' height='10' width='54' title='989'>|
+|2020-04-07|+1073|<img src='bar.png' height='10' width='58' title='1073'>|
 |2020-04-06|N|<img src='bar.png' height='10' width='0' title='N'>|
 |2020-04-05|N|<img src='bar.png' height='10' width='0' title='N'>|
-|2020-04-04|+1156|<img src='bar.png' height='10' width='141' title='1156'>|
-|2020-04-03|+1386|<img src='bar.png' height='10' width='169' title='1386'>|
-|2020-04-02|+1327|<img src='bar.png' height='10' width='162' title='1327'>|
-|2020-04-01|+1410|<img src='bar.png' height='10' width='172' title='1410'>|
+|2020-04-04|+1156|<img src='bar.png' height='10' width='63' title='1156'>|
+|2020-04-03|+1386|<img src='bar.png' height='10' width='75' title='1386'>|
+|2020-04-02|+1327|<img src='bar.png' height='10' width='72' title='1327'>|
+|2020-04-01|+1410|<img src='bar.png' height='10' width='77' title='1410'>|
 |2020-03-31|N|<img src='bar.png' height='10' width='0' title='N'>|
 
 
@@ -479,6 +485,7 @@ N means no daily increase can be calculated for that day.
 **Current hospitalizations** reported on the given date.
 |Date|Hospitalized|Hospitalized|
 |:--|---:|---|
+|2020-06-05|[21](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-05_21h30mADT/bc.png)|<img src='bar.png' height='10' width='49' title='21'>|
 |2020-06-04|[26](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-04_21h30mADT/bc.png)|<img src='bar.png' height='10' width='61' title='26'>|
 |2020-06-03|[32](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-03_22h15mADT/bc.png)|<img src='bar.png' height='10' width='75' title='32'>|
 |2020-06-02|[31](https://github.com/johanley/covid-19-canada/blob/master/data/screenshots/2020-06-02_21h15mADT/bc.png)|<img src='bar.png' height='10' width='72' title='31'>|
@@ -554,6 +561,7 @@ N means no update occurred that day. Links to screen-shots.
 **Current hospitalizations daily increase** reported on the given date.
 |Date|+Hospitalized|Hospitalized daily increase|
 |:--|---:|---|
+|2020-06-05|-5|<img src='negative.png' height='10' width='125' title='-5'>|
 |2020-06-04|-6|<img src='negative.png' height='10' width='150' title='-6'>|
 |2020-06-03|+1|<img src='bar.png' height='10' width='25' title='1'>|
 |2020-06-02|-1|<img src='negative.png' height='10' width='25' title='-1'>|
