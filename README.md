@@ -1,6 +1,6 @@
 # COVID-19 stats reported by Canadian governments
 
-These 4 data sets, all starting as of 2020-03-31:
+These 4 data sets, all starting as of 2020-03-31, ending 2020-06-30:
 
 * deaths (cumulative)
 * known cases, both confirmed and probable/presumptive (cumulative)
